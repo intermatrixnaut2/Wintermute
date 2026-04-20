@@ -26,3 +26,18 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-04-20 17:59
+- **Session:** `5d33104d-22e9-4ea3-9ca1-1090c9fc8ce3`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 1 actions:**
+  - `Bash` → `npx skills find telegram 2>&1` (2026-04-20 17:59)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
