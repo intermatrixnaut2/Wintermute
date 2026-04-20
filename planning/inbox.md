@@ -41,3 +41,25 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-04-20 18:09
+- **Session:** `61b6b5fc-15b7-4733-8cd0-8ce707577fdc`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 8 actions:**
+  - `Bash` → `npx skills find telegram 2>&1` (2026-04-20 18:09)
+  - `Bash` → `gh auth status 2>&1` (2026-04-20 18:09)
+  - `Bash` → `which claude && claude --version 2>&1` (2026-04-20 18:13)
+  - `Bash` → `command -v claude 2>&1 && ls -la $(command -v claude) 2>&1; which node 2>&1; node -e "require.resolv` (2026-04-20 18:13)
+  - `Bash` → `npm list -g @anthropic-ai/claude-code 2>&1` (2026-04-20 18:13)
+  - `Bash` → `ls ~/.npm-global/bin/claude* 2>&1` (2026-04-20 18:13)
+  - `Bash` → `~/.npm-global/bin/claude --help 2>&1` (2026-04-20 18:13)
+  - `Bash` → `~/.npm-global/bin/claude --help 2>&1` (2026-04-20 18:14)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
