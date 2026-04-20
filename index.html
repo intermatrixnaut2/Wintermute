@@ -5,378 +5,316 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>WINTERMUTE — 4K OBJ Renderer</title>
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+    *{margin:0;padding:0;box-sizing:border-box;}
+    body{background:#000;color:#ddd;font-family:'Courier New',monospace;overflow:hidden;}
+    #canvas-container{position:fixed;inset:0;}
+    canvas{display:block;width:100%!important;height:100%!important;}
 
-    body {
-      background: #000;
-      color: #e0e0e0;
-      font-family: 'Courier New', monospace;
-      overflow: hidden;
+    #ui{
+      position:fixed;top:0;left:0;z-index:10;
+      padding:14px;display:flex;flex-direction:column;gap:9px;
+      pointer-events:none;max-height:100vh;
+      overflow-y:auto;scrollbar-width:thin;scrollbar-color:#2a2a2a transparent;
     }
+    #ui::-webkit-scrollbar{width:3px;}
+    #ui::-webkit-scrollbar-thumb{background:#333;border-radius:2px;}
+    #ui>*{pointer-events:all;}
 
-    #canvas-container { position: fixed; inset: 0; }
-
-    canvas { display: block; width: 100% !important; height: 100% !important; }
-
-    #ui {
-      position: fixed;
-      top: 0; left: 0;
-      z-index: 10;
-      padding: 16px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      pointer-events: none;
-      max-height: 100vh;
-      overflow-y: auto;
-      scrollbar-width: thin;
-      scrollbar-color: #333 transparent;
+    .panel{
+      background:rgba(0,0,0,.85);border:1px solid #222;
+      padding:11px 14px;border-radius:4px;min-width:272px;
     }
+    .panel h2{font-size:10px;letter-spacing:.2em;color:#555;text-transform:uppercase;margin-bottom:9px;display:flex;align-items:center;justify-content:space-between;}
 
-    #ui::-webkit-scrollbar { width: 4px; }
-    #ui::-webkit-scrollbar-thumb { background: #333; border-radius: 2px; }
-    #ui > * { pointer-events: all; }
+    .row{display:flex;align-items:center;gap:8px;margin-bottom:6px;}
+    label{font-size:11px;color:#888;min-width:76px;}
+    input[type=range]{flex:1;accent-color:#7af;height:13px;}
+    input[type=file]{font-size:10px;color:#bbb;flex:1;}
+    input[type=number]{background:#0d0d0d;border:1px solid #333;color:#ccc;font-size:11px;padding:3px 6px;border-radius:3px;width:52px;}
+    select{background:#0d0d0d;border:1px solid #333;color:#ccc;font-size:11px;padding:3px 7px;border-radius:3px;flex:1;}
 
-    .panel {
-      background: rgba(0,0,0,0.82);
-      border: 1px solid #2a2a2a;
-      padding: 12px 16px;
-      border-radius: 4px;
-      min-width: 268px;
-    }
+    button{background:#0d0d0d;border:1px solid #3a3a3a;color:#aaa;font-size:10px;padding:5px 11px;border-radius:3px;cursor:pointer;letter-spacing:.06em;text-transform:uppercase;transition:border-color .15s,color .15s;white-space:nowrap;}
+    button:hover{border-color:#7af;color:#7af;}
 
-    .panel h2 {
-      font-size: 10px;
-      letter-spacing: 0.22em;
-      color: #666;
-      text-transform: uppercase;
-      margin-bottom: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .row {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      margin-bottom: 7px;
-    }
-
-    label { font-size: 11px; color: #999; min-width: 78px; }
-
-    input[type="range"] { flex: 1; accent-color: #7af; height: 14px; }
-
-    input[type="file"] { font-size: 10px; color: #bbb; flex: 1; }
-
-    select {
-      background: #0d0d0d;
-      border: 1px solid #3a3a3a;
-      color: #ccc;
-      font-size: 11px;
-      padding: 4px 8px;
-      border-radius: 3px;
-      flex: 1;
-    }
-
-    button {
-      background: #0d0d0d;
-      border: 1px solid #444;
-      color: #bbb;
-      font-size: 10px;
-      padding: 5px 12px;
-      border-radius: 3px;
-      cursor: pointer;
-      letter-spacing: 0.07em;
-      text-transform: uppercase;
-      transition: border-color 0.15s, color 0.15s;
-      white-space: nowrap;
-    }
-    button:hover { border-color: #7af; color: #7af; }
-
-    .val { font-size: 11px; color: #7af; min-width: 38px; text-align: right; }
-
-    #status, #tex-status, #repair-status {
-      font-size: 10px;
-      color: #555;
-      padding: 4px 0 0;
-      line-height: 1.4;
-    }
-
-    #export-btn { border-color: #a7f; color: #a7f; }
-    #export-btn:hover { background: #1a0a2a; border-color: #cfb; color: #cfb; }
-
-    #clear-tex { border-color: #844; color: #f88; font-size: 10px; padding: 4px 10px; }
-    #clear-tex:hover { background: #200; border-color: #f88; }
-
-    #repair-btn { border-color: #484; color: #8f8; }
-    #repair-btn:hover { background: #020; }
-
-    #flip-normals-btn { border-color: #884; color: #fa8; }
-    #flip-normals-btn:hover { background: #201000; }
+    .val{font-size:11px;color:#7af;min-width:36px;text-align:right;}
+    .small{font-size:10px;color:#555;padding:3px 0;}
 
     /* Accent panels */
-    .panel-tex  { border-color: #1a3a2a; }
-    .panel-tex h2 { color: #5a9; }
-    .panel-mesh { border-color: #3a2a1a; }
-    .panel-mesh h2 { color: #a84; }
+    .p-arr  {border-color:#1a2a3a;} .p-arr  h2{color:#58a;}
+    .p-tex  {border-color:#1a3a2a;} .p-tex  h2{color:#5a9;}
+    .p-stk  {border-color:#3a2a1a;} .p-stk  h2{color:#a84;}
+    .p-mesh {border-color:#2a2a1a;} .p-mesh h2{color:#887;}
+    .p-vid  {border-color:#2a1a3a;} .p-vid  h2{color:#87a;}
 
-    .sep { border: none; border-top: 1px solid #1e1e1e; margin: 6px 0; }
+    .sep{border:none;border-top:1px solid #1a1a1a;margin:5px 0;}
 
-    /* Toggle switch */
-    .toggle {
-      position: relative; width: 32px; height: 16px; flex-shrink: 0;
-    }
-    .toggle input { display: none; }
-    .toggle-slider {
-      position: absolute; inset: 0;
-      background: #222; border-radius: 16px; cursor: pointer;
-      transition: background 0.2s;
-    }
-    .toggle-slider::before {
-      content: '';
-      position: absolute;
-      width: 10px; height: 10px; left: 3px; top: 3px;
-      background: #666; border-radius: 50%;
-      transition: transform 0.2s, background 0.2s;
-    }
-    .toggle input:checked + .toggle-slider { background: #1a3a2a; }
-    .toggle input:checked + .toggle-slider::before { transform: translateX(16px); background: #7fa; }
+    /* Toggle */
+    .tgl{position:relative;width:30px;height:15px;flex-shrink:0;}
+    .tgl input{display:none;}
+    .tgl-sl{position:absolute;inset:0;background:#1a1a1a;border-radius:15px;cursor:pointer;transition:background .2s;}
+    .tgl-sl::before{content:'';position:absolute;width:9px;height:9px;left:3px;top:3px;background:#444;border-radius:50%;transition:transform .2s,background .2s;}
+    .tgl input:checked+.tgl-sl{background:#1a3a1a;}
+    .tgl input:checked+.tgl-sl::before{transform:translateX(15px);background:#7fa;}
 
-    #video-controls { display: none; }
-    #vid-play { border-color: #47a; color: #7af; }
+    #vid-progress-wrap{display:none;padding:6px 0;}
+    #vid-progress-bg{background:#111;border-radius:3px;height:6px;overflow:hidden;}
+    #vid-progress-bar{background:#a7f;height:6px;width:0%;transition:width .1s;}
+    #vid-progress-txt{font-size:10px;color:#888;padding:3px 0;}
+
+    .btn-red{border-color:#733;color:#f88!important;}  .btn-red:hover{background:#200;}
+    .btn-grn{border-color:#373;color:#8f8!important;}  .btn-grn:hover{background:#010;}
+    .btn-ylw{border-color:#773;color:#fa8!important;}  .btn-ylw:hover{background:#210;}
+    .btn-vio{border-color:#537;color:#a7f!important;}  .btn-vio:hover{background:#10020a;}
+    .btn-blu{border-color:#357;color:#7af!important;}
+
+    .vid-row{display:none;}
   </style>
 </head>
 <body>
-  <div id="canvas-container"></div>
+<div id="canvas-container"></div>
+<div id="ui">
 
-  <div id="ui">
-
-    <!-- ── Model ── -->
-    <div class="panel">
-      <h2>WINTERMUTE</h2>
-      <div class="row">
-        <label>Load .obj</label>
-        <input type="file" id="obj-input" accept=".obj" />
-      </div>
-      <div id="status">No model loaded</div>
-    </div>
-
-    <!-- ── Render Mode ── -->
-    <div class="panel">
-      <h2>Render Mode</h2>
-      <div class="row">
-        <label>Shader</label>
-        <select id="shader-select">
-          <option value="standard">Standard PBR</option>
-          <option value="wireframe">Wireframe</option>
-          <option value="normals">Normal Map</option>
-          <option value="toon">Cel / Toon</option>
-          <option value="xray">X-Ray</option>
-          <option value="depth">Depth Field</option>
-          <option value="hologram">Hologram</option>
-          <option value="clay">Clay</option>
-        </select>
-      </div>
-    </div>
-
-    <!-- ── Mesh Repair ── -->
-    <div class="panel panel-mesh">
-      <h2>Mesh Repair</h2>
-      <div class="row">
-        <label>Face Culling</label>
-        <select id="face-cull">
-          <option value="double">Double Sided (default)</option>
-          <option value="front">Front Only (fix flicker)</option>
-          <option value="back">Back Only (inside-out)</option>
-        </select>
-      </div>
-      <div class="row">
-        <label>Z-Fight Fix</label>
-        <label class="toggle">
-          <input type="checkbox" id="zfight-toggle" />
-          <span class="toggle-slider"></span>
-        </label>
-        <span style="font-size:10px;color:#666;">polygon offset</span>
-      </div>
-      <hr class="sep" />
-      <div class="row">
-        <button id="repair-btn">Repair Geometry</button>
-        <button id="flip-normals-btn">Flip Normals</button>
-      </div>
-      <div id="repair-status"></div>
-    </div>
-
-    <!-- ── Texture Projection ── -->
-    <div class="panel panel-tex">
-      <h2>
-        <span>Texture Projection</span>
-        <label class="toggle">
-          <input type="checkbox" id="tex-toggle" />
-          <span class="toggle-slider"></span>
-        </label>
-      </h2>
-
-      <div class="row">
-        <label>Source</label>
-        <input type="file" id="tex-input" accept=".png,.jpg,.jpeg,.webp,.psd,.mov,.mp4,.webm" />
-      </div>
-
-      <div class="row">
-        <label>Projection</label>
-        <select id="projection-select">
-          <option value="0">UV (Mesh UVs)</option>
-          <option value="1">Planar X (Side)</option>
-          <option value="2" selected>Planar Y (Top)</option>
-          <option value="3">Planar Z (Front)</option>
-          <option value="4">Cylindrical</option>
-          <option value="5">Spherical</option>
-          <option value="6">Triplanar (soft blend)</option>
-          <option value="7">Cubic (hard seams)</option>
-        </select>
-      </div>
-
-      <div class="row">
-        <label>Blend Mode</label>
-        <select id="blend-select">
-          <option value="0">Normal</option>
-          <option value="1">Multiply</option>
-          <option value="2">Add</option>
-          <option value="3">Screen</option>
-          <option value="4">Overlay</option>
-        </select>
-      </div>
-
-      <hr class="sep" />
-
-      <div class="row">
-        <label>Opacity</label>
-        <input type="range" id="tex-opacity" min="0" max="1" step="0.01" value="1" />
-        <span class="val" id="tex-opacity-val">1.00</span>
-      </div>
-      <div class="row">
-        <label>Tiling X</label>
-        <input type="range" id="tiling-x" min="0.1" max="10" step="0.1" value="1" />
-        <span class="val" id="tiling-x-val">1.0</span>
-      </div>
-      <div class="row">
-        <label>Tiling Y</label>
-        <input type="range" id="tiling-y" min="0.1" max="10" step="0.1" value="1" />
-        <span class="val" id="tiling-y-val">1.0</span>
-      </div>
-      <div class="row">
-        <label>Offset X</label>
-        <input type="range" id="offset-x" min="-1" max="1" step="0.01" value="0" />
-        <span class="val" id="offset-x-val">0.00</span>
-      </div>
-      <div class="row">
-        <label>Offset Y</label>
-        <input type="range" id="offset-y" min="-1" max="1" step="0.01" value="0" />
-        <span class="val" id="offset-y-val">0.00</span>
-      </div>
-      <div class="row">
-        <label>Rotation</label>
-        <input type="range" id="tex-rotation" min="0" max="360" step="1" value="0" />
-        <span class="val" id="tex-rotation-val">0°</span>
-      </div>
-
-      <hr class="sep" />
-
-      <!-- Texture Animation -->
-      <div class="row">
-        <label>Animate</label>
-        <label class="toggle">
-          <input type="checkbox" id="anim-toggle" />
-          <span class="toggle-slider"></span>
-        </label>
-        <button id="anim-reset" style="font-size:10px;padding:3px 8px;">Reset</button>
-      </div>
-      <div class="row">
-        <label>Speed X</label>
-        <input type="range" id="anim-speed-x" min="-2" max="2" step="0.01" value="0.1" />
-        <span class="val" id="anim-speed-x-val">0.10</span>
-      </div>
-      <div class="row">
-        <label>Speed Y</label>
-        <input type="range" id="anim-speed-y" min="-2" max="2" step="0.01" value="0" />
-        <span class="val" id="anim-speed-y-val">0.00</span>
-      </div>
-
-      <hr class="sep" />
-
-      <div class="row" id="video-controls">
-        <button id="vid-play">▶ Play</button>
-        <button id="vid-loop">Loop ON</button>
-      </div>
-
-      <div class="row">
-        <button id="clear-tex">Clear Texture</button>
-      </div>
-
-      <div id="tex-status">No texture loaded</div>
-    </div>
-
-    <!-- ── Lighting ── -->
-    <div class="panel">
-      <h2>Lighting</h2>
-      <div class="row">
-        <label>Intensity</label>
-        <input type="range" id="light-intensity" min="0" max="5" step="0.1" value="2" />
-        <span class="val" id="light-intensity-val">2.0</span>
-      </div>
-      <div class="row">
-        <label>Env Light</label>
-        <input type="range" id="ambient" min="0" max="3" step="0.1" value="0.5" />
-        <span class="val" id="ambient-val">0.5</span>
-      </div>
-      <div class="row">
-        <label>Roughness</label>
-        <input type="range" id="roughness" min="0" max="1" step="0.01" value="0.5" />
-        <span class="val" id="roughness-val">0.50</span>
-      </div>
-      <div class="row">
-        <label>Metalness</label>
-        <input type="range" id="metalness" min="0" max="1" step="0.01" value="0.1" />
-        <span class="val" id="metalness-val">0.10</span>
-      </div>
-    </div>
-
-    <!-- ── Camera ── -->
-    <div class="panel">
-      <h2>Camera</h2>
-      <div class="row">
-        <label>Auto Rotate</label>
-        <select id="auto-rotate">
-          <option value="0">Off</option>
-          <option value="0.5">Slow</option>
-          <option value="1" selected>Medium</option>
-          <option value="3">Fast</option>
-        </select>
-      </div>
-      <div class="row">
-        <button id="reset-camera">Reset Camera</button>
-      </div>
-    </div>
-
-    <!-- ── Export ── -->
-    <div class="panel">
-      <h2>Export</h2>
-      <div class="row">
-        <label>Resolution</label>
-        <select id="export-res">
-          <option value="3840x2160">4K (3840×2160)</option>
-          <option value="7680x4320">8K (7680×4320)</option>
-          <option value="1920x1080">1080p (1920×1080)</option>
-          <option value="2560x1440">1440p (2560×1440)</option>
-        </select>
-      </div>
-      <div class="row">
-        <button id="export-btn">Export PNG</button>
-      </div>
-    </div>
-
+<!-- ── Model A ── -->
+<div class="panel">
+  <h2>MODEL A</h2>
+  <div class="row"><label>Load .obj</label><input type="file" id="obj-input-a" accept=".obj"/></div>
+  <div class="row"><label>Shader</label>
+    <select id="shader-a">
+      <option value="standard">Standard PBR</option><option value="wireframe">Wireframe</option>
+      <option value="normals">Normals</option><option value="toon">Cel/Toon</option>
+      <option value="xray">X-Ray</option><option value="depth">Depth</option>
+      <option value="hologram">Hologram</option><option value="clay">Clay</option>
+    </select>
   </div>
+  <div id="status-a" class="small">No model loaded</div>
+</div>
 
-  <script type="module" src="/src/main.js"></script>
+<!-- ── Array ── -->
+<div class="panel p-arr">
+  <h2><span>Array</span>
+    <label class="tgl"><input type="checkbox" id="arr-toggle"/><span class="tgl-sl"></span></label>
+  </h2>
+  <div class="row">
+    <label>Cols × Rows</label>
+    <input type="number" id="arr-cols" min="1" max="12" value="1"/>
+    <span style="color:#444;font-size:11px;">×</span>
+    <input type="number" id="arr-rows" min="1" max="12" value="1"/>
+    <span class="val" id="arr-cols-val" style="display:none"></span>
+    <span class="val" id="arr-rows-val" style="display:none"></span>
+  </div>
+  <div class="row">
+    <label>Gap</label>
+    <input type="range" id="arr-gap" min="0" max="3" step="0.05" value="0.2"/>
+    <span class="val" id="arr-gap-val">0.20</span>
+  </div>
+  <hr class="sep"/>
+  <div class="row">
+    <label>Rot Join</label>
+    <label class="tgl"><input type="checkbox" id="arr-rot-join"/><span class="tgl-sl"></span></label>
+    <select id="arr-rot-axis" style="flex:0;width:60px;margin-left:4px;">
+      <option value="y">Y</option><option value="x">X</option><option value="z">Z</option>
+    </select>
+  </div>
+  <div class="row">
+    <label>Rot/Step</label>
+    <input type="range" id="arr-rot-deg" min="0" max="180" step="1" value="0"/>
+    <span class="val" id="arr-rot-deg-val">0°</span>
+  </div>
+</div>
+
+<!-- ── Mesh Repair ── -->
+<div class="panel p-mesh">
+  <h2>Mesh Repair</h2>
+  <div class="row">
+    <label>Face Cull</label>
+    <select id="face-cull">
+      <option value="double">Double (default)</option>
+      <option value="front">Front Only — fix flicker</option>
+      <option value="back">Back Only — inside-out</option>
+    </select>
+  </div>
+  <div class="row">
+    <label>Z-Fight Fix</label>
+    <label class="tgl"><input type="checkbox" id="zfight-toggle"/><span class="tgl-sl"></span></label>
+  </div>
+  <div class="row">
+    <button id="repair-btn" class="btn-grn">Repair Geo</button>
+    <button id="flip-normals-btn" class="btn-ylw">Flip Normals</button>
+  </div>
+  <div id="repair-status" class="small"></div>
+</div>
+
+<!-- ── Texture A ── -->
+<div class="panel p-tex">
+  <h2><span>Texture A</span>
+    <label class="tgl"><input type="checkbox" id="tex-toggle-a"/><span class="tgl-sl"></span></label>
+  </h2>
+  <div class="row"><label>Source</label><input type="file" id="tex-file-a" accept=".png,.jpg,.jpeg,.webp,.psd,.mov,.mp4,.webm"/></div>
+  <div class="row"><label>Projection</label>
+    <select id="proj-a">
+      <option value="0">UV</option><option value="1">Planar X</option>
+      <option value="2" selected>Planar Y</option><option value="3">Planar Z</option>
+      <option value="4">Cylindrical</option><option value="5">Spherical</option>
+      <option value="6">Triplanar</option><option value="7">Cubic</option>
+    </select>
+  </div>
+  <div class="row"><label>Blend</label>
+    <select id="blend-a">
+      <option value="0">Normal</option><option value="1">Multiply</option>
+      <option value="2">Add</option><option value="3">Screen</option><option value="4">Overlay</option>
+    </select>
+  </div>
+  <hr class="sep"/>
+  <div class="row"><label>Opacity</label><input type="range" id="tex-opacity-a" min="0" max="1" step=".01" value="1"/><span class="val" id="tex-opacity-a-val">1.00</span></div>
+  <div class="row"><label>Tiling X</label><input type="range" id="tiling-x-a" min=".1" max="10" step=".1" value="1"/><span class="val" id="tiling-x-a-val">1.0</span></div>
+  <div class="row"><label>Tiling Y</label><input type="range" id="tiling-y-a" min=".1" max="10" step=".1" value="1"/><span class="val" id="tiling-y-a-val">1.0</span></div>
+  <div class="row"><label>Offset X</label><input type="range" id="offset-x-a" min="-1" max="1" step=".01" value="0"/><span class="val" id="offset-x-a-val">0.00</span></div>
+  <div class="row"><label>Offset Y</label><input type="range" id="offset-y-a" min="-1" max="1" step=".01" value="0"/><span class="val" id="offset-y-a-val">0.00</span></div>
+  <div class="row"><label>Rotation</label><input type="range" id="tex-rot-a" min="0" max="360" step="1" value="0"/><span class="val" id="tex-rot-a-val">0°</span></div>
+  <hr class="sep"/>
+  <div class="row">
+    <label>Animate</label>
+    <label class="tgl"><input type="checkbox" id="anim-toggle-a"/><span class="tgl-sl"></span></label>
+    <button id="anim-reset-a" style="padding:3px 8px;font-size:9px;">Reset</button>
+  </div>
+  <div class="row"><label>Speed X</label><input type="range" id="anim-sx-a" min="-2" max="2" step=".01" value=".1"/><span class="val" id="anim-sx-a-val">0.10</span></div>
+  <div class="row"><label>Speed Y</label><input type="range" id="anim-sy-a" min="-2" max="2" step=".01" value="0"/><span class="val" id="anim-sy-a-val">0.00</span></div>
+  <hr class="sep"/>
+  <div class="row vid-row" id="video-controls-a">
+    <button id="vid-play-a" class="btn-blu">▶ Play</button>
+    <button id="vid-loop-a">Loop ON</button>
+  </div>
+  <div class="row"><button id="clear-tex-a" class="btn-red">Clear</button></div>
+  <div id="tex-status-a" class="small">No texture</div>
+</div>
+
+<!-- ── Stack B ── -->
+<div class="panel p-stk">
+  <h2><span>Stack B</span>
+    <label class="tgl"><input type="checkbox" id="stack-toggle"/><span class="tgl-sl"></span></label>
+  </h2>
+  <div class="row"><label>Load .obj</label><input type="file" id="obj-input-b" accept=".obj"/></div>
+  <div class="row"><label>Position</label>
+    <select id="stack-dir">
+      <option value="1">+Y (Above)</option>
+      <option value="-1">−Y (Below)</option>
+    </select>
+  </div>
+  <div class="row"><label>Gap</label><input type="range" id="stack-gap" min="0" max="5" step=".1" value=".5"/><span class="val" id="stack-gap-val">0.5</span></div>
+  <div class="row"><label>Shader</label>
+    <select id="shader-b">
+      <option value="standard">Standard PBR</option><option value="wireframe">Wireframe</option>
+      <option value="normals">Normals</option><option value="toon">Cel/Toon</option>
+      <option value="xray">X-Ray</option><option value="hologram">Hologram</option><option value="clay">Clay</option>
+    </select>
+  </div>
+  <div id="status-b" class="small">No model B loaded</div>
+  <hr class="sep"/>
+  <!-- Texture B -->
+  <div style="font-size:10px;color:#666;letter-spacing:.15em;text-transform:uppercase;margin-bottom:7px;">Texture B
+    <label class="tgl" style="display:inline-flex;margin-left:8px;vertical-align:middle;"><input type="checkbox" id="tex-toggle-b"/><span class="tgl-sl"></span></label>
+  </div>
+  <div class="row"><label>Source</label><input type="file" id="tex-file-b" accept=".png,.jpg,.jpeg,.webp,.psd,.mov,.mp4,.webm"/></div>
+  <div class="row"><label>Projection</label>
+    <select id="proj-b">
+      <option value="0">UV</option><option value="1">Planar X</option>
+      <option value="2" selected>Planar Y</option><option value="3">Planar Z</option>
+      <option value="4">Cylindrical</option><option value="5">Spherical</option>
+      <option value="6">Triplanar</option><option value="7">Cubic</option>
+    </select>
+  </div>
+  <div class="row"><label>Blend</label>
+    <select id="blend-b">
+      <option value="0">Normal</option><option value="1">Multiply</option>
+      <option value="2">Add</option><option value="3">Screen</option><option value="4">Overlay</option>
+    </select>
+  </div>
+  <div class="row"><label>Opacity</label><input type="range" id="tex-opacity-b" min="0" max="1" step=".01" value="1"/><span class="val" id="tex-opacity-b-val">1.00</span></div>
+  <div class="row"><label>Tiling X</label><input type="range" id="tiling-x-b" min=".1" max="10" step=".1" value="1"/><span class="val" id="tiling-x-b-val">1.0</span></div>
+  <div class="row"><label>Tiling Y</label><input type="range" id="tiling-y-b" min=".1" max="10" step=".1" value="1"/><span class="val" id="tiling-y-b-val">1.0</span></div>
+  <div class="row"><label>Offset X</label><input type="range" id="offset-x-b" min="-1" max="1" step=".01" value="0"/><span class="val" id="offset-x-b-val">0.00</span></div>
+  <div class="row"><label>Offset Y</label><input type="range" id="offset-y-b" min="-1" max="1" step=".01" value="0"/><span class="val" id="offset-y-b-val">0.00</span></div>
+  <div class="row"><label>Rotation</label><input type="range" id="tex-rot-b" min="0" max="360" step="1" value="0"/><span class="val" id="tex-rot-b-val">0°</span></div>
+  <div class="row">
+    <label>Animate</label>
+    <label class="tgl"><input type="checkbox" id="anim-toggle-b"/><span class="tgl-sl"></span></label>
+    <button id="anim-reset-b" style="padding:3px 8px;font-size:9px;">Reset</button>
+  </div>
+  <div class="row"><label>Speed X</label><input type="range" id="anim-sx-b" min="-2" max="2" step=".01" value=".1"/><span class="val" id="anim-sx-b-val">0.10</span></div>
+  <div class="row"><label>Speed Y</label><input type="range" id="anim-sy-b" min="-2" max="2" step=".01" value="0"/><span class="val" id="anim-sy-b-val">0.00</span></div>
+  <div class="row vid-row" id="video-controls-b">
+    <button id="vid-play-b" class="btn-blu">▶ Play</button>
+    <button id="vid-loop-b">Loop ON</button>
+  </div>
+  <div class="row"><button id="clear-tex-b" class="btn-red">Clear B</button></div>
+  <div id="tex-status-b" class="small">No texture</div>
+</div>
+
+<!-- ── Lighting ── -->
+<div class="panel">
+  <h2>Lighting</h2>
+  <div class="row"><label>Key</label><input type="range" id="light-intensity" min="0" max="5" step=".1" value="2"/><span class="val" id="light-intensity-val">2.0</span></div>
+  <div class="row"><label>Ambient</label><input type="range" id="ambient" min="0" max="3" step=".1" value=".5"/><span class="val" id="ambient-val">0.5</span></div>
+  <div class="row"><label>Roughness</label><input type="range" id="roughness" min="0" max="1" step=".01" value=".5"/><span class="val" id="roughness-val">0.50</span></div>
+  <div class="row"><label>Metalness</label><input type="range" id="metalness" min="0" max="1" step=".01" value=".1"/><span class="val" id="metalness-val">0.10</span></div>
+</div>
+
+<!-- ── Camera ── -->
+<div class="panel">
+  <h2>Camera</h2>
+  <div class="row"><label>Auto Rotate</label>
+    <select id="auto-rotate">
+      <option value="0">Off</option><option value=".5">Slow</option>
+      <option value="1" selected>Medium</option><option value="3">Fast</option>
+    </select>
+  </div>
+  <div class="row"><button id="reset-camera">Reset Camera</button></div>
+</div>
+
+<!-- ── Export ── -->
+<div class="panel p-vid">
+  <h2>Export</h2>
+  <div class="row"><label>Resolution</label>
+    <select id="export-res">
+      <option value="3840x2160">4K (3840×2160)</option>
+      <option value="1920x1080">1080p</option>
+      <option value="2560x1440">1440p</option>
+      <option value="7680x4320">8K</option>
+    </select>
+  </div>
+  <div class="row"><button id="export-png-btn" class="btn-vio">Export PNG</button></div>
+  <hr class="sep"/>
+  <div class="row"><label>Vid FPS</label>
+    <select id="vid-fps">
+      <option value="12">12 fps</option><option value="24" selected>24 fps</option>
+      <option value="30">30 fps</option><option value="60">60 fps</option>
+    </select>
+  </div>
+  <div class="row"><label>Duration</label>
+    <input type="range" id="vid-dur" min="1" max="60" step="1" value="5"/>
+    <span class="val" id="vid-dur-val">5s</span>
+  </div>
+  <div class="row"><label>Vid Size</label>
+    <select id="vid-res">
+      <option value="1920x1080">1080p</option>
+      <option value="3840x2160">4K</option>
+      <option value="1280x720">720p</option>
+    </select>
+  </div>
+  <div class="row"><button id="export-vid-btn" class="btn-vio">Export MP4</button></div>
+  <div id="vid-progress-wrap">
+    <div id="vid-progress-bg"><div id="vid-progress-bar"></div></div>
+    <div id="vid-progress-txt"></div>
+  </div>
+</div>
+
+</div>
+<script type="module" src="/src/main.js"></script>
+<script>
+  // Duration slider display
+  document.getElementById('vid-dur').addEventListener('input',e=>{
+    document.getElementById('vid-dur-val').textContent=e.target.value+'s';
+  });
+</script>
 </body>
 </html>
