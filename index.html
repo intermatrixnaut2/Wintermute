@@ -14,21 +14,13 @@
       overflow: hidden;
     }
 
-    #canvas-container {
-      position: fixed;
-      inset: 0;
-    }
+    #canvas-container { position: fixed; inset: 0; }
 
-    canvas {
-      display: block;
-      width: 100% !important;
-      height: 100% !important;
-    }
+    canvas { display: block; width: 100% !important; height: 100% !important; }
 
     #ui {
       position: fixed;
-      top: 0;
-      left: 0;
+      top: 0; left: 0;
       z-index: 10;
       padding: 16px;
       display: flex;
@@ -42,23 +34,21 @@
     }
 
     #ui::-webkit-scrollbar { width: 4px; }
-    #ui::-webkit-scrollbar-track { background: transparent; }
     #ui::-webkit-scrollbar-thumb { background: #333; border-radius: 2px; }
-
     #ui > * { pointer-events: all; }
 
     .panel {
-      background: rgba(0,0,0,0.8);
-      border: 1px solid #333;
+      background: rgba(0,0,0,0.82);
+      border: 1px solid #2a2a2a;
       padding: 12px 16px;
       border-radius: 4px;
-      min-width: 260px;
+      min-width: 268px;
     }
 
     .panel h2 {
-      font-size: 11px;
-      letter-spacing: 0.2em;
-      color: #888;
+      font-size: 10px;
+      letter-spacing: 0.22em;
+      color: #666;
       text-transform: uppercase;
       margin-bottom: 10px;
       display: flex;
@@ -69,30 +59,19 @@
     .row {
       display: flex;
       align-items: center;
-      gap: 10px;
-      margin-bottom: 8px;
+      gap: 8px;
+      margin-bottom: 7px;
     }
 
-    label {
-      font-size: 11px;
-      color: #aaa;
-      min-width: 80px;
-    }
+    label { font-size: 11px; color: #999; min-width: 78px; }
 
-    input[type="range"] {
-      flex: 1;
-      accent-color: #7af;
-    }
+    input[type="range"] { flex: 1; accent-color: #7af; height: 14px; }
 
-    input[type="file"] {
-      font-size: 10px;
-      color: #ccc;
-      flex: 1;
-    }
+    input[type="file"] { font-size: 10px; color: #bbb; flex: 1; }
 
     select {
-      background: #111;
-      border: 1px solid #444;
+      background: #0d0d0d;
+      border: 1px solid #3a3a3a;
       color: #ccc;
       font-size: 11px;
       padding: 4px 8px;
@@ -101,89 +80,71 @@
     }
 
     button {
-      background: #111;
-      border: 1px solid #555;
-      color: #ccc;
-      font-size: 11px;
-      padding: 6px 14px;
+      background: #0d0d0d;
+      border: 1px solid #444;
+      color: #bbb;
+      font-size: 10px;
+      padding: 5px 12px;
       border-radius: 3px;
       cursor: pointer;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.07em;
       text-transform: uppercase;
-      transition: border-color 0.2s, color 0.2s;
+      transition: border-color 0.15s, color 0.15s;
+      white-space: nowrap;
     }
-
     button:hover { border-color: #7af; color: #7af; }
 
-    #status, #tex-status {
+    .val { font-size: 11px; color: #7af; min-width: 38px; text-align: right; }
+
+    #status, #tex-status, #repair-status {
       font-size: 10px;
-      color: #666;
+      color: #555;
       padding: 4px 0 0;
+      line-height: 1.4;
     }
 
     #export-btn { border-color: #a7f; color: #a7f; }
-    #export-btn:hover { border-color: #fff; color: #fff; background: #2a1a3a; }
+    #export-btn:hover { background: #1a0a2a; border-color: #cfb; color: #cfb; }
 
-    .val {
-      font-size: 11px;
-      color: #7af;
-      min-width: 36px;
-      text-align: right;
-    }
+    #clear-tex { border-color: #844; color: #f88; font-size: 10px; padding: 4px 10px; }
+    #clear-tex:hover { background: #200; border-color: #f88; }
+
+    #repair-btn { border-color: #484; color: #8f8; }
+    #repair-btn:hover { background: #020; }
+
+    #flip-normals-btn { border-color: #884; color: #fa8; }
+    #flip-normals-btn:hover { background: #201000; }
+
+    /* Accent panels */
+    .panel-tex  { border-color: #1a3a2a; }
+    .panel-tex h2 { color: #5a9; }
+    .panel-mesh { border-color: #3a2a1a; }
+    .panel-mesh h2 { color: #a84; }
+
+    .sep { border: none; border-top: 1px solid #1e1e1e; margin: 6px 0; }
 
     /* Toggle switch */
-    .toggle-wrap {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
     .toggle {
-      position: relative;
-      width: 34px;
-      height: 18px;
-      flex-shrink: 0;
+      position: relative; width: 32px; height: 16px; flex-shrink: 0;
     }
-
     .toggle input { display: none; }
-
     .toggle-slider {
-      position: absolute;
-      inset: 0;
-      background: #333;
-      border-radius: 18px;
-      cursor: pointer;
+      position: absolute; inset: 0;
+      background: #222; border-radius: 16px; cursor: pointer;
       transition: background 0.2s;
     }
-
     .toggle-slider::before {
       content: '';
       position: absolute;
-      width: 12px;
-      height: 12px;
-      left: 3px;
-      top: 3px;
-      background: #888;
-      border-radius: 50%;
+      width: 10px; height: 10px; left: 3px; top: 3px;
+      background: #666; border-radius: 50%;
       transition: transform 0.2s, background 0.2s;
     }
-
     .toggle input:checked + .toggle-slider { background: #1a3a2a; }
     .toggle input:checked + .toggle-slider::before { transform: translateX(16px); background: #7fa; }
 
-    .panel-accent { border-color: #2a4a3a; }
-    .panel-accent h2 { color: #7fa; }
-
     #video-controls { display: none; }
-    #vid-play { border-color: #7af; color: #7af; }
-    #clear-tex { border-color: #f77; color: #f77; font-size: 10px; padding: 4px 10px; }
-    #clear-tex:hover { background: #2a1010; border-color: #faa; color: #faa; }
-
-    .sep {
-      border: none;
-      border-top: 1px solid #222;
-      margin: 6px 0;
-    }
+    #vid-play { border-color: #47a; color: #7af; }
   </style>
 </head>
 <body>
@@ -191,7 +152,7 @@
 
   <div id="ui">
 
-    <!-- Model -->
+    <!-- ── Model ── -->
     <div class="panel">
       <h2>WINTERMUTE</h2>
       <div class="row">
@@ -201,7 +162,7 @@
       <div id="status">No model loaded</div>
     </div>
 
-    <!-- Render Mode -->
+    <!-- ── Render Mode ── -->
     <div class="panel">
       <h2>Render Mode</h2>
       <div class="row">
@@ -219,11 +180,38 @@
       </div>
     </div>
 
-    <!-- Texture Projection -->
-    <div class="panel panel-accent">
+    <!-- ── Mesh Repair ── -->
+    <div class="panel panel-mesh">
+      <h2>Mesh Repair</h2>
+      <div class="row">
+        <label>Face Culling</label>
+        <select id="face-cull">
+          <option value="double">Double Sided (default)</option>
+          <option value="front">Front Only (fix flicker)</option>
+          <option value="back">Back Only (inside-out)</option>
+        </select>
+      </div>
+      <div class="row">
+        <label>Z-Fight Fix</label>
+        <label class="toggle">
+          <input type="checkbox" id="zfight-toggle" />
+          <span class="toggle-slider"></span>
+        </label>
+        <span style="font-size:10px;color:#666;">polygon offset</span>
+      </div>
+      <hr class="sep" />
+      <div class="row">
+        <button id="repair-btn">Repair Geometry</button>
+        <button id="flip-normals-btn">Flip Normals</button>
+      </div>
+      <div id="repair-status"></div>
+    </div>
+
+    <!-- ── Texture Projection ── -->
+    <div class="panel panel-tex">
       <h2>
         <span>Texture Projection</span>
-        <label class="toggle toggle-wrap">
+        <label class="toggle">
           <input type="checkbox" id="tex-toggle" />
           <span class="toggle-slider"></span>
         </label>
@@ -243,7 +231,8 @@
           <option value="3">Planar Z (Front)</option>
           <option value="4">Cylindrical</option>
           <option value="5">Spherical</option>
-          <option value="6">Triplanar / World</option>
+          <option value="6">Triplanar (soft blend)</option>
+          <option value="7">Cubic (hard seams)</option>
         </select>
       </div>
 
@@ -265,35 +254,52 @@
         <input type="range" id="tex-opacity" min="0" max="1" step="0.01" value="1" />
         <span class="val" id="tex-opacity-val">1.00</span>
       </div>
-
       <div class="row">
         <label>Tiling X</label>
         <input type="range" id="tiling-x" min="0.1" max="10" step="0.1" value="1" />
         <span class="val" id="tiling-x-val">1.0</span>
       </div>
-
       <div class="row">
         <label>Tiling Y</label>
         <input type="range" id="tiling-y" min="0.1" max="10" step="0.1" value="1" />
         <span class="val" id="tiling-y-val">1.0</span>
       </div>
-
       <div class="row">
         <label>Offset X</label>
         <input type="range" id="offset-x" min="-1" max="1" step="0.01" value="0" />
         <span class="val" id="offset-x-val">0.00</span>
       </div>
-
       <div class="row">
         <label>Offset Y</label>
         <input type="range" id="offset-y" min="-1" max="1" step="0.01" value="0" />
         <span class="val" id="offset-y-val">0.00</span>
       </div>
-
       <div class="row">
         <label>Rotation</label>
         <input type="range" id="tex-rotation" min="0" max="360" step="1" value="0" />
         <span class="val" id="tex-rotation-val">0°</span>
+      </div>
+
+      <hr class="sep" />
+
+      <!-- Texture Animation -->
+      <div class="row">
+        <label>Animate</label>
+        <label class="toggle">
+          <input type="checkbox" id="anim-toggle" />
+          <span class="toggle-slider"></span>
+        </label>
+        <button id="anim-reset" style="font-size:10px;padding:3px 8px;">Reset</button>
+      </div>
+      <div class="row">
+        <label>Speed X</label>
+        <input type="range" id="anim-speed-x" min="-2" max="2" step="0.01" value="0.1" />
+        <span class="val" id="anim-speed-x-val">0.10</span>
+      </div>
+      <div class="row">
+        <label>Speed Y</label>
+        <input type="range" id="anim-speed-y" min="-2" max="2" step="0.01" value="0" />
+        <span class="val" id="anim-speed-y-val">0.00</span>
       </div>
 
       <hr class="sep" />
@@ -310,7 +316,7 @@
       <div id="tex-status">No texture loaded</div>
     </div>
 
-    <!-- Lighting -->
+    <!-- ── Lighting ── -->
     <div class="panel">
       <h2>Lighting</h2>
       <div class="row">
@@ -335,7 +341,7 @@
       </div>
     </div>
 
-    <!-- Camera -->
+    <!-- ── Camera ── -->
     <div class="panel">
       <h2>Camera</h2>
       <div class="row">
@@ -352,7 +358,7 @@
       </div>
     </div>
 
-    <!-- Export -->
+    <!-- ── Export ── -->
     <div class="panel">
       <h2>Export</h2>
       <div class="row">
