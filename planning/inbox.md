@@ -209,3 +209,27 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-04-22 10:00
+- **Session:** `d77c168b-50f0-42a5-b15d-a112657a4ba8`
+- **Last directory:** `/Users/intermatrixnaut/beinhorn`
+- **Last 10 actions:**
+  - `Bash` → `cd "/Users/intermatrixnaut/Documents/Claude AI personal Assistant" && node stare-context/build.mjs 2` (2026-04-22 10:41)
+  - `Bash` → `cd "/Users/intermatrixnaut/Documents/Claude AI personal Assistant" && node stare-context/search.mjs` (2026-04-22 10:41)
+  - `Bash` → `cd "/Users/intermatrixnaut/Documents/Claude AI personal Assistant" && node stare-context/lookup.mjs` (2026-04-22 10:41)
+  - `Bash` → `cd "/Users/intermatrixnaut/Documents/Claude AI personal Assistant" && node -e " import('./stare-cont` (2026-04-22 10:41)
+  - `Bash` → `cd "/Users/intermatrixnaut/Documents/Claude AI personal Assistant" && node stare-context/lookup.mjs` (2026-04-22 10:41)
+  - `Edit` → `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/stare-context/lookup.mjs` (2026-04-22 10:41)
+  - `Edit` → `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/stare-context/lookup.mjs` (2026-04-22 10:41)
+  - `Bash` → `cd "/Users/intermatrixnaut/Documents/Claude AI personal Assistant" && node stare-context/lookup.mjs` (2026-04-22 10:41)
+  - `Bash` → `cd "/Users/intermatrixnaut/Documents/Claude AI personal Assistant" && node stare-context/lookup.mjs` (2026-04-22 10:41)
+  - `Bash` → `cd "/Users/intermatrixnaut/Documents/Claude AI personal Assistant" && node stare-context/search.mjs` (2026-04-22 10:41)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
