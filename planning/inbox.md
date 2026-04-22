@@ -155,3 +155,18 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-04-21 14:18
+- **Session:** `80e9ca38-c5dd-4b8e-9f6a-ce516f3ca672`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 1 actions:**
+  - `Write` → `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/life_insurance_presentation_script.md` (2026-04-21 14:18)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
