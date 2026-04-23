@@ -5,6 +5,32 @@ import { mergeVertices }    from 'three/addons/utils/BufferGeometryUtils.js';
 import { Muxer, ArrayBufferTarget } from 'mp4-muxer';
 import Psd from '@webtoon/psd';
 
+// ─── LRU Cache ────────────────────────────────────────────────────────────────
+
+class LRUCache {
+  constructor(capacity) { this.capacity = capacity; this.map = new Map(); }
+  get(key) {
+    if (!this.map.has(key)) return undefined;
+    const val = this.map.get(key); this.map.delete(key); this.map.set(key, val);
+    return val;
+  }
+  set(key, val) {
+    if (this.map.has(key)) this.map.delete(key);
+    else if (this.map.size >= this.capacity) this.map.delete(this.map.keys().next().value);
+    this.map.set(key, val);
+  }
+  delete(key) { this.map.delete(key); }
+  has(key)    { return this.map.has(key); }
+}
+
+const objCache    = new LRUCache(10);   // OBJ parse trees by file fingerprint
+const psdCache    = new LRUCache(8);    // PSD pixel buffers by file fingerprint
+const boundsCache = new LRUCache(20);   // Box3 by Three.js object UUID
+// S.T.A.R.E. NFT token metadata: nftCache.set(tokenId, { name, traits, objUrl, … })
+const nftCache    = new LRUCache(100);  // S.T.A.R.E. token metadata by token ID
+
+function fileKey(f) { return `${f.name}|${f.size}|${f.lastModified}`; }
+
 // ─── Renderer ─────────────────────────────────────────────────────────────────
 
 const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
@@ -264,7 +290,8 @@ function buildArray() {
   modelA.visible=false;
   arrayGroup=new THREE.Group();
 
-  const box=new THREE.Box3().setFromObject(modelA);
+  let box=boundsCache.get(modelA.uuid);
+  if(!box){ box=new THREE.Box3().setFromObject(modelA); boundsCache.set(modelA.uuid,box.clone()); }
   const sz=box.getSize(new THREE.Vector3());
   const stepX=sz.x*(1+arr.gap), stepZ=sz.z*(1+arr.gap);
   const offX=(arr.cols-1)*stepX*0.5, offZ=(arr.rows-1)*stepZ*0.5;
@@ -295,7 +322,9 @@ function getActiveA() { return (arr.enabled && arrayGroup) ? arrayGroup : modelA
 function positionStack() {
   if (!modelB || !stack.enabled) return;
 
-  const srcBox=new THREE.Box3().setFromObject(getActiveA() || new THREE.Object3D());
+  const _a=getActiveA()||new THREE.Object3D();
+  let srcBox=(_a===modelA&&modelA)?boundsCache.get(modelA.uuid):null;
+  if(!srcBox){ srcBox=new THREE.Box3().setFromObject(_a); if(_a===modelA&&modelA) boundsCache.set(modelA.uuid,srcBox.clone()); }
   const bBox=new THREE.Box3().setFromObject(modelB);
   const bSz=bBox.getSize(new THREE.Vector3());
   const bCenter=bBox.getCenter(new THREE.Vector3());
@@ -320,19 +349,29 @@ function applyB() { applySlotMat(modelB, slotB); }
 
 // ─── PSD / Texture Loaders ────────────────────────────────────────────────────
 
-async function parsePSD(buf) {
-  const psd=Psd.parse(buf), pixels=await psd.composite();
-  const c=document.createElement('canvas');
-  c.width=psd.width; c.height=psd.height;
-  c.getContext('2d').putImageData(new ImageData(new Uint8ClampedArray(pixels.buffer),psd.width,psd.height),0,0);
-  const t=new THREE.CanvasTexture(c);
-  t.colorSpace=THREE.SRGBColorSpace; t.wrapS=t.wrapT=THREE.RepeatWrapping;
-  return t;
-}
-
 async function loadTexFile(file) {
-  const ext=file.name.split('.').pop().toLowerCase();
-  if(ext==='psd') return parsePSD(await file.arrayBuffer());
+  const ext = file.name.split('.').pop().toLowerCase();
+  const key = fileKey(file);
+  if (ext === 'psd') {
+    const cached = psdCache.get(key);
+    if (cached) {
+      const c = document.createElement('canvas');
+      c.width = cached.w; c.height = cached.h;
+      c.getContext('2d').putImageData(new ImageData(new Uint8ClampedArray(cached.px), cached.w, cached.h), 0, 0);
+      const t = new THREE.CanvasTexture(c);
+      t.colorSpace = THREE.SRGBColorSpace; t.wrapS = t.wrapT = THREE.RepeatWrapping;
+      return t;
+    }
+    const buf = await file.arrayBuffer();
+    const psd = Psd.parse(buf), pixels = await psd.composite();
+    psdCache.set(key, { px: pixels.buffer.slice(0), w: psd.width, h: psd.height });
+    const c = document.createElement('canvas');
+    c.width = psd.width; c.height = psd.height;
+    c.getContext('2d').putImageData(new ImageData(new Uint8ClampedArray(pixels.buffer), psd.width, psd.height), 0, 0);
+    const t = new THREE.CanvasTexture(c);
+    t.colorSpace = THREE.SRGBColorSpace; t.wrapS = t.wrapT = THREE.RepeatWrapping;
+    return t;
+  }
   if(['mov','mp4','webm'].includes(ext)) {
     const vid=document.createElement('video');
     Object.assign(vid,{src:URL.createObjectURL(file),loop:true,muted:true,playsInline:true,crossOrigin:'anonymous'});
@@ -471,10 +510,14 @@ async function exportVideo() {
 const objLoader=new OBJLoader();
 
 function loadOBJ(file, onDone) {
+  const key = fileKey(file);
+  const cached = objCache.get(key);
+  if (cached) { try { onDone(null, cached.clone()); } catch(e) { onDone(e); } return; }
   const r=new FileReader();
   r.onload=evt=>{
     try {
       const obj=objLoader.parse(evt.target.result);
+      objCache.set(key, obj.clone()); // store clean clone before caller mutates position/materials
       onDone(null, obj);
     } catch(e) { onDone(e); }
   };
@@ -497,7 +540,7 @@ document.getElementById('obj-input-a').addEventListener('change', e=>{
   statusA.textContent=`Loading…`; statusA.style.color='#aaa';
   loadOBJ(f,(err,obj)=>{
     if(err){ statusA.textContent=`Error: ${err.message}`; statusA.style.color='#f77'; return; }
-    if(modelA){ scene.remove(modelA); }
+    if(modelA){ boundsCache.delete(modelA.uuid); scene.remove(modelA); }
     modelA=obj;
     centerAndFit(modelA, slotA);
     applySlotMat(modelA, slotA);
