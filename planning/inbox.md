@@ -378,3 +378,27 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-04-24 18:23
+- **Session:** `3c1d2954-50e5-4f5b-a013-b22ae1117c6e`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 10 actions:**
+  - `Edit` → `/tmp/pdf_to_audio.py` (2026-04-24 22:27)
+  - `Bash` → `python3 /tmp/pdf_to_audio.py "/Users/intermatrixnaut/Documents/Justin/The Talent Code Michael Coyle/` (2026-04-24 22:27)
+  - `Bash` → `sleep 30 && head -20 "/private/tmp/claude-501/-Users-intermatrixnaut-Documents-Claude-AI-personal-As` (2026-04-24 22:27)
+  - `Bash` → `pip3 show edge-tts` (2026-04-24 22:27)
+  - `Bash` → `python3 -c " import asyncio, edge_tts  async def test():     c = edge_tts.Communicate('Hello, this i` (2026-04-24 22:28)
+  - `Bash` → `python3 /tmp/pdf_to_audio.py "/Users/intermatrixnaut/Documents/Justin/The Talent Code Michael Coyle/` (2026-04-24 22:28)
+  - `Bash` → `sleep 45 && head -30 "/private/tmp/claude-501/-Users-intermatrixnaut-Documents-Claude-AI-personal-As` (2026-04-24 22:28)
+  - `Bash` → `cat "/private/tmp/claude-501/-Users-intermatrixnaut-Documents-Claude-AI-personal-Assistant/3c1d2954-` (2026-04-24 22:29)
+  - `Bash` → `cat "/private/tmp/claude-501/-Users-intermatrixnaut-Documents-Claude-AI-personal-Assistant/3c1d2954-` (2026-04-24 22:29)
+  - `Bash` → `ps aux` (2026-04-24 22:29)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
