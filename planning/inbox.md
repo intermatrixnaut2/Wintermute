@@ -506,3 +506,27 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-04-27 19:03
+- **Session:** `ab0de994-882c-48ba-b4bf-49b58a28e3af`
+- **Last directory:** `/Users/intermatrixnaut`
+- **Last 10 actions:**
+  - `Bash` → `# Check how existing plugins are structured to understand MCP registration ls ~/.claude/plugins/ cat` (2026-04-27 19:04)
+  - `Bash` → `cat ~/.claude/plugins/installed_plugins.json` (2026-04-27 19:04)
+  - `Bash` → `# Check one of the plugin caches to understand the plugin.json structure find ~/.claude/plugins/cach` (2026-04-27 19:17)
+  - `Bash` → `# Check if there's a plugin.json in the video vision folder cat '/Users/intermatrixnaut/Documents/Cl` (2026-04-27 19:17)
+  - `Bash` → `# Check if ffmpeg is available and node version which ffmpeg && ffmpeg -version 2>&1` (2026-04-27 19:17)
+  - `Bash` → `# Check the commands files to see what we'll be copying cat '/Users/intermatrixnaut/Documents/Claude` (2026-04-27 19:18)
+  - `Bash` → `cd '/Users/intermatrixnaut/Documents/Claude AI personal Assistant/claude-video-vision-main/mcp-serve` (2026-04-27 19:18)
+  - `Bash` → `# Copy skill mkdir -p ~/.claude/skills/video-perception cp '/Users/intermatrixnaut/Documents/Claude` (2026-04-27 19:18)
+  - `Edit` → `/Users/intermatrixnaut/.claude/settings.json` (2026-04-27 19:32)
+  - `Bash` → `# Quick sanity check — verify the built entry point exists and node can load it node --input-type=mo` (2026-04-27 19:32)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
