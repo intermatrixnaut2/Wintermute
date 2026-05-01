@@ -854,3 +854,24 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-05-01 18:40
+- **Session:** `c61bf86a-2a98-4026-bec8-58c9ffd9d052`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 7 actions:**
+  - `Bash` → `python3 -c "import pypdf" 2>/dev/null` (2026-05-01 18:40)
+  - `Write` → `/tmp/pdf_to_audio.py` (2026-05-01 18:41)
+  - `Edit` → `/tmp/pdf_to_audio.py` (2026-05-01 18:42)
+  - `Bash` → `python3 /tmp/pdf_to_audio.py "/Users/intermatrixnaut/Documents/VA Loans PDF to MP3 /FL_VA_Voice_Scri` (2026-05-01 18:45)
+  - `Edit` → `/tmp/pdf_to_audio.py` (2026-05-01 18:52)
+  - `Bash` → `python3 - <<'PYEOF' import re, pypdf  def extract_dialogue_only(text):     lines = text.split("\n")` (2026-05-01 19:06)
+  - `Bash` → `python3 /tmp/pdf_to_audio.py "/Users/intermatrixnaut/Documents/VA Loans PDF to MP3 /FL_VA_Voice_Scri` (2026-05-01 19:09)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
