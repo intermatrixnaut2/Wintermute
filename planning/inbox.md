@@ -1085,3 +1085,27 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-05-06 08:27
+- **Session:** `0571ab93-c355-4677-8194-5969a5069e2e`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/notion-mcp-server-main`
+- **Last 10 actions:**
+  - `Bash` → `ls "/Users/intermatrixnaut/Documents/Claude AI personal Assistant/notion-mcp-server-main/build/scrip` (2026-05-06 08:27)
+  - `Bash` → `ls /Users/intermatrixnaut/Documents/Claude\ AI\ personal\ Assistant/agent-browser-main/` (2026-05-06 08:29)
+  - `Bash` → `ls /Users/intermatrixnaut/Documents/Claude\ AI\ personal\ Assistant/agent-browser-main/skills/` (2026-05-06 08:36)
+  - `Bash` → `ls /Users/intermatrixnaut/Documents/Claude\ AI\ personal\ Assistant/agent-browser-main/skills/agent-` (2026-05-06 08:36)
+  - `Bash` → `which agent-browser 2>/dev/null` (2026-05-06 08:36)
+  - `Edit` → `/Users/intermatrixnaut/.claude/settings.json` (2026-05-06 08:37)
+  - `Bash` → `ls /Users/intermatrixnaut/Documents/Claude\ AI\ personal\ Assistant/agent-browser-main/bin/` (2026-05-06 08:37)
+  - `Bash` → `ls -la "/Users/intermatrixnaut/Documents/Claude AI personal Assistant/agent-browser-main/bin/"` (2026-05-06 08:37)
+  - `Bash` → `cd "/Users/intermatrixnaut/Documents/Claude AI personal Assistant/agent-browser-main" && npm install` (2026-05-06 08:38)
+  - `Bash` → `which agent-browser && agent-browser --version 2>&1` (2026-05-06 08:38)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
