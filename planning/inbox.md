@@ -1157,3 +1157,21 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-05-06 16:35
+- **Session:** `7c6fdbf6-d363-4c9b-be5d-db8ad12c0194`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 4 actions:**
+  - `Bash` → `ffprobe -v quiet -print_format json -show_streams "/Users/intermatrixnaut/Movies/neuroscience is ful` (2026-05-06 16:35)
+  - `Bash` → `ffmpeg -i "/Users/intermatrixnaut/Movies/neuroscience is full of open questions and i love it#viral` (2026-05-06 16:35)
+  - `Bash` → `which whisper 2>/dev/null` (2026-05-06 16:35)
+  - `Bash` → `whisper /tmp/neuro_audio.wav --model tiny --output_format txt --output_dir /tmp/ 2>&1` (2026-05-06 16:35)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
