@@ -1650,3 +1650,27 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-05-12 19:14
+- **Session:** `fcf7af23-8344-4ed9-a01b-15bd84dbc862`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 10 actions:**
+  - `Bash` → `cd "/Users/intermatrixnaut/Documents/Claude AI personal Assistant/AuNP_PPTX" && for f in AuNP_PPTX_0` (2026-05-12 19:15)
+  - `Bash` → `cat "/Users/intermatrixnaut/.claude/plugins/cache/ctr26-dotfiles/anthropic-skills/d211d437443a/skill` (2026-05-13 06:04)
+  - `Bash` → `cd "/Users/intermatrixnaut/Documents/Claude AI personal Assistant/AuNP_PPTX" && for f in *.pptx; do` (2026-05-13 06:05)
+  - `Bash` → `pip3 install python-pptx -q && python3 -c "import pptx; print('python-pptx', pptx.__version__)"` (2026-05-13 06:07)
+  - `Bash` → `cd "/Users/intermatrixnaut/Documents/Claude AI personal Assistant/AuNP_PPTX" && python3 -m markitdow` (2026-05-13 06:07)
+  - `Bash` → `cd "/Users/intermatrixnaut/Documents/Claude AI personal Assistant/AuNP_PPTX" && for f in AuNP_PPTX_0` (2026-05-13 06:15)
+  - `Write` → `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/AuNP_PPTX/embed_hyperlinks.py` (2026-05-13 06:19)
+  - `Edit` → `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/AuNP_PPTX/embed_hyperlinks.py` (2026-05-13 06:19)
+  - `Bash` → `cd "/Users/intermatrixnaut/Documents/Claude AI personal Assistant/AuNP_PPTX" && python3 embed_hyperl` (2026-05-13 06:19)
+  - `Bash` → `cd "/Users/intermatrixnaut/Documents/Claude AI personal Assistant/AuNP_PPTX" && python3 -c " from pp` (2026-05-13 06:19)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
