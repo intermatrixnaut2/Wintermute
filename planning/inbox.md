@@ -2148,3 +2148,27 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-05-17 15:14
+- **Session:** `afdaa8ea-49f0-4428-8f1e-819c390287d2`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/OpenJarvis-main`
+- **Last 10 actions:**
+  - `Bash` → `cd ~/Wintermute/instagram-notion-sync && set -a && source config.env && set +a && python3 sync.py 2>` (2026-05-17 15:38)
+  - `Bash` → `cat /private/tmp/claude-501/-Users-intermatrixnaut-Documents-Claude-AI-personal-Assistant/afdaa8ea-4` (2026-05-17 15:38)
+  - `Bash` → `cat /private/tmp/claude-501/-Users-intermatrixnaut-Documents-Claude-AI-personal-Assistant/afdaa8ea-4` (2026-05-17 15:38)
+  - `Bash` → `tail -5 /private/tmp/claude-501/-Users-intermatrixnaut-Documents-Claude-AI-personal-Assistant/afdaa8` (2026-05-17 15:38)
+  - `Bash` → `tail -10 /private/tmp/claude-501/-Users-intermatrixnaut-Documents-Claude-AI-personal-Assistant/afdaa` (2026-05-17 15:39)
+  - `Bash` → `tail -15 /private/tmp/claude-501/-Users-intermatrixnaut-Documents-Claude-AI-personal-Assistant/afdaa` (2026-05-17 15:41)
+  - `Bash` → `cd ~/Wintermute/instagram-notion-sync && set -a && source config.env && set +a && python3 sync.py 2>` (2026-05-17 15:51)
+  - `Bash` → `tail -5 /private/tmp/claude-501/-Users-intermatrixnaut-Documents-Claude-AI-personal-Assistant/afdaa8` (2026-05-17 15:51)
+  - `Bash` → `tail -10 /private/tmp/claude-501/-Users-intermatrixnaut-Documents-Claude-AI-personal-Assistant/afdaa` (2026-05-17 15:51)
+  - `Bash` → `cat /private/tmp/claude-501/-Users-intermatrixnaut-Documents-Claude-AI-personal-Assistant/afdaa8ea-4` (2026-05-17 15:51)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
