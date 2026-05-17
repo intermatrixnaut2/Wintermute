@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  macOS launchd agent for Instagram → Notion sync.
+  Runs sync.py at 09:00 and 21:00 daily.
+
+  Install:
+    1. Edit the paths and env vars below.
+    2. cp com.wintermute.instagram-sync.plist ~/Library/LaunchAgents/
+    3. launchctl load ~/Library/LaunchAgents/com.wintermute.instagram-sync.plist
+
+  Run once manually:
+    launchctl start com.wintermute.instagram-sync
+
+  Uninstall:
+    launchctl unload ~/Library/LaunchAgents/com.wintermute.instagram-sync.plist
+-->
+<plist version="1.0">
+<dict>
+
+  <key>Label</key>
+  <string>com.wintermute.instagram-sync</string>
+
+  <!-- ── Script to run ────────────────────────────────────────────────── -->
+  <key>ProgramArguments</key>
+  <array>
+    <!-- Use the full path to the python3 in your virtualenv, e.g.
+         /Users/YOU/Projects/wintermute/instagram-notion-sync/.venv/bin/python3 -->
+    <string>/Users/YOU/Projects/wintermute/instagram-notion-sync/.venv/bin/python3</string>
+    <string>/Users/YOU/Projects/wintermute/instagram-notion-sync/sync.py</string>
+  </array>
+
+  <!-- ── Environment variables ─────────────────────────────────────────── -->
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>IG_SESSION_ID</key>
+    <string>REPLACE_ME</string>
+
+    <key>IG_CSRF_TOKEN</key>
+    <string>REPLACE_ME</string>
+
+    <key>IG_DS_USER_ID</key>
+    <string>REPLACE_ME</string>
+
+    <key>NOTION_TOKEN</key>
+    <string>REPLACE_ME</string>
+
+    <key>NOTION_SAVES_DB_ID</key>
+    <string>REPLACE_ME</string>
+  </dict>
+
+  <!-- ── Schedule: 09:00 and 21:00 daily ──────────────────────────────── -->
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict>
+      <key>Hour</key>   <integer>9</integer>
+      <key>Minute</key> <integer>0</integer>
+    </dict>
+    <dict>
+      <key>Hour</key>   <integer>21</integer>
+      <key>Minute</key> <integer>0</integer>
+    </dict>
+  </array>
+
+  <!-- ── Logs ──────────────────────────────────────────────────────────── -->
+  <key>StandardOutPath</key>
+  <string>/Users/YOU/Library/Logs/wintermute-instagram-sync.log</string>
+
+  <key>StandardErrorPath</key>
+  <string>/Users/YOU/Library/Logs/wintermute-instagram-sync-error.log</string>
+
+  <!-- Do not run immediately on load -->
+  <key>RunAtLoad</key>
+  <false/>
+
+</dict>
+</plist>

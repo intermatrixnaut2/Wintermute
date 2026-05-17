@@ -2,3 +2,9 @@ node_modules/
 dist/
 .DS_Store
 *.local
+
+# Instagram-Notion sync
+instagram-notion-sync/.venv/
+instagram-notion-sync/config.env
+instagram-notion-sync/state.json
+instagram-notion-sync/sync.log
