@@ -2196,3 +2196,27 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-05-17 16:14
+- **Session:** `afdaa8ea-49f0-4428-8f1e-819c390287d2`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 10 actions:**
+  - `Bash` → `python3 << 'EOF' content = open('/Users/intermatrixnaut/Documents/Claude AI personal Assistant/Lyric` (2026-05-17 16:24)
+  - `Bash` → `python3 << 'EOF' content = open('/Users/intermatrixnaut/Documents/Claude AI personal Assistant/Lyric` (2026-05-17 16:24)
+  - `Bash` → `python3 << 'EOF' content = open('/Users/intermatrixnaut/Documents/Claude AI personal Assistant/Lyric` (2026-05-17 16:24)
+  - `Bash` → `python3 << 'EOF' content = open('/Users/intermatrixnaut/Documents/Claude AI personal Assistant/Lyric` (2026-05-17 16:25)
+  - `Bash` → `python3 << 'EOF' import json from datetime import date  catalog_path = "/Users/intermatrixnaut/Docum` (2026-05-17 16:25)
+  - `Bash` → `tail -5 /private/tmp/claude-501/-Users-intermatrixnaut-Documents-Claude-AI-personal-Assistant/afdaa8` (2026-05-17 16:31)
+  - `Edit` → `/Users/intermatrixnaut/Wintermute/instagram-notion-sync/sync.py` (2026-05-17 17:26)
+  - `Bash` → `echo '{"synced_ids": []}' > ~/Wintermute/instagram-notion-sync/state.json` (2026-05-17 17:26)
+  - `Bash` → `cd ~/Wintermute/instagram-notion-sync && set -a && source config.env && set +a && python3 sync.py 2>` (2026-05-17 17:26)
+  - `Bash` → `tail -5 /private/tmp/claude-501/-Users-intermatrixnaut-Documents-Claude-AI-personal-Assistant/afdaa8` (2026-05-17 18:23)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
