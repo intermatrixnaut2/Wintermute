@@ -2387,3 +2387,27 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-05-22 17:15
+- **Session:** `7bf52cdc-c1a6-4cb8-bc14-9431b355b47c`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 10 actions:**
+  - `Bash` → `find ~ -name "*.pt" -path "*/whisper/*" 2>/dev/null` (2026-05-22 17:26)
+  - `Bash` → `python3 -c "import whisper; print(whisper.__file__); print('installed OK')" 2>&1` (2026-05-22 17:26)
+  - `Bash` → `ffprobe -v quiet -print_format json -show_format -show_streams "/Users/intermatrixnaut/Downloads/Sna` (2026-05-22 17:30)
+  - `Bash` → `ffmpeg -i "/Users/intermatrixnaut/Downloads/SnapInsta.to_AQP0n951t97PAa-3RZrT4WexF3Ehw_GdSgbYtarmURW` (2026-05-22 17:35)
+  - `Bash` → `python3 -c " import whisper model = whisper.load_model('small') result = model.transcribe('/tmp/vide` (2026-05-22 17:35)
+  - `Bash` → `python3 -c " import ssl, urllib.request, whisper, os # Patch SSL for this process ssl._create_defaul` (2026-05-22 17:36)
+  - `Bash` → `mkdir -p /tmp/video_frames && ffmpeg -i "/Users/intermatrixnaut/Downloads/SnapInsta.to_AQP0n951t97PA` (2026-05-22 17:38)
+  - `Bash` → `mkdir -p /Users/intermatrixnaut/.claude/skills/quantum-zeno` (2026-05-22 17:42)
+  - `Write` → `/Users/intermatrixnaut/.claude/skills/quantum-zeno/SKILL.md` (2026-05-22 17:43)
+  - `Edit` → `/Users/intermatrixnaut/.claude/CLAUDE.md` (2026-05-22 17:43)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
