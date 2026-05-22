@@ -2426,3 +2426,25 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-05-22 17:49
+- **Session:** `1615bd87-35dd-4232-8807-a6c2dd4ec903`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 8 actions:**
+  - `Bash` → `date +%Y-%m-%d && mkdir -p "/Users/intermatrixnaut/Documents/Claude AI personal Assistant/docs/super` (2026-05-22 17:49)
+  - `Bash` → `ffprobe -v quiet -print_format json -show_format -show_streams "/Users/intermatrixnaut/Downloads/Tir` (2026-05-22 17:50)
+  - `Write` → `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/docs/superpowers/specs/2026-05-22-speechify-clone-ios-app-design.md` (2026-05-22 17:50)
+  - `Bash` → `cd "/Users/intermatrixnaut/Documents/Claude AI personal Assistant" && git add docs/superpowers/specs` (2026-05-22 17:51)
+  - `Bash` → `mkdir -p /Users/intermatrixnaut/Documents/Claude\ AI\ personal\ Assistant/.planning` (2026-05-22 19:16)
+  - `Write` → `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/.planning/PROJECT.md` (2026-05-22 19:30)
+  - `Bash` → `cd "/Users/intermatrixnaut/Documents/Claude AI personal Assistant" && node "$HOME/.claude/get-shit-d` (2026-05-22 19:30)
+  - `Bash` → `cat ~/.gsd/defaults.json 2>/dev/null` (2026-05-22 19:31)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
