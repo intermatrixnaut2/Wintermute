@@ -2472,3 +2472,27 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-05-22 22:00
+- **Session:** `d70d08e1-11d2-4149-a842-bcec210308e2`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 10 actions:**
+  - `Write` → `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/.worktrees/speechify-phase1/speechify-server/routers/health.py` (2026-05-22 22:07)
+  - `Write` → `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/.worktrees/speechify-phase1/speechify-server/main.py` (2026-05-22 22:07)
+  - `Write` → `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/.worktrees/speechify-phase1/speechify-server/models/schemas.py` (2026-05-22 22:07)
+  - `Bash` → `cd /Users/intermatrixnaut/Documents/Claude\ AI\ personal\ Assistant/.worktrees/speechify-phase1/spee` (2026-05-22 22:11)
+  - `Bash` → `node "$HOME/.claude/get-shit-done/bin/gsd-tools.cjs" init phase-op "1" 2>&1` (2026-05-22 22:12)
+  - `Bash` → `cd /Users/intermatrixnaut/Documents/Claude\ AI\ personal\ Assistant/.worktrees/speechify-phase1/spee` (2026-05-22 22:12)
+  - `Bash` → `ls .planning/codebase/*.md 2>/dev/null && echo "found"` (2026-05-22 22:12)
+  - `Bash` → `cat .planning/ROADMAP.md 2>/dev/null` (2026-05-22 22:12)
+  - `Bash` → `cat .planning/REQUIREMENTS.md 2>/dev/null` (2026-05-22 22:12)
+  - `Bash` → `cd /Users/intermatrixnaut/Documents/Claude\ AI\ personal\ Assistant/.worktrees/speechify-phase1 && g` (2026-05-22 22:16)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
