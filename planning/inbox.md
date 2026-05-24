@@ -2552,3 +2552,27 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-05-23 20:01
+- **Session:** `3a240863-9f2a-4774-b539-1c50ae4dcfde`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 10 actions:**
+  - `Bash` → `ls /Users/intermatrixnaut/Downloads/Depth-Anything-V2-main/checkpoints 2>/dev/null` (2026-05-23 20:01)
+  - `Bash` → `python3 -c "import torch; print('torch ok, MPS:', torch.backends.mps.is_available())" 2>/dev/null &&` (2026-05-23 20:02)
+  - `Bash` → `python3 -c "import cv2; print('cv2 ok')" 2>&1; python3 -c "import matplotlib; print('matplotlib ok')` (2026-05-23 20:02)
+  - `Bash` → `mkdir -p /Users/intermatrixnaut/.claude/skills/depth-map/scripts` (2026-05-23 20:02)
+  - `Write` → `/Users/intermatrixnaut/.claude/skills/depth-map/scripts/depth_map.sh` (2026-05-23 20:02)
+  - `Bash` → `chmod +x /Users/intermatrixnaut/.claude/skills/depth-map/scripts/depth_map.sh` (2026-05-23 20:03)
+  - `Write` → `/Users/intermatrixnaut/.claude/skills/depth-map/SKILL.md` (2026-05-23 20:03)
+  - `Edit` → `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/CLAUDE.md` (2026-05-23 20:04)
+  - `Bash` → `bash -n /Users/intermatrixnaut/.claude/skills/depth-map/scripts/depth_map.sh && echo "syntax ok"` (2026-05-23 20:04)
+  - `Bash` → `pip3 show opencv-python 2>&1` (2026-05-23 20:04)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
