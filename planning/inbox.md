@@ -2641,3 +2641,27 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-05-23 20:55
+- **Session:** `7c8105db-bf54-40d7-ba6b-5c5152fee234`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 10 actions:**
+  - `Bash` → `which jq && jq --version` (2026-05-23 20:59)
+  - `Bash` → `~/.claude/skills/depth-map-pro/scripts/depth_pro_map.sh /Users/intermatrixnaut/Pictures/b72a4c90-e71` (2026-05-23 21:00)
+  - `Bash` → `SRC="/Users/intermatrixnaut/Documents/Claude AI personal Assistant/dotclaude-main" PROJ="/Users/inte` (2026-05-23 21:00)
+  - `Bash` → `tail -50 /private/tmp/claude-501/-Users-intermatrixnaut-Documents-Claude-AI-personal-Assistant/8f1ac` (2026-05-23 21:00)
+  - `Bash` → `ls -la /Users/intermatrixnaut/Pictures/*depthpro* 2>/dev/null && echo "DONE"` (2026-05-23 21:01)
+  - `Bash` → `cat /private/tmp/claude-501/-Users-intermatrixnaut-Documents-Claude-AI-personal-Assistant/8f1ac426-b` (2026-05-23 21:01)
+  - `Write` → `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/.claude/settings.json` (2026-05-23 21:01)
+  - `Bash` → `echo "=== ~/.claude/agents/ ===" && ls ~/.claude/agents/ && echo "" && echo "=== .claude/rules/ ==="` (2026-05-23 21:02)
+  - `Bash` → `ls -la "/Users/intermatrixnaut/Documents/Claude AI personal Assistant/.claude/hooks/"*.sh` (2026-05-23 21:02)
+  - `Write` → `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/.claude/settings.json` (2026-05-23 21:10)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
