@@ -45,6 +45,9 @@
     .p-stk  {border-color:#3a2a1a;} .p-stk  h2{color:#a84;}
     .p-mesh {border-color:#2a2a1a;} .p-mesh h2{color:#887;}
     .p-vid  {border-color:#2a1a3a;} .p-vid  h2{color:#87a;}
+    .p-stare{border-color:#2a1842;} .p-stare h2{color:#c9a;letter-spacing:.18em;}
+    .stare-manual{display:none;font-size:9px;color:#9af;line-height:1.65;margin-bottom:9px;border-left:2px solid #3a2060;padding-left:8px;max-height:200px;overflow-y:auto;}
+    .stare-manual b{color:#caa;} .stare-manual .dim{color:#c9a;font-weight:bold;font-size:10px;}
 
     .sep{border:none;border-top:1px solid #1a1a1a;margin:5px 0;}
 
@@ -84,6 +87,11 @@
       <option value="normals">Normals</option><option value="toon">Cel/Toon</option>
       <option value="xray">X-Ray</option><option value="depth">Depth</option>
       <option value="hologram">Hologram</option><option value="clay">Clay</option>
+      <option disabled style="color:#333;">── STARE ──</option>
+      <option value="quantum">Quantum Entangle</option>
+      <option value="mindfield">Mind Field</option>
+      <option value="chronowarp">Chrono Warp</option>
+      <option value="starecore">STARE Core</option>
     </select>
   </div>
   <div id="status-a" class="small">No model loaded</div>
@@ -206,6 +214,11 @@
       <option value="standard">Standard PBR</option><option value="wireframe">Wireframe</option>
       <option value="normals">Normals</option><option value="toon">Cel/Toon</option>
       <option value="xray">X-Ray</option><option value="hologram">Hologram</option><option value="clay">Clay</option>
+      <option disabled style="color:#333;">── STARE ──</option>
+      <option value="quantum">Quantum Entangle</option>
+      <option value="mindfield">Mind Field</option>
+      <option value="chronowarp">Chrono Warp</option>
+      <option value="starecore">STARE Core</option>
     </select>
   </div>
   <div id="status-b" class="small">No model B loaded</div>
@@ -257,6 +270,55 @@
   <div class="row"><label>Ambient</label><input type="range" id="ambient" min="0" max="3" step=".1" value=".5"/><span class="val" id="ambient-val">0.5</span></div>
   <div class="row"><label>Roughness</label><input type="range" id="roughness" min="0" max="1" step=".01" value=".5"/><span class="val" id="roughness-val">0.50</span></div>
   <div class="row"><label>Metalness</label><input type="range" id="metalness" min="0" max="1" step=".01" value=".1"/><span class="val" id="metalness-val">0.10</span></div>
+</div>
+
+<!-- ── STARE Operations ── -->
+<div class="panel p-stare">
+  <h2>
+    <span>STARE Operations</span>
+    <button id="stare-manual-btn" style="font-size:8px;padding:2px 8px;border-color:#3a2060;color:#b9a;letter-spacing:.1em;">MANUAL</button>
+  </h2>
+  <div id="stare-manual" class="stare-manual">
+    <div class="dim">PSYCHEPHYSICOLOCOMOTION OPERATIONS MANUAL</div>
+    <br>
+    <b>S</b>PATIAL — Triaxial locomotion field; body warps spatial surround via standing wave signature across X·Y·Z.<br>
+    <b>T</b>EMPORAL — Time dilation: velocity (v/c) drives Lorentz factor; Δt Factor multiplies subjective duration.<br>
+    <b>A</b>WARENESS — Consciousness radiates a psyche-field at Mind Hz. Theta 4–8 Hz = meditation; Alpha 8–12 Hz = alert; Gamma 30+ Hz = peak binding.<br>
+    <b>R</b>ESONANCE — Quantum entanglement couples observer and observed. Coherence 0 = decoherent, 1 = maximal non-local phase-lock. Phase Φ sets relative quantum state (0–2π).<br>
+    <b>E</b>XPRESSION — Unified locomotion: spatial + temporal + awareness + resonance as one psychephysicolocomotion event.<br>
+    <hr style="border:none;border-top:1px solid #1a1030;margin:5px 0;"/>
+    <div class="dim">OPERATIONAL PROTOCOL</div><br>
+    1. Set <b>Coherence</b> to match entanglement depth.<br>
+    2. Tune <b>Mind Hz</b> to target brainwave band.<br>
+    3. Engage <b>Δt Factor</b> to stretch perceptual present.<br>
+    4. Phase-lock <b>Φ</b> for constructive interference.<br>
+    5. Apply <b>STARE Core</b> shader to observe unified field.
+  </div>
+  <div class="row">
+    <label>Coherence</label>
+    <input type="range" id="stare-coherence" min="0" max="1" step=".01" value=".7"/>
+    <span class="val" id="stare-coherence-val">0.70</span>
+  </div>
+  <div class="row">
+    <label>Mind Hz</label>
+    <input type="range" id="stare-mindfreq" min=".5" max="40" step=".1" value="2"/>
+    <span class="val" id="stare-mindfreq-val">2.0</span>
+  </div>
+  <div class="row">
+    <label>Δt Factor</label>
+    <input type="range" id="stare-dilation" min="1" max="10" step=".1" value="1"/>
+    <span class="val" id="stare-dilation-val">1.0×</span>
+  </div>
+  <div class="row">
+    <label>v/c</label>
+    <input type="range" id="stare-velocity" min="0" max=".99" step=".01" value="0"/>
+    <span class="val" id="stare-velocity-val">0.00</span>
+  </div>
+  <div class="row">
+    <label>Phase Φ</label>
+    <input type="range" id="stare-phase" min="0" max="6.283" step=".01" value="0"/>
+    <span class="val" id="stare-phase-val">0.00</span>
+  </div>
 </div>
 
 <!-- ── Camera ── -->

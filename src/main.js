@@ -141,6 +141,81 @@ function buildMat(type, roughness=0.5, metalness=0.1) {
       void main(){float f=pow(1.-abs(dot(vN,vec3(0,0,1))),2.5);float sc=step(.5,fract(vP.y*8.-time*1.5));gl_FragColor=vec4(color*(f+.3),f*.9+sc*.15);}`,
       transparent:true,side:s,depthWrite:false}));
     case 'clay':return fx(new THREE.MeshStandardMaterial({color:0xc8a882,roughness:.95,metalness:0,side:s}));
+
+    // ── STARE shaders ──────────────────────────────────────────────────────
+    case 'quantum': return fx(new THREE.ShaderMaterial({
+      uniforms:{time:{value:0},coherence:{value:stareP.coherence},phase:{value:stareP.phase}},
+      vertexShader:`varying vec3 vN,vP;void main(){vN=normalize(normalMatrix*normal);vP=position;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}`,
+      fragmentShader:`uniform float time,coherence,phase;varying vec3 vN,vP;
+      void main(){
+        vec3 n=normalize(vN);
+        float wA=sin(vP.x*8.+time*2.1+phase)*cos(vP.y*6.-time*1.7)*sin(vP.z*7.+time*1.3);
+        float wB=cos(vP.x*7.5-time*1.9)*sin(vP.y*8.5+time*2.3+phase)*cos(vP.z*6.5-time*2.);
+        float itf=(wA+wB)*.5*coherence;
+        float fr=pow(1.-abs(dot(n,vec3(0.,0.,1.))),2.);
+        vec3 ca=vec3(0.,1.,1.),cb=vec3(1.,0.,1.);
+        vec3 col=mix(ca,cb,itf*.5+.5)+fr*.4*mix(cb,ca,sin(time*.5)*.5+.5);
+        col+=vec3(.12)*max(0.,wA*wB);
+        gl_FragColor=vec4(col,.9+fr*.1);}`,
+      transparent:true,side:s,depthWrite:false}));
+
+    case 'mindfield': return fx(new THREE.ShaderMaterial({
+      uniforms:{time:{value:0},mindFreq:{value:stareP.mindFreq},coherence:{value:stareP.coherence}},
+      vertexShader:`varying vec3 vN,vP;void main(){vN=normalize(normalMatrix*normal);vP=position;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}`,
+      fragmentShader:`uniform float time,mindFreq,coherence;varying vec3 vN,vP;
+      void main(){
+        vec3 n=normalize(vN);
+        float r=length(vP);
+        float field=clamp(sin(r*10.-time*mindFreq*3.14159)/max(r*2.,.3),-1.,1.);
+        float a1=sin(vP.y*12.+time*mindFreq),a2=cos(vP.x*9.-time*mindFreq*1.618),a3=sin(vP.z*11.+time*mindFreq*.618);
+        float comp=(a1+a2+a3)/3.*coherence;
+        vec3 col=vec3(.2+comp*.3,.1+field*.4,.8+comp*.2);
+        float fr=pow(1.-max(dot(n,vec3(0.,0.,1.)),0.),3.);
+        col+=fr*vec3(.5,.2,1.);
+        gl_FragColor=vec4(col,.85+fr*.1);}`,
+      transparent:true,side:s,depthWrite:false}));
+
+    case 'chronowarp': return fx(new THREE.ShaderMaterial({
+      uniforms:{time:{value:0},dilationFactor:{value:stareP.dilationFactor},velocity:{value:stareP.velocity}},
+      vertexShader:`varying vec3 vN,vP;void main(){vN=normalize(normalMatrix*normal);vP=position;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}`,
+      fragmentShader:`uniform float time,dilationFactor,velocity;varying vec3 vN,vP;
+      void main(){
+        vec3 n=normalize(vN);
+        float gamma=1./sqrt(max(1.-velocity*velocity,.001));
+        float dt=time/max(dilationFactor,.01);
+        float dop=clamp(1.+velocity*n.z,0.,2.);
+        vec3 blue=vec3(.2,.4,1.),red=vec3(1.,.3,.1);
+        vec3 chrono=mix(red,blue,dop*.5);
+        float ripple=(sin(length(vP)*15.-dt*3.)*.5+.5)*exp(-length(vP)*.5);
+        float shimmer=sin(vP.x*gamma*8.+time)*cos(vP.y*gamma*7.-time*1.2);
+        vec3 col=chrono*(.6+ripple*.3)+vec3(shimmer*.1);
+        float fr=pow(1.-abs(dot(n,vec3(0.,0.,1.))),2.5);
+        col+=fr*chrono*gamma*.3;
+        gl_FragColor=vec4(col,.88+fr*.1);}`,
+      transparent:true,side:s,depthWrite:false}));
+
+    case 'starecore': return fx(new THREE.ShaderMaterial({
+      uniforms:{time:{value:0},coherence:{value:stareP.coherence},mindFreq:{value:stareP.mindFreq},dilationFactor:{value:stareP.dilationFactor},phase:{value:stareP.phase}},
+      vertexShader:`varying vec3 vN,vP;void main(){vN=normalize(normalMatrix*normal);vP=position;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}`,
+      fragmentShader:`uniform float time,coherence,mindFreq,dilationFactor,phase;varying vec3 vN,vP;
+      void main(){
+        vec3 n=normalize(vN);
+        float fr=pow(1.-abs(dot(n,vec3(0.,0.,1.))),2.);
+        float sx=sin(vP.x*7.+time*1.1),sy=sin(vP.y*9.-time*.9),sz=sin(vP.z*8.+time*1.3);
+        float spatial=(sx*sy+sy*sz+sz*sx)/3.;
+        float chrono=sin(length(vP)*12.-time/max(dilationFactor,.01)*4.)*.5+.5;
+        float r=length(vP);
+        float awareness=sin(r*10.-time*mindFreq*3.)*coherence;
+        float qA=sin(vP.x*8.+time*2.1+phase)*cos(vP.y*6.-time*1.7);
+        float qB=cos(vP.x*7.5-time*1.9)*sin(vP.y*8.5+time*2.3+phase);
+        float resonance=(qA+qB)*.5;
+        vec3 gold=vec3(1.,.84,0.),violet=vec3(.54,.17,.89),teal=vec3(0.,.87,.87);
+        vec3 col=mix(violet,gold,chrono);
+        col=mix(col,teal,clamp(awareness*.5+.5,0.,1.));
+        col+=spatial*.15*gold+resonance*.1*teal+fr*.4*violet;
+        gl_FragColor=vec4(col,.92+fr*.08);}`,
+      transparent:true,side:s,depthWrite:false}));
+
     default: return fx(new THREE.MeshStandardMaterial({color:0xaaaaaa,side:s}));
   }
 }
@@ -222,6 +297,10 @@ let arrayGroup = null;
 
 // Stack
 const stack = { enabled:false, dir:1, gap:0.5 };
+
+// ─── STARE Quantum-Mechanics Parameters ───────────────────────────────────────
+const stareP = { coherence:0.7, mindFreq:2.0, dilationFactor:1.0, velocity:0.0, phase:0.0 };
+const STARE_SHADERS = new Set(['quantum','mindfield','chronowarp','starecore']);
 
 // ─── Bounds Helper ────────────────────────────────────────────────────────────
 
@@ -432,6 +511,10 @@ async function exportVideo() {
     if(slotB.shader==='hologram'&&!slotB.texEnabled) {
       modelB?.traverse(c=>{ if(c.isMesh&&c.material.uniforms?.time) c.material.uniforms.time.value=t; });
     }
+
+    // Advance STARE
+    if(STARE_SHADERS.has(slotA.shader)&&!slotA.texEnabled) updateSTAREUniforms(getActiveA(), t);
+    if(STARE_SHADERS.has(slotB.shader)&&!slotB.texEnabled) updateSTAREUniforms(modelB, t);
 
     // Advance texture animations
     [{ slot:slotA, grp:getActiveA() }, { slot:slotB, grp:modelB }].forEach(({slot,grp})=>{
@@ -664,6 +747,22 @@ document.getElementById('export-vid-btn').addEventListener('click', ()=>{
   exportVideo().catch(e=>{ console.error(e); alert(`Export failed: ${e.message}`); document.getElementById('vid-progress-wrap').style.display='none'; });
 });
 
+// ─── STARE Uniform Updater ────────────────────────────────────────────────────
+
+function updateSTAREUniforms(group, t) {
+  if (!group) return;
+  group.traverse(c => {
+    if (!c.isMesh || !c.material.uniforms) return;
+    const u = c.material.uniforms;
+    if (u.time)          u.time.value          = t;
+    if (u.coherence)     u.coherence.value      = stareP.coherence;
+    if (u.mindFreq)      u.mindFreq.value       = stareP.mindFreq;
+    if (u.dilationFactor)u.dilationFactor.value = stareP.dilationFactor;
+    if (u.velocity)      u.velocity.value       = stareP.velocity;
+    if (u.phase)         u.phase.value          = stareP.phase;
+  });
+}
+
 // ─── Animate Loop ─────────────────────────────────────────────────────────────
 
 const clock=new THREE.Clock(); let prevT=0;
@@ -675,6 +774,10 @@ function animate() {
   // Hologram time
   if(slotA.shader==='hologram'&&!slotA.texEnabled) getActiveA()?.traverse(c=>{ if(c.isMesh&&c.material.uniforms?.time) c.material.uniforms.time.value=t; });
   if(slotB.shader==='hologram'&&!slotB.texEnabled) modelB?.traverse(c=>{ if(c.isMesh&&c.material.uniforms?.time) c.material.uniforms.time.value=t; });
+
+  // STARE uniforms (time + all quantum-mechanics params)
+  if(STARE_SHADERS.has(slotA.shader)&&!slotA.texEnabled) updateSTAREUniforms(getActiveA(), t);
+  if(STARE_SHADERS.has(slotB.shader)&&!slotB.texEnabled) updateSTAREUniforms(modelB, t);
 
   // Texture animation scroll (per-slot)
   [{ slot:slotA, grp:getActiveA() }, { slot:slotB, grp:modelB }].forEach(({slot,grp})=>{
@@ -693,4 +796,27 @@ function animate() {
 }
 
 window.addEventListener('resize', ()=>{ camera.aspect=innerWidth/innerHeight; camera.updateProjectionMatrix(); renderer.setSize(innerWidth,innerHeight); });
+
+// ─── STARE Controls ───────────────────────────────────────────────────────────
+
+function bindSTARE(id, valId, dec, prop, suffix) {
+  const s=document.getElementById(id), d=document.getElementById(valId);
+  if(!s) return;
+  s.addEventListener('input', ()=>{
+    const v=parseFloat(s.value);
+    d.textContent = v.toFixed(dec) + (suffix||'');
+    stareP[prop] = v;
+  });
+}
+bindSTARE('stare-coherence',     'stare-coherence-val',  2, 'coherence');
+bindSTARE('stare-mindfreq',      'stare-mindfreq-val',   1, 'mindFreq');
+bindSTARE('stare-dilation',      'stare-dilation-val',   1, 'dilationFactor', '×');
+bindSTARE('stare-velocity',      'stare-velocity-val',   2, 'velocity');
+bindSTARE('stare-phase',         'stare-phase-val',      2, 'phase');
+
+document.getElementById('stare-manual-btn').addEventListener('click', ()=>{
+  const m=document.getElementById('stare-manual');
+  m.style.display = m.style.display==='none' ? 'block' : 'none';
+});
+
 animate();
