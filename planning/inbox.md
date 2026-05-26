@@ -3075,3 +3075,27 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-05-26 13:58
+- **Session:** `9fc0f93b-ced3-4cbb-bc91-340de0ab2c12`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 10 actions:**
+  - `Bash` → `tmutil listlocalsnapshots / 2>/dev/null` (2026-05-26 14:09)
+  - `Bash` → `tmutil deletelocalsnapshots 2026-05-25 2>&1 echo "exit: $?"` (2026-05-26 14:09)
+  - `Bash` → `tmutil help deletelocalsnapshots 2>&1` (2026-05-26 14:09)
+  - `Bash` → `# Try deleting by full snapshot name one at a time tmutil listlocalsnapshots / 2>/dev/null` (2026-05-26 14:09)
+  - `Bash` → `df -h /System/Volumes/Data` (2026-05-26 14:09)
+  - `Bash` → `tmutil listlocalsnapshots / 2>/dev/null` (2026-05-26 14:10)
+  - `Bash` → `tmutil listlocalsnapshots / 2>/dev/null` (2026-05-26 14:11)
+  - `Bash` → `sleep 3 && df -h /System/Volumes/Data` (2026-05-26 14:11)
+  - `Bash` → `date +%Y-%m-%d` (2026-05-26 14:13)
+  - `Write` → `/Users/intermatrixnaut/ClaudeSyncVault/Sessions/2026-05-26-mac-disk-cleanup.md` (2026-05-26 14:13)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
