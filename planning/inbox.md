@@ -3147,3 +3147,27 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-05-27 12:39
+- **Session:** `f7062c8b-5c6b-41fc-aef5-874292d90d70`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 10 actions:**
+  - `Bash` → `node "/Users/intermatrixnaut/Documents/Claude AI personal Assistant/claude-video-vision-main/mcp-ser` (2026-05-27 12:41)
+  - `Bash` → `ffprobe -v quiet -print_format json -show_format -show_streams "/Users/intermatrixnaut/Documents/Cla` (2026-05-27 12:42)
+  - `Bash` → `ffprobe -v error -show_format -show_streams "/Users/intermatrixnaut/Documents/Claude AI personal Ass` (2026-05-27 12:42)
+  - `Bash` → `find "/Users/intermatrixnaut/Documents/Claude AI personal Assistant/" -maxdepth 1 -name "*.mp4" -not` (2026-05-27 12:42)
+  - `Bash` → `ls "/Users/intermatrixnaut/Documents/Claude AI personal Assistant/"` (2026-05-27 12:51)
+  - `Bash` → `cat "/Users/intermatrixnaut/Documents/Claude AI personal Assistant/STARE-BioRit-Economy-System.md" 2` (2026-05-27 12:51)
+  - `Bash` → `cat "/Users/intermatrixnaut/Documents/Claude AI personal Assistant/PLAN-cacusi-clathrate-stare-integ` (2026-05-27 12:51)
+  - `Bash` → `cat "/Users/intermatrixnaut/Documents/Claude AI personal Assistant/PLAN-stare-add-planes-of-existenc` (2026-05-27 12:51)
+  - `Bash` → `_ROOT=$(git rev-parse --show-toplevel 2>/dev/null) P="" [ -n "$MAKE_PDF_BIN" ] && [ -x "$MAKE_PDF_BI` (2026-05-27 12:55)
+  - `Write` → `/tmp/3I-ATLAS-MOF-Akashic-Capture.md` (2026-05-27 13:06)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
