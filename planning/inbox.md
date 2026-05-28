@@ -3304,3 +3304,27 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-05-27 18:44
+- **Session:** `f5bb19a1-6310-4ebe-af03-b73cf3116874`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/stare-short/fonts`
+- **Last 10 actions:**
+  - `Bash` → `cd "/Users/intermatrixnaut/Documents/Claude AI personal Assistant/stare-intro" && npx hyperframes pr` (2026-05-27 19:37)
+  - `Write` → `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/vowel-vector-physics-primer.md` (2026-05-27 19:37)
+  - `Bash` → `P="$HOME/.claude/skills/gstack/make-pdf/dist/pdf" "$P" --help 2>&1` (2026-05-27 19:38)
+  - `Bash` → `P="$HOME/.claude/skills/gstack/make-pdf/dist/pdf" # Put positional args FIRST, flags after "$P" gene` (2026-05-27 19:38)
+  - `Bash` → `cp /tmp/Vowel-Vector-Physics-Primer.pdf "/Users/intermatrixnaut/Documents/Claude AI personal Assista` (2026-05-27 19:39)
+  - `Bash` → `P="$HOME/.claude/skills/gstack/make-pdf/dist/pdf" _TEL_END=$(date +%s) _TEL_START=$(date +%s) _TEL_D` (2026-05-27 19:39)
+  - `Bash` → `find /Users/intermatrixnaut -name "stare-preview.png" 2>/dev/null` (2026-05-27 19:58)
+  - `Bash` → `cd "/Users/intermatrixnaut/Documents/Claude AI personal Assistant/stare-intro" && npx hyperframes sn` (2026-05-27 19:59)
+  - `Bash` → `pkill -f "hyperframes preview" 2>/dev/null; echo "preview stopped"` (2026-05-27 20:00)
+  - `Bash` → `cd "/Users/intermatrixnaut/Documents/Claude AI personal Assistant/stare-intro" && npx hyperframes re` (2026-05-27 20:01)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
