@@ -1,0 +1,8 @@
+{
+  "ig_session_id": "your_sessionid_cookie_value",
+  "ig_csrftoken": "your_csrftoken_cookie_value",
+  "ig_user_id": "your_ds_user_id_cookie_value",
+  "notion_token": "ntn_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "notion_database_id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "collections_filter": []
+}

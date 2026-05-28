@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """
-Instagram Saves → Notion sync script.
+Instagram Saves → Notion sync.
 
-Reads saved posts (and collections) from Instagram's private web API using
-browser session cookies, then syncs new ones into a Notion database.
-A state.json file tracks already-synced post IDs to prevent duplicates.
+Reads config.json from the same directory, fetches saved posts from the
+Instagram web API, and writes new ones to a Notion database.
+state.json tracks already-synced media IDs to prevent duplicates.
 """
 
 import json
 import logging
-import os
+import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
@@ -22,6 +22,7 @@ from notion_client import Client
 # ---------------------------------------------------------------------------
 
 SCRIPT_DIR = Path(__file__).parent
+CONFIG_FILE = SCRIPT_DIR / "config.json"
 STATE_FILE = SCRIPT_DIR / "state.json"
 LOG_FILE = SCRIPT_DIR / "sync.log"
 
@@ -35,64 +36,28 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-# ---------------------------------------------------------------------------
-# Config — all values come from environment variables
-# ---------------------------------------------------------------------------
-
-IG_SESSION_ID = os.environ["IG_SESSION_ID"]
-IG_CSRF_TOKEN = os.environ["IG_CSRF_TOKEN"]
-IG_DS_USER_ID = os.environ["IG_DS_USER_ID"]
-NOTION_TOKEN = os.environ["NOTION_TOKEN"]
-NOTION_SAVES_DB_ID = os.environ["NOTION_SAVES_DB_ID"]
 
 # ---------------------------------------------------------------------------
-# Instagram HTTP helpers
+# Config
 # ---------------------------------------------------------------------------
 
-_IG_HEADERS = {
-    "x-csrftoken": IG_CSRF_TOKEN,
-    "x-ig-app-id": "936619743392459",
-    "user-agent": (
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/124.0.0.0 Safari/537.36"
-    ),
-    "accept": "*/*",
-    "accept-language": "en-US,en;q=0.9",
-    "referer": "https://www.instagram.com/",
-    "x-requested-with": "XMLHttpRequest",
-}
 
-_IG_COOKIES = {
-    "sessionid": IG_SESSION_ID,
-    "csrftoken": IG_CSRF_TOKEN,
-    "ds_user_id": IG_DS_USER_ID,
-}
-
-MEDIA_TYPE_MAP = {1: "Post", 2: "Reel", 8: "Carousel"}
-
-
-def _ig_get(url: str, params: dict | None = None) -> dict:
-    resp = requests.get(
-        url,
-        headers=_IG_HEADERS,
-        cookies=_IG_COOKIES,
-        params=params,
-        timeout=30,
-    )
-    resp.raise_for_status()
-    return resp.json()
+def _load_config() -> dict:
+    if not CONFIG_FILE.exists():
+        log.error(f"config.json not found at {CONFIG_FILE}")
+        sys.exit(1)
+    return json.loads(CONFIG_FILE.read_text())
 
 
 # ---------------------------------------------------------------------------
-# State management
+# State
 # ---------------------------------------------------------------------------
 
 
 def _load_state() -> dict:
     if STATE_FILE.exists():
         return json.loads(STATE_FILE.read_text())
-    return {"synced_ids": [], "last_sync": None}
+    return {"synced_ids": []}
 
 
 def _save_state(state: dict) -> None:
@@ -100,182 +65,285 @@ def _save_state(state: dict) -> None:
 
 
 # ---------------------------------------------------------------------------
+# Instagram HTTP helpers
+# ---------------------------------------------------------------------------
+
+
+def _make_session(cfg: dict) -> requests.Session:
+    s = requests.Session()
+    s.headers.update(
+        {
+            "user-agent": (
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/124.0.0.0 Safari/537.36"
+            ),
+            "x-ig-app-id": "936619743392459",
+            "x-csrftoken": cfg["ig_csrftoken"],
+            "accept": "*/*",
+            "accept-language": "en-US,en;q=0.9",
+            "referer": "https://www.instagram.com/",
+            "x-requested-with": "XMLHttpRequest",
+        }
+    )
+    s.cookies.update(
+        {
+            "sessionid": cfg["ig_session_id"],
+            "csrftoken": cfg["ig_csrftoken"],
+            "ds_user_id": cfg["ig_user_id"],
+        }
+    )
+    return s
+
+
+def _validate_session(session: requests.Session) -> None:
+    try:
+        resp = session.get(
+            "https://www.instagram.com/api/v1/accounts/edit/web_form_data/",
+            timeout=30,
+        )
+        if resp.status_code in (401, 403):
+            log.error(
+                "Instagram session is invalid or expired. "
+                "Refresh your cookies (sessionid, csrftoken, ds_user_id) and update config.json."
+            )
+            sys.exit(1)
+        resp.raise_for_status()
+    except requests.HTTPError as exc:
+        if exc.response is not None and exc.response.status_code in (401, 403):
+            log.error(
+                "Instagram session is invalid or expired. "
+                "Refresh your cookies (sessionid, csrftoken, ds_user_id) and update config.json."
+            )
+            sys.exit(1)
+        raise
+
+
+# ---------------------------------------------------------------------------
+# Type detection
+# ---------------------------------------------------------------------------
+
+# media_type → base label (product_type can override for video)
+_MEDIA_TYPE_BASE = {1: "Post", 2: "Reel", 8: "Carousel"}
+
+
+def _detect_type(media: dict) -> str:
+    media_type = media.get("media_type", 1)
+    product_type = (media.get("product_type") or "").lower()
+    if media_type == 2:
+        if product_type == "igtv":
+            return "IGTV"
+        return "Reel"
+    return _MEDIA_TYPE_BASE.get(media_type, "Post")
+
+
+# ---------------------------------------------------------------------------
 # Instagram fetchers
 # ---------------------------------------------------------------------------
 
 
-def _fetch_collections() -> list[dict]:
-    """Return the user's named Instagram collections."""
-    data = _ig_get(
+def _fetch_collections(session: requests.Session) -> list[dict]:
+    resp = session.get(
         "https://www.instagram.com/api/v1/collections/list/",
-        params={"collection_types": '["ALL"]'},
+        params={
+            "collection_types": '["ALL_MEDIA_AUTO_COLLECTION","PRODUCT_AUTO_COLLECTION","MEDIA"]'
+        },
+        timeout=30,
     )
-    return data.get("items", [])
+    resp.raise_for_status()
+    return resp.json().get("items", [])
 
 
-def _fetch_collection_media(collection_id: str) -> list[dict]:
-    """Paginate through all media in a collection."""
+def _fetch_collection_media(session: requests.Session, collection_id: str) -> list[dict]:
     items: list[dict] = []
     next_max_id: str | None = None
-
     while True:
         params: dict = {"count": 50}
         if next_max_id:
             params["max_id"] = next_max_id
-
-        data = _ig_get(
+        resp = session.get(
             f"https://www.instagram.com/api/v1/feed/collection/{collection_id}/",
             params=params,
+            timeout=30,
         )
+        resp.raise_for_status()
+        data = resp.json()
         items.extend(data.get("items", []))
         next_max_id = data.get("next_max_id")
         if not next_max_id:
             break
         time.sleep(1.0)
-
     return items
 
 
-def fetch_all_saves() -> list[tuple[dict, str]]:
-    """
-    Returns a deduplicated list of (media_item, collection_name) tuples.
-    Collection media is fetched first; then the general "All Posts" feed
-    catches anything not in a named collection.
-    """
-    result: list[tuple[dict, str]] = []
-    seen_ids: set[str] = set()
-
-    def _add(media: dict, collection_name: str) -> None:
-        mid = str(media.get("pk") or media.get("id", ""))
-        if mid and mid not in seen_ids:
-            seen_ids.add(mid)
-            result.append((media, collection_name))
-
-    # Named collections
-    log.info("Fetching collections...")
-    try:
-        collections = _fetch_collections()
-        log.info(f"Found {len(collections)} collections")
-    except Exception as exc:
-        log.warning(f"Could not fetch collections: {exc}")
-        collections = []
-
-    for col in collections:
-        col_id = col.get("collection_id", "")
-        col_name = col.get("collection_name") or "All Posts"
-        log.info(f"  Fetching collection '{col_name}' ({col_id})")
-        try:
-            for item in _fetch_collection_media(col_id):
-                media = item.get("media", item)
-                _add(media, col_name)
-        except Exception as exc:
-            log.warning(f"  Failed to fetch collection '{col_name}': {exc}")
-        time.sleep(0.5)
-
-    # General saved posts feed — catches items not in named collections
-    log.info("Fetching general saved posts feed...")
+def _fetch_saved_posts(session: requests.Session) -> list[dict]:
+    items: list[dict] = []
     next_max_id: str | None = None
     while True:
         params: dict = {"count": 50}
         if next_max_id:
-            params["max_id"] = next_max_id
-        try:
-            data = _ig_get(
-                "https://www.instagram.com/api/v1/feed/saved/posts/",
-                params=params,
-            )
-            for item in data.get("items", []):
-                media = item.get("media", item)
-                _add(media, "All Posts")
-            next_max_id = data.get("next_max_id")
-            if not next_max_id:
-                break
-            time.sleep(1.0)
-        except Exception as exc:
-            log.warning(f"Stopped paginating saved feed: {exc}")
+            params["next_max_id"] = next_max_id
+        resp = session.get(
+            "https://www.instagram.com/api/v1/feed/saved/posts/",
+            params=params,
+            timeout=30,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        items.extend(data.get("items", []))
+        next_max_id = data.get("next_max_id")
+        if not next_max_id:
             break
+        time.sleep(1.0)
+    return items
 
-    log.info(f"Total unique saves found: {len(result)}")
+
+def fetch_all_saves(
+    session: requests.Session, collections_filter: list[str] | None
+) -> list[tuple[dict, str | None]]:
+    """
+    Returns (media, collection_name_or_None) tuples, deduplicated by media pk.
+    If collections_filter is set, only items from matching collections are returned.
+    """
+    result: list[tuple[dict, str | None]] = []
+    seen_ids: set[str] = set()
+
+    def _add(media: dict, col_name: str | None) -> None:
+        mid = str(media.get("pk") or media.get("id", ""))
+        if mid and mid not in seen_ids:
+            seen_ids.add(mid)
+            result.append((media, col_name))
+
+    log.info("Fetching collections...")
+    try:
+        collections = _fetch_collections(session)
+        log.info(f"  Found {len(collections)} collections")
+    except Exception as exc:
+        log.warning(f"  Could not fetch collections: {exc}")
+        collections = []
+
+    for col in collections:
+        col_name = col.get("collection_name") or ""
+        if collections_filter and col_name not in collections_filter:
+            log.info(f"  Skipping collection '{col_name}' (not in filter)")
+            continue
+        col_id = col.get("collection_id", "")
+        log.info(f"  Fetching collection '{col_name}' ({col_id})")
+        try:
+            for item in _fetch_collection_media(session, col_id):
+                _add(item.get("media", item), col_name)
+        except Exception as exc:
+            log.warning(f"  Failed to fetch '{col_name}': {exc}")
+        time.sleep(0.5)
+
+    if not collections_filter:
+        log.info("Fetching general saved posts feed...")
+        try:
+            for item in _fetch_saved_posts(session):
+                _add(item.get("media", item), None)
+        except Exception as exc:
+            log.warning(f"  Saved feed error: {exc}")
+
+    log.info(f"Total unique saves fetched: {len(result)}")
     return result
 
 
 # ---------------------------------------------------------------------------
-# Notion helpers
+# Notion property builder
 # ---------------------------------------------------------------------------
 
 
-def _truncate(text: str, limit: int = 2000) -> str:
+def _truncate(text: str, limit: int) -> str:
     return text if len(text) <= limit else text[: limit - 3] + "..."
 
 
-def _media_to_notion_props(media: dict, collection_name: str) -> dict:
-    media_type_id = media.get("media_type", 1)
-    content_type = MEDIA_TYPE_MAP.get(media_type_id, "Post")
+def _build_props(media: dict, collection_name: str | None) -> dict:
+    content_type = _detect_type(media)
     shortcode = media.get("code", "")
-
-    if content_type == "Reel":
-        url = f"https://www.instagram.com/reel/{shortcode}/"
-    else:
-        url = f"https://www.instagram.com/p/{shortcode}/"
-
-    username = media.get("user", {}).get("username", "unknown")
-    caption = _truncate((media.get("caption") or {}).get("text", ""))
-    post_id = str(media.get("pk") or media.get("id", ""))
-    title = _truncate(f"@{username} — {content_type}", 255)
+    username = (media.get("user") or {}).get("username", "unknown")
+    caption_raw = ((media.get("caption") or {}).get("text") or "")
+    media_id = str(media.get("pk") or media.get("id", ""))
     now = datetime.now(timezone.utc).isoformat()
 
-    return {
-        "Name": {"title": [{"text": {"content": title}}]},
+    url = (
+        f"https://www.instagram.com/reel/{shortcode}/"
+        if content_type == "Reel"
+        else f"https://www.instagram.com/p/{shortcode}/"
+    )
+
+    props: dict = {
+        "Name": {"title": [{"text": {"content": _truncate(f"@{username}/{shortcode}", 255)}}]},
+        "URL": {"url": url},
+        "Type": {"select": {"name": content_type}},
         "Author": {"rich_text": [{"text": {"content": f"@{username}"}}]},
-        "Caption": {"rich_text": [{"text": {"content": caption}}]},
-        "URL": {"url": url or None},
-        "Content Type": {"select": {"name": content_type}},
-        "Collection": {"select": {"name": collection_name}},
-        "Post ID": {"rich_text": [{"text": {"content": post_id}}]},
-        "Processed": {"checkbox": False},
-        "Synced At": {"date": {"start": now}},
+        "Status": {"select": {"name": "New"}},
+        "Media ID": {"rich_text": [{"text": {"content": media_id}}]},
+        "Saved": {"date": {"start": now}},
+        "Caption": {"rich_text": [{"text": {"content": _truncate(caption_raw, 1900)}}]},
     }
+
+    if collection_name:
+        props["Collection"] = {"select": {"name": collection_name}}
+
+    return props
 
 
 # ---------------------------------------------------------------------------
-# Main sync
+# Main
 # ---------------------------------------------------------------------------
 
 
 def sync() -> None:
+    cfg = _load_config()
+    collections_filter: list[str] | None = cfg.get("collections_filter") or None
+
+    session = _make_session(cfg)
+
+    log.info("Validating Instagram session...")
+    _validate_session(session)
+    log.info("Session valid.")
+
     state = _load_state()
     synced_ids: set[str] = set(state["synced_ids"])
 
-    notion = Client(auth=NOTION_TOKEN)
+    notion = Client(auth=cfg["notion_token"])
 
-    saves = fetch_all_saves()
+    saves = fetch_all_saves(session, collections_filter)
+
     new_count = 0
+    skipped_count = 0
     error_count = 0
+    total = len(saves)
 
-    for media, collection_name in saves:
-        post_id = str(media.get("pk") or media.get("id", ""))
-        if not post_id or post_id in synced_ids:
+    for media, col_name in saves:
+        media_id = str(media.get("pk") or media.get("id", ""))
+        if not media_id:
+            skipped_count += 1
+            continue
+        if media_id in synced_ids:
+            skipped_count += 1
             continue
 
         try:
-            props = _media_to_notion_props(media, collection_name)
+            props = _build_props(media, col_name)
             notion.pages.create(
-                parent={"database_id": NOTION_SAVES_DB_ID},
+                parent={"database_id": cfg["notion_database_id"]},
                 properties=props,
             )
-            synced_ids.add(post_id)
+            synced_ids.add(media_id)
+            state["synced_ids"] = list(synced_ids)
+            _save_state(state)
             new_count += 1
-            log.info(f"  + Synced: {props['Name']['title'][0]['text']['content']}")
-            time.sleep(0.35)  # stay well within Notion's 3 req/s limit
+            log.info(f"  + {props['Name']['title'][0]['text']['content']}")
+            time.sleep(0.35)
         except Exception as exc:
             error_count += 1
-            log.error(f"  ! Failed to sync post {post_id}: {exc}")
+            log.error(f"  ! Failed {media_id}: {exc}")
 
-    state["synced_ids"] = list(synced_ids)
-    state["last_sync"] = datetime.now(timezone.utc).isoformat()
-    _save_state(state)
-
-    log.info(f"Sync complete — new: {new_count}, errors: {error_count}")
+    log.info(
+        f"Sync complete: {new_count} new | {skipped_count} skipped"
+        f" | {total} total | {error_count} errors"
+    )
 
 
 if __name__ == "__main__":

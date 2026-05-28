@@ -6,5 +6,6 @@ dist/
 # Instagram-Notion sync
 instagram-notion-sync/.venv/
 instagram-notion-sync/config.env
+instagram-notion-sync/config.json
 instagram-notion-sync/state.json
 instagram-notion-sync/sync.log
