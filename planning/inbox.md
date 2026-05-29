@@ -3328,3 +3328,20 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-05-28 12:01
+- **Session:** `6dc80949-adf5-4670-a745-679174aab4bc`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 3 actions:**
+  - `Bash` → `which ffmpeg && ffmpeg -version 2>&1` (2026-05-28 12:01)
+  - `Bash` → `ffmpeg -i '/Users/intermatrixnaut/Desktop/what is STARE.mov' -c:v copy -c:a aac '/Users/intermatrixn` (2026-05-28 12:01)
+  - `Bash` → `ffprobe -v quiet -print_format json -show_streams '/Users/intermatrixnaut/Desktop/what is STARE.mov'` (2026-05-28 12:05)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
