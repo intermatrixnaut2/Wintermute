@@ -3404,3 +3404,21 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-05-29 10:25
+- **Session:** `6da13787-2251-4bea-90cb-fcb9e68c6c28`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 4 actions:**
+  - `Bash` → `eval "$(~/.claude/skills/gstack/bin/gstack-slug 2>/dev/null)" && mkdir -p ~/.gstack/projects/$SLUG B` (2026-05-29 10:25)
+  - `Bash` → `git remote get-url origin 2>/dev/null` (2026-05-29 10:25)
+  - `Write` → `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/PLAN-mortgage-newlywed-leads.md` (2026-05-29 10:26)
+  - `Bash` → `RESTORE_PATH="/Users/intermatrixnaut/.gstack/projects/ClaudeAIpersonalAssistant/main-autoplan-restor` (2026-05-29 10:26)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
