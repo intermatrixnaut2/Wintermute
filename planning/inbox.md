@@ -3422,3 +3422,27 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-05-29 10:42
+- **Session:** `6da13787-2251-4bea-90cb-fcb9e68c6c28`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 10 actions:**
+  - `Bash` → `set -a; source ~/.config/mortgage-leads/.env; set +a  # Try with full act_ prefix format curl -s -X` (2026-05-29 22:35)
+  - `Bash` → `set -a; source ~/.config/mortgage-leads/.env; set +a  # Update .env with the correct Business Manage` (2026-05-29 22:35)
+  - `Bash` → `set -a; source ~/.config/mortgage-leads/.env; set +a  # Create the Custom Audience curl -s -X POST "` (2026-05-29 22:37)
+  - `Bash` → `set -a; source ~/.config/mortgage-leads/.env; set +a  AUDIENCE_ID="120240714387150395" sed -i '' "s` (2026-05-29 22:37)
+  - `Bash` → `set -a; source ~/.config/mortgage-leads/.env; set +a cd /Users/intermatrixnaut/Documents/mortgage-le` (2026-05-30 14:23)
+  - `Bash` → `cd /Users/intermatrixnaut/Documents/mortgage-leads venv/bin/python - << 'PYEOF' import requests from` (2026-05-30 14:24)
+  - `Bash` → `agent-browser --session divorce open "https://www2.miamidadeclerk.gov/circuits/" agent-browser --ses` (2026-05-30 14:24)
+  - `Bash` → `firecrawl map "https://www.miamidadeclerk.gov" --search "divorce dissolution family court records se` (2026-05-30 14:25)
+  - `Bash` → `agent-browser --session divorce open "https://www.browardclerk.org/Web2/CaseSearchECA/Index/?AccessL` (2026-05-30 14:25)
+  - `Bash` → `agent-browser --session miami open "https://www2.miamidadeclerk.gov/ocs/" agent-browser --session mi` (2026-05-30 14:25)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
