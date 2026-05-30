@@ -3446,3 +3446,27 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-05-30 14:26
+- **Session:** `4fcca80d-706d-462b-a804-97dbb1047f03`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 10 actions:**
+  - `Bash` → `cd /Users/intermatrixnaut/Documents/Claude\ AI\ personal\ Assistant/.worktrees/speechify-phase1/spee` (2026-05-30 15:38)
+  - `Bash` → `# Martin County - check what the Records Search portal links to agent-browser --session mar snapshot` (2026-05-30 15:38)
+  - `Bash` → `# Get the actual href of the Martin Records Search link agent-browser --session mar get attr @e287 h` (2026-05-30 15:38)
+  - `Bash` → `cd /Users/intermatrixnaut/Documents/Claude\ AI\ personal\ Assistant/.worktrees/speechify-phase1 && l` (2026-05-30 15:38)
+  - `Bash` → `# Martin - look for their case search portal firecrawl map "https://www.martinclerk.com/335/Records-` (2026-05-30 15:38)
+  - `Bash` → `cd /Users/intermatrixnaut/Documents/Claude\ AI\ personal\ Assistant/.worktrees/speechify-phase1 && n` (2026-05-30 15:39)
+  - `Bash` → `# Check Florida's central vital stats / marriage license index agent-browser --session pbr open "htt` (2026-05-30 15:39)
+  - `Bash` → `firecrawl map "https://www.floridahealth.gov/certificates-records/marriage-certificates/" --limit 15` (2026-05-30 15:39)
+  - `Bash` → `# Try to find Palm Beach marriage license portal for url in \   "https://www.pbcgov.org/clerk/marria` (2026-05-30 15:41)
+  - `Bash` → `cd /Users/intermatrixnaut/Documents/Claude\ AI\ personal\ Assistant/.worktrees/speechify-phase1/spee` (2026-05-30 15:41)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
