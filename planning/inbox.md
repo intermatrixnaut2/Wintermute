@@ -3470,3 +3470,20 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-05-30 15:41
+- **Session:** `6da13787-2251-4bea-90cb-fcb9e68c6c28`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 3 actions:**
+  - `Bash` → `agent-browser --session col open "https://www.collierclerk.com/marriage-licenses" 2>/dev/null agent-` (2026-05-30 15:41)
+  - `Bash` → `# Palm Beach - try their official records search (marriages recorded there) agent-browser --session` (2026-05-30 15:42)
+  - `Bash` → `agent-browser --session col get attr @e70 href 2>/dev/null agent-browser --session col click @e70 2>` (2026-05-30 15:42)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
