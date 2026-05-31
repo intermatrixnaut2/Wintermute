@@ -3642,3 +3642,20 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-05-31 16:29
+- **Session:** `0e0b4237-3d3c-4973-89da-518330017f4e`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 3 actions:**
+  - `Bash` → `ls /Users/intermatrixnaut/Documents/Claude\ AI\ personal\ Assistant/SUNO* 2>/dev/null; ls /Users/int` (2026-05-31 16:29)
+  - `Bash` → `mkdir -p "/Users/intermatrixnaut/Documents/Claude AI personal Assistant/stare-local-mcp/src" && ls "` (2026-05-31 16:47)
+  - `Write` → `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/stare-local-mcp/package.json` (2026-05-31 16:48)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
