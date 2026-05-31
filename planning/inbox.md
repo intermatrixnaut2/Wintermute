@@ -3659,3 +3659,25 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-05-31 16:48
+- **Session:** `fac26143-546c-4e1b-8413-fbb370e805cd`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 8 actions:**
+  - `Write` → `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/stare-local-mcp/tsconfig.json` (2026-05-31 16:48)
+  - `Bash` → `_UPD=$(~/.claude/skills/gstack/bin/gstack-update-check 2>/dev/null` (2026-05-31 16:48)
+  - `Write` → `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/stare-local-mcp/manifest.json` (2026-05-31 16:48)
+  - `Bash` → `eval "$(~/.claude/skills/gstack/bin/gstack-slug 2>/dev/null)" 2>/dev/null` (2026-05-31 16:49)
+  - `Bash` → `_AUTO="" [ "${GSTACK_AUTO_UPGRADE:-}" = "1" ] && _AUTO="true" [ -z "$_AUTO" ] && _AUTO=$(~/.claude/s` (2026-05-31 16:49)
+  - `Write` → `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/stare-local-mcp/src/index.ts` (2026-05-31 16:58)
+  - `Bash` → `ls /Users/intermatrixnaut/Documents/Claude\ AI\ personal\ Assistant/PLAN-stare* 2>/dev/null; ls /Use` (2026-05-31 16:58)
+  - `Bash` → `if [ -d "$HOME/.claude/skills/gstack/.git" ]; then   INSTALL_TYPE="global-git"   INSTALL_DIR="$HOME/` (2026-05-31 16:58)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
