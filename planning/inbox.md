@@ -3816,3 +3816,27 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-06-01 10:08
+- **Session:** `db2d0b93-f50a-4d68-b925-63271e6f6d6e`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 10 actions:**
+  - `Bash` → `which agent-browser SITE_KEY="6Le7np8qAAAAAAEMezDvhuXyKV4EA6BWZTvdK_E6" BASE_URL="https://www2.miami` (2026-06-01 11:18)
+  - `Bash` → `TOKEN_FILE="/tmp/ocs_captcha_token.txt" rm -f "$TOKEN_FILE"  agent-browser open "https://www2.miamid` (2026-06-01 11:21)
+  - `Bash` → `agent-browser get url 2>&1 agent-browser get title 2>&1` (2026-06-01 11:22)
+  - `Bash` → `cat <<'JSEOF'` (2026-06-01 11:22)
+  - `Bash` → `cat <<'JSEOF'` (2026-06-01 11:23)
+  - `Bash` → `# Now get the token with polling cat <<'JSEOF'` (2026-06-01 11:23)
+  - `Edit` → `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/divorce-scraper/scraper/miami_dade_client.py` (2026-06-01 11:23)
+  - `Bash` → `cd "/Users/intermatrixnaut/Documents/Claude AI personal Assistant/divorce-scraper/scraper" NOTION_AP` (2026-06-01 11:24)
+  - `Edit` → `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/divorce-scraper/scraper/miami_dade_client.py` (2026-06-01 11:25)
+  - `Edit` → `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/divorce-scraper/scraper/miami_dade_client.py` (2026-06-01 11:25)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
