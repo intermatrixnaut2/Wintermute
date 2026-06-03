@@ -3976,3 +3976,27 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-06-01 18:14
+- **Session:** `b16488b7-34eb-4cd9-8daa-620035eb25f3`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 10 actions:**
+  - `Bash` → `cat << 'EOF'` (2026-06-02 09:22)
+  - `Bash` → `# Check what site key the page is actually using echo "JSON.stringify(Object.keys(___grecaptcha_cfg?` (2026-06-02 09:45)
+  - `Bash` → `agent-browser open "https://www2.miamidadeclerk.gov/ocs/assets/index-Bgs0A0ZR.js" 2>&1 agent-browser` (2026-06-02 13:35)
+  - `Bash` → `agent-browser open "https://www2.miamidadeclerk.gov/ocs/" 2>&1 agent-browser wait --load networkidle` (2026-06-02 13:35)
+  - `Bash` → `# Check the registration URL and what's needed agent-browser open "https://www2.miamidadeclerk.gov/u` (2026-06-02 13:35)
+  - `Bash` → `agent-browser open "https://www2.miamidadeclerk.gov/usermanagementservices/?hs=OCSB" 2>&1 agent-brow` (2026-06-02 13:50)
+  - `Bash` → `echo "document.getElementById('ApplicationCallID')?.value"` (2026-06-02 13:50)
+  - `Write` → `/tmp/patch_miami_dade_client.py` (2026-06-02 13:52)
+  - `Bash` → `python3 /tmp/patch_miami_dade_client.py` (2026-06-02 13:52)
+  - `Write` → `/tmp/add_ocs_env.py` (2026-06-02 13:52)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
