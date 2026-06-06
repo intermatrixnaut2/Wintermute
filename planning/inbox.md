@@ -4544,3 +4544,27 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-06-05 17:51
+- **Session:** `1f340052-ada5-463c-88b2-a8cd64246018`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 10 actions:**
+  - `Bash` → `grep -n "47332\` (2026-06-05 17:51)
+  - `Bash` → `lsof -iTCP:47332 -sTCP:LISTEN -P 2>/dev/null` (2026-06-05 17:52)
+  - `Bash` → `curl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:47332/mcp && echo ""` (2026-06-05 17:52)
+  - `Bash` → `ps -p 49424 -o pid,command 2>/dev/null; ps -p 50046 -o pid,command 2>/dev/null` (2026-06-05 17:52)
+  - `Bash` → `curl -sv http://127.0.0.1:47332/mcp 2>&1` (2026-06-05 17:52)
+  - `Bash` → `pkill -f "tsx.*src/main.ts" 2>/dev/null; sleep 1; lsof -iTCP -sTCP:LISTEN -P` (2026-06-05 17:53)
+  - `Bash` → `cd /Users/intermatrixnaut/Downloads/OpenAlice-master && PATH=/usr/local/bin:$PATH pnpm dev > /tmp/op` (2026-06-05 17:53)
+  - `Bash` → `sleep 6 && lsof -iTCP -sTCP:LISTEN -P 2>/dev/null` (2026-06-05 17:53)
+  - `Bash` → `curl -s -o /dev/null -w "%{http_code}" -X POST http://127.0.0.1:47332/mcp \   -H "Content-Type: appl` (2026-06-05 17:53)
+  - `Bash` → `curl -s -w "\nHTTP %{http_code}" -X POST http://127.0.0.1:47332/mcp \   -H "Content-Type: applicatio` (2026-06-05 17:53)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
