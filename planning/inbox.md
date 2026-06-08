@@ -4568,3 +4568,27 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-06-06 13:55
+- **Session:** `cdccbbc6-9db5-4c09-b06f-a9795111af99`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 10 actions:**
+  - `Bash` → `# Add FIREBASE_ADMIN_SDK_JSON to .env (remove any existing line first, then append) ENVFILE=~/Deskto` (2026-06-07 09:39)
+  - `Bash` → `cd ~/Desktop/JIMI\ DRIVING\ APP/JimiDriveApp/backend && docker-compose up -d notification-service 2>` (2026-06-07 09:40)
+  - `Bash` → `sleep 6 && docker-compose -f ~/Desktop/JIMI\ DRIVING\ APP/JimiDriveApp/backend/docker-compose.yml lo` (2026-06-07 09:40)
+  - `Edit` → `/Users/intermatrixnaut/Desktop/JIMI DRIVING APP/JimiDriveApp/backend/docker-compose.yml` (2026-06-07 09:40)
+  - `Bash` → `cd ~/Desktop/JIMI\ DRIVING\ APP/JimiDriveApp/backend && docker-compose up -d notification-service 2>` (2026-06-07 09:41)
+  - `Bash` → `# Send a test notification to verify Firebase actually initializes (not just dev fallback) curl -s -` (2026-06-07 09:41)
+  - `Bash` → `# Verify the file is accessible inside the container docker exec backend-notification-service-1 ls -` (2026-06-07 09:43)
+  - `Bash` → `_UPD=$(~/.claude/skills/gstack/bin/gstack-update-check 2>/dev/null` (2026-06-07 15:35)
+  - `Bash` → `cd ~/.claude/skills/gstack && ./setup 2>&1` (2026-06-07 15:35)
+  - `Write` → `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/PLAN-jimi-android-playstore.md` (2026-06-07 15:36)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
