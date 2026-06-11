@@ -4655,3 +4655,27 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-06-09 16:47
+- **Session:** `c0a174da-3baa-443d-ae70-b5f37b555abc`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 10 actions:**
+  - `Write` → `/Users/intermatrixnaut/.local/bin/hw-check` (2026-06-09 22:15)
+  - `Write` → `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/MisoTTS-main/misotts_cli.py` (2026-06-10 09:01)
+  - `Bash` → `misotts "test" --skip-hw-check 2>&1` (2026-06-10 09:23)
+  - `Bash` → `hw-check --json --min-total-ram-gb 16 --warn-total-ram-gb 20 --min-free-ram-gb 8 --min-disk-gb 40 --` (2026-06-10 09:27)
+  - `Write` → `/Users/intermatrixnaut/.claude/skills/misotts/SKILL.md` (2026-06-10 09:34)
+  - `Bash` → `cat /private/tmp/claude-501/-Users-intermatrixnaut-Documents-Claude-AI-personal-Assistant/c0a174da-3` (2026-06-10 09:34)
+  - `Edit` → `/Users/intermatrixnaut/.claude/CLAUDE.md` (2026-06-10 09:34)
+  - `Edit` → `/Users/intermatrixnaut/.claude/projects/-Users-intermatrixnaut-Documents-Claude-AI-personal-Assistant/memory/project_misotts_setup.md` (2026-06-10 09:35)
+  - `Edit` → `/Users/intermatrixnaut/.claude/projects/-Users-intermatrixnaut-Documents-Claude-AI-personal-Assistant/memory/project_misotts_setup.md` (2026-06-10 09:35)
+  - `Edit` → `/Users/intermatrixnaut/.claude/projects/-Users-intermatrixnaut-Documents-Claude-AI-personal-Assistant/memory/MEMORY.md` (2026-06-10 09:35)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
