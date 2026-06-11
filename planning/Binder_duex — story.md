@@ -16,15 +16,24 @@ as set-pieces. Invented words appear rarely and land hard.
 
 ## Scenes
 
-### Scene 1 (boards 1–2) — Arrival at the Astrocity
+### Scene 1 (boards 1–2) — The Armor Series
 
-The descent into RMR was nothing like the brochures of memory I had carried
-from Earth. Vauhgohd took the last gradient at a canter, wheels purring their
+We came to the Astrocity to collect the new armor. That is the plain fact
+of the assignment, and Luhpis insisted I record it plainly: the astro-armor
+series for Vauhgohd's long crossing — carapieces of a make his hangars could
+not grow, fitted nowhere else in the sector. "Seven in the series," he said,
+reading the requisition off his monocle. "And the ratio matters, Kincaide.
+Armor to series. A creature that wears all seven at once isn't armored,
+he's entombed. We take what the weighing says he can carry and not one
+plate more."
+
+Vauhgohd took the last gradient at a canter, wheels purring their
 algorithms, and the Astrocity rose out of the stellar shallows like a reef
-that had decided, long ago, to mean something. Every tower was lettered. I do
-not mean signage. I mean the towers themselves were letters, a civic alphabet
-laid out in strata — the laboratories cursive, the chapels upright, the
-merchant exchanges a quick shorthand leaning into the wind of orbit.
+that had decided, long ago, to mean something. Every tower was lettered. I
+do not mean signage. I mean the towers themselves were letters, a civic
+alphabet laid out in strata — the laboratories cursive, the chapels
+upright, the merchant exchanges a quick shorthand leaning into the wind of
+orbit.
 
 "Ora Aura," Luhpis said, by way of introduction, sweeping a gauntleted hand
 across the skyline. "The aura is the ora. The city prays what it is."
@@ -49,6 +58,9 @@ I would learn, but *listening* to it.
 
 `[board 2: "SOCRIT GEOLIBITS" — read here as the city's civic-stone records,
 the streets themselves as a library; could also read as a guild name.]`
+`[boards 1–2: "SRS RMR" = armor series (confirmed); where RMR/SRS appears
+it is treated as the fitting-ratio Luhpis names — armor to series, what a
+creature can carry and not one plate more.]`
 
 ### Scene 2 (boards 3–4) — The Ledger Quarter
 
@@ -90,10 +102,15 @@ untranslated; awaiting the artwork.]`
 
 I asked Ghayllieuxjah, on the third night, which clock we kept.
 
-"You were born into the 12:60," Ghaylle said. "Sixty minutes, twelve months,
-the machine count. The 13:28 is the moon count — thirteen turnings,
-twenty-eight days. The city runs both because its citizens arrive from both.
-Conversion is the chief local industry, and the chief local injury."
+"You were born into the 12:60," Ghaylle said. "Twelve hours to the day,
+sixty minutes to the hour — the river-count, Kincaide. Your Sumerians cut
+time that way between the Tigris and Euphrates and the cut never healed;
+every clock you ever owned was Akkadian under the casing. The 13:28 is the
+moon count — thirteen months to the solar year, twenty-eight days to the
+month. Your own people decrypted it late, out of the Mayan reckonings, one
+dreamer reading the stones the right way round. The city runs both because
+its citizens arrive from both. Conversion is the chief local industry, and
+the chief local injury."
 
 "Injury?"
 
@@ -247,12 +264,13 @@ manifest; mission-codes left untranslated this round.]`
 
 ## Open questions for round two
 
-1. **RMR / SRS RMR** — I read this as the Astrocity's name/sigil. Is it a
-   place, an order, or a person?
-2. **JL** — recurs on nearly every board. A signature? A character
-   (J.L.)? A unit?
-3. **The two clocks** — is the 12:60 → 13:28 conversion citywide history,
-   or a choice each citizen makes (as written here)?
+1. ~~RMR / SRS RMR~~ — **resolved**: RMR = armor, SRS = series; RMR/SRS
+   read as a ratio where context supports it (now Scene 1's fitting-ratio).
+2. **JL** — likely an OCR misreading of a drawn glyph; deferred until the
+   artwork is viewed on the author's machine. Nothing is built on it.
+3. **The two clocks** — provenance confirmed (Akkadian/Sumerian 12:60 vs
+   Argüelles' 13:28). Still open: is the conversion citywide history, or a
+   choice each citizen makes (as written here)?
 4. **Bartonian Wall** — whose name is Barton? The 19.471 latitude is kept;
    confirm the tetrahedral reading.
 5. **GONDOLY / PAKAE / VILLAR VIS** (board 3) — districts, vessels, or

@@ -67,11 +67,21 @@ For `flesh` mode, study Viaticum's dialogue especially:
 
 ## Step 2 — Walk the storyboard
 
-Read the storyboard page by page. For each page or panel, remember: what's
-drawn is a **rough first-round interpretation of symbols**. Treat each
-symbol as a seed, not a spec — identify what it gestures at, then develop
-past it. For each beat note briefly: the symbol/figure as drawn, what it
-plausibly encodes in this universe, and the emotional charge implied.
+First read `LEXICON.md` (next to this file): it holds the author's
+confirmed decodings of recurring ideograms (RMR = armor, SRS = series,
+12:60 = the Akkadian/Sumerian time division, 13:28 = Argüelles' 13-moon
+count, etc.). Never re-guess a confirmed entry; treat provisional entries
+as open to revision; after each round, record new confirmations and
+corrections back into the lexicon.
+
+Then read the storyboard page by page. For each page or panel, remember:
+what's drawn is a **rough first-round interpretation of symbols**. Treat
+each symbol as a seed, not a spec — identify what it gestures at, then
+develop past it. For each beat note briefly: the symbol/figure as drawn,
+what it plausibly encodes in this universe, and the emotional charge
+implied. Beware OCR artifacts when working from extracted text (e.g. the
+recurring "JL" is likely a drawn glyph misread as letters) — flag rather
+than build on anything that may be a misreading.
 
 ## Step 3 — Develop
 
