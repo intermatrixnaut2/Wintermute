@@ -271,6 +271,154 @@ opalescence at once, and walked into them unweighed at last, and unafraid.
 `[boards 15–19: "ARK", "MRR MSL MSN", "AQAIL", "BIORCA" — the departure
 manifest; mission-codes left untranslated this round.]`
 
+### Scene 7 — The Far Side of the Gate
+
+I had expected silence, or darkness, or one of those held-breath
+transitions that mark a genuine threshold. What I found instead was
+a post office.
+
+Three wooden counters. A clerk with sleeves rolled to the elbow
+who looked up without surprise, stamped the air where my boarding
+papers would have been, and said, in unaccented common: "Exit
+recorded. Manifests for your party in the tray."
+
+Luhpis, arriving one step behind me with Vauhgohd still plated in
+the new carapiece, had the presence of mind to collect them. I stood
+at the window and looked back through the lintel from the other
+side and found the city already different viewed from outside its
+own sentence. The tower-letters were legible as letters, not as
+buildings. The whole civic alphabet resolved itself into a single
+inscription I had been standing inside too long to read. I will not
+transcribe it here. Ghayllieuxjah has it in the records, rendered
+in both counts, and it is not mine to give away.
+
+"AQAIL," Luhpis read from his manifest, and Vauhgohd's new plating
+rang once at the sound, a pleased bell-note. "That is our heading.
+Vauhgohd knows it. He has been there before — in a prior series, a
+prior armor. He just did not know, until the weighing, that he was
+allowed to go back."
+
+"And BIORCA?"
+
+"A waypoint. On the far side of AQAIL. I believe — " Luhpis held
+the manifest at different angles, the way he always does when he is
+reading something in a script he half-knows — "I believe that is
+where we will find her."
+
+I did not ask him to be more specific.
+
+`[boards 15–19: AQAIL and BIORCA taken as destination-codes in the
+departure manifest; their physical character is an open question.]`
+
+### Scene 8 — The Black Quarter (GONDOLY)
+
+We did not leave immediately. The post-office side of the GODGATE
+had a waiting concourse, and in the waiting concourse there was a
+message Maathilde had left for me, sealed in the city's old wax
+over a pressed feather.
+
+*You will want to understand the quarter you avoided on your way in.
+It is called GONDOLY. I could not tell you on arrival — the weighing
+requires that you not know what you are walking past, only that you
+are choosing to walk past it. You have passed the weighing. So.*
+
+*The black-glassed quarter speaks a dialect the city has been
+trying to translate for four hundred years. We know what it is not:
+it is not military, civil, laboratory, theological, or mercantile.
+The leading theory of the Ledger Exchange is that it is grief,
+unprocessed — the dialect of things that refuse to enter the ledger,
+refuse the weighing, refuse both counts. GONDOLY does not have two
+clocks. GONDOLY has no clocks. The city built the glass black so
+that what lives inside would not have to read its own
+reflection in the 12:60, the way some people cannot look at
+old photographs. We do not revise GONDOLY. GONDOLY is not
+wrong. It is only not yet ready. Every city has one.*
+
+*When you find her, Kincaide, she will have come through something
+like GONDOLY first. That is the usual route. Through the dark
+quarter, through the weighing, through the gate. Tell her I know
+the path. Tell her the clocks both stopped for me also, once, and
+started again in the 13:28, and that there is no shame in any of
+it.*
+
+*— M.Q.*
+
+I folded the letter and put it against my sphere.
+
+"PAKAE," said Ghayllieuxjah, quietly against my spine. "And VILLAR
+VIS. Two more districts, Kincaide — outside the wall, where the
+gate-road runs. I have them in the catalog. They are not quarters
+of grief. PAKAE is the quarter of the almost-healed, and VILLAR VIS
+is the quarter of the fully-converted, the ones who took the
+scaffolding down early, who live in pure 13:28 and leave doors open
+for the others. The gate-road runs through all three in sequence.
+It was always a road, not a skyline. The city made sure you could
+only read the sequence walking out."
+
+We walked out. Through GONDOLY, all dark glass and very old
+architecture, where something that was not quite silence lived in
+the angles of the streets. Through PAKAE, which smelled of bread
+and fresh plaster, where people mended things in doorways and
+looked up at us with faces I recognized: the specific tiredness of
+returning. Through VILLAR VIS, which needed no description —
+it was simply the place you arrived at when you had stopped needing
+the description.
+
+`[board 3: GONDOLY / PAKAE / VILLAR VIS — read here as the
+three-stage gate-road: grief undischarged / the almost-healed /
+the fully-converted. Correct against artwork if the boards show
+them as districts inside the wall rather than the road outside.]`
+
+### Scene 9 — Deux Sept
+
+On the last gradient before open space, Luhpis read the city's
+designation from the manifest's footer and laughed — a surprised,
+delighted laugh, the kind I had not heard from him in a long
+campaign.
+
+"DEUX SEPT. I thought it was a catalog number." He turned to show me.
+In the official notation the manifest used, beneath the civic
+alphabet and above the grid coordinates, the city's formal name
+was given as 2-7. Two and seven. "What does it mean?" I asked.
+
+"It means the city has been telling you the whole time," Ghaylle
+said, and I felt the warm amusement of it through my spine. "Two
+clocks. Seven armor. The ratio is the name. The thing a civilization
+can carry and not one piece more — the same reckoning Luhpis
+gave you at the requisition. Two counts: the one the mind invented,
+the one the world kept. Seven plates: the full series that would
+entomb, and the lesser number Vauhgohd could actually bear. A
+civilization that names itself Two-Seven is a civilization that has
+learned to take what the weighing says and not reach for the
+seventh plate."
+
+Vauhgohd made no oracular pronouncement. He simply continued
+walking, his new carapiece catching the stellar light in the
+colors of the spectrum choir — red orange yellow, the full run
+of the conversion, the consent carried in armor rather than in
+time.
+
+"It's also the date," Luhpis said, still reading the manifest,
+and would not be pressed further.
+
+The benben lintel sang behind us until we were too far to hear it.
+Ghayllieuxjah held the last note in the records. I did not ask
+it to stop.
+
+`[DEUX SEPT — proposed reading: the city's formal name encodes
+the two-clock duality (DEUX) and the seven-piece armor ratio
+(SEPT). Also possibly a calendar date in the 360+5 round,
+or a chapter designation; the manifest footer reading awaits
+the author's confirmation.]`
+
+`[Bartonian Wall: the 19.471° latitude is the tetrahedral
+angle — a tetrahedron inscribed in a sphere touches the surface
+at that latitude. "Barton" is held open; provisionally the name
+of the surveyor or the geometer who first drew the Wall at that
+precise degree, encoding the relationship between the city's
+reckoning of time and the geometry of the world it stands in.
+Correct against the boards.]`
+
 ## Open questions for round two
 
 1. ~~RMR / SRS RMR~~ — **resolved**: RMR = armor, SRS = series; RMR/SRS
@@ -282,14 +430,20 @@ manifest; mission-codes left untranslated this round.]`
    the artificial mind-division of time-space differs from the natural
    order, and is visibly mid-crossing; the two dials and double ledgers
    are scaffolding of that transition (Scenes 2–3 now written this way).
-4. **Bartonian Wall** — whose name is Barton? The 19.471 latitude is kept;
-   confirm the tetrahedral reading.
-5. **GONDOLY / PAKAE / VILLAR VIS** (board 3) — districts, vessels, or
-   persons?
-6. **DEUX SEPT** itself — two/seven: a chapter count, a date, a ratio, or
-   the city's true name?
+4. **Bartonian Wall** — provisional: Barton is the surveyor who placed the
+   Wall at the tetrahedral angle (19.471°). Confirm against artwork.
+5. ~~GONDOLY / PAKAE / VILLAR VIS~~ — **provisional**: the three-stage gate-road
+   outside the wall (grief undischarged / almost-healed / fully-converted).
+   Correct if boards place them inside the wall.
+6. ~~DEUX SEPT~~ — **provisional**: the city's name encodes the two-clock
+   duality and the seven-armor ratio. Confirm with author; secondary reading
+   as a calendar date left open.
 7. **New character: Maathilde Quill** — invented this round (from the MAAT
    and plume/feather marks). Keep, rename, or replace with an existing
    figure?
-8. **The unread black-glassed quarter** (Scene 1) — planted from the one
-   OCR dialect that fit no category; cut if the boards don't support it.
+8. ~~The unread black-glassed quarter~~ — **resolved as GONDOLY**: the district
+   of unprocessed grief, untranslated dialect, no clocks. Cut if the boards
+   don't support this placement.
+9. **AQAIL / BIORCA** — destination codes in the departure manifest. What
+   are these places? The "her" that Kincaide is searching for (Anastasia)
+   is provisionally placed at BIORCA. Awaiting the next binder.

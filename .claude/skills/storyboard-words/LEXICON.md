@@ -20,9 +20,9 @@ confirmed entry.
 | Mark | Status |
 |---|---|
 | JL | Probably an OCR misreading of a drawn glyph, not letters — do not build on it until the artwork is viewed on the author's machine. |
-| GONDOLY / PAKAE / VILLAR VIS | Districts, vessels, or persons — unknown. |
-| DEUX SEPT | Two/seven — chapter count, date, ratio, or true name; unknown. |
-| Bartonian Wall | Whose name is Barton? 19.471 latitude noted (tetrahedral angle reading provisional). |
+| Bartonian Wall / Barton | The 19.471° tetrahedral angle is kept verbatim. "Barton" provisionally the surveyor who placed the Wall at that angle; confirm against artwork. |
+| AQAIL | Departure destination-code; physical character unknown. Provisionally where the party is headed after the Gate. |
+| BIORCA | Waypoint beyond AQAIL; provisionally where Anastasia (the "her" Kincaide searches for) may be found. |
 
 ## Provisional (Claude's first-round readings)
 
@@ -39,4 +39,8 @@ confirmed entry.
 | .618 | Golden section, in the grown architecture. |
 | AI:IA | The palindrome covenant — made mind and maker reading each other true in both directions. |
 | CIRC 360+5 | Calendar round: 360 days + 5 gate-days. |
-| ARK / MSL / MSN | Departure manifest, mission-codes. |
+| ARK / MSL / MSN | Departure manifest, mission-codes. MRR MSL MSN possibly armor-mission-names for the seven series; hold until next binder. |
+| DEUX SEPT | **Provisional**: the city's formal name — DEUX = the two clocks (12:60 / 13:28), SEPT = the seven-piece armor ratio. Also possibly a calendar date in the 360+5 round. Confirm with author. |
+| GONDOLY | **Provisional**: the black-glassed quarter; dialect of unprocessed grief, no clocks, four centuries untranslated. Placed on the gate-road outside the wall; correct if boards put it inside. |
+| PAKAE | **Provisional**: second district of the gate-road; the almost-healed. |
+| VILLAR VIS | **Provisional**: third district of the gate-road; the fully-converted, pure 13:28. |
