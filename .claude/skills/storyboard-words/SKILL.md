@@ -1,85 +1,114 @@
 ---
 name: storyboard-words
-description: Read a storyboard PDF page by page and derive creative words, titles, and lines in the user's established voice, learned from a reference work. Use when the user asks to derive words from a storyboard, caption panels, name sequences, or pull creative language out of a binder/storyboard PDF.
+description: Read a storyboard PDF page by page and develop it in the user's own voice — either fleshing the rough symbol interpretations into full story scenes with emotive dialogue (Viaticum register), or deriving compressed creative words and titles (01story10 register). Use when the user asks to flesh out a storyboard, write dialogue for panels, derive words from a storyboard, caption panels, or develop the Binder/DeuxSept boards into narrative.
 ---
 
-# Storyboard → Creative Words
+# Storyboard → Story (and Words)
 
-Derive creative language from a visual storyboard, written in the user's own
-voice as learned from a reference piece of their finished work.
+The user's storyboards are a *rough first-round interpretation of symbols* —
+not finished compositions. The job is to take that first pass and develop it
+in one of the user's two established voices, learned from their own work.
 
 ## Inputs
 
-Arguments: `$ARGUMENTS` may contain one or two PDF paths:
-`/storyboard-words <storyboard.pdf> [reference.pdf]`
+`/storyboard-words [mode] [storyboard] [reference]`
 
-Defaults when no arguments are given:
+- **mode**: `flesh` (default) or `words` — see Registers below.
+- **storyboard**: defaults to `Binder_duex.pdf`
+- **reference**: defaults per mode (Viaticum for `flesh`, 01story10 for `words`)
 
-- **Storyboard (source images):**
-  `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/Binder_duex.pdf`
-- **Voice reference (the user's finished work):**
-  `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/01story10-pdf.pdf`
+## Source files — local first, Drive fallback
 
-Both paths contain spaces — always quote them in shell commands. Prefer the
-Read tool (which renders PDF pages visually) over any text-extraction CLI;
-the artwork matters as much as any text on the page.
+Local paths (when running on the user's Mac; always quote — they contain
+spaces). All live in `/Users/intermatrixnaut/Documents/Claude AI personal
+Assistant/`:
 
-## Step 1 — Learn the voice from the reference
+| File | Local name | Google Drive file ID |
+|---|---|---|
+| Storyboard | `Binder_duex.pdf` | `13dkLKkHTFQYZr4rqaaE50m61d-1dh1sl` |
+| Narrative voice reference | `Viaticum.docx` | `1auWya9C-r5q1EDFRpXDAzlR36IxUNeLe` |
+| Mythic voice reference | `01story10-pdf.pdf` | `1-jdYdmY9RuoLpaig0IAS5GWWerhXsczA` |
 
-Read the reference PDF in full before looking at the storyboard. PDFs over
-10 pages require the `pages` parameter; read in chunks of up to 20 pages.
+If a local path doesn't exist (e.g. running in a remote/web session), read
+the same file through the Google Drive MCP tools using the file ID above
+(`read_file_content` for text; for the storyboard's *images*, download the
+PDF via `download_file_content` to a temp file and view pages with the Read
+tool). Prefer the Read tool for PDFs wherever possible — the artwork and
+symbols matter as much as any text.
 
-While reading, build a short **voice profile** (write it out before moving
-on, so it anchors the rest of the session):
+## The two registers
 
-- Diction: concrete vs. abstract, invented words, recurring vocabulary
-- Rhythm and length: fragments vs. full sentences, line breaks, repetition
-- Imagery domains the user returns to (light, machinery, water, bodies...)
-- Tone: deadpan, mythic, intimate, clinical — name it precisely
-- How words sit against images in their work: titles? captions? floating
-  phrases? narration?
+Both reference works share one universe (Kincaide McQuade, Anastasia,
+Vauhgohd the Organicycle, S.T.A.R.E., I.D.Y., biocomputers like
+Ghayllieuxjah). They differ in mode, and the skill must keep them distinct:
 
-Do not summarize the reference's plot. The deliverable from this step is
-*how the user writes*, not what they wrote about.
+- **Narrative register — `flesh` (Viaticum):** first-person or close-third
+  prose, linear scenes, conventional sentences whose strangeness lives in
+  what they describe. Intimate, domestic stakes inside cosmic events.
+  Emotive dialogue carries the scenes: characters reassure, plead, tease,
+  grieve, and say goodbye. Invented words are rare and land hard.
+- **Mythic register — `words` (01story10):** coded stanza-sections,
+  sound-driven alliterative lines, neologisms as fabric, archetypal
+  characters, no stable narrator. Compressed phrases, not scenes.
+
+## Step 1 — Learn the voice
+
+Read the reference for the chosen mode in full (chunk PDFs with `pages`,
+max 20 per request). Write out a short voice profile before continuing.
+For `flesh` mode, study Viaticum's dialogue especially:
+
+- How characters address each other by full name at emotional peaks
+  ("Kincaide Alexis McQuade...")
+- Reassurance and care as the dominant emotional currents — tenderness
+  against the backdrop of an overwhelming event
+- Dialogue tags that carry gesture and material detail (a tie straightened,
+  a card extended with two fingers)
+- Farewells as set-pieces ("Hugs and kisses. Sugarbear wishes.")
 
 ## Step 2 — Walk the storyboard
 
-Read the storyboard PDF page by page (again, chunked with `pages` if long).
-For each page or panel:
+Read the storyboard page by page. For each page or panel, remember: what's
+drawn is a **rough first-round interpretation of symbols**. Treat each
+symbol as a seed, not a spec — identify what it gestures at, then develop
+past it. For each beat note briefly: the symbol/figure as drawn, what it
+plausibly encodes in this universe, and the emotional charge implied.
 
-1. Note the visual beat in one plain sentence (composition, subject, motion,
-   mood) — this is scaffolding, kept brief.
-2. Derive the creative words **in the learned voice**: offer 2–4 options per
-   beat, ranging from a single word to a short line. These should read like
-   the user wrote them, not like alt-text or a synopsis.
+## Step 3 — Develop
 
-Resist generic description ("a figure stands in shadow"). The point is the
-leap from image to language the way the reference work makes that leap.
+**`flesh` mode (default):** write each page or run of related pages as a
+full prose scene in the Viaticum register:
 
-## Step 3 — Synthesize and deliver
+- Ground the scene in a body and a point of view; let dialogue do the
+  emotional work — characters speaking their wonder, fear, and devotion
+  rather than the narrator naming it.
+- Keep continuity with the existing mythos (characters and machines above)
+  unless the storyboard clearly introduces new figures — then name them in
+  the user's naming style and note that they're new.
+- Where a symbol is genuinely ambiguous, write the scene for the strongest
+  reading and add a one-line aside `[symbol on p.N could also read as ...]`
+  so the user can redirect on the next round. This is a first fleshing-out,
+  meant to be revised.
 
-After the page-by-page pass:
+**`words` mode:** as before — 2–4 compressed options per beat in the
+01story10 register, then throughlines and 3–5 title candidates.
 
-- Pull out throughlines: words or images that recurred and could title the
-  whole sequence. Offer 3–5 candidate titles.
-- Note any pages where the storyboard's energy shifts — act breaks the
-  language should honor.
+## Step 4 — Deliver
 
-Write the full output to a markdown file alongside the storyboard PDF
-(same folder, e.g. `Binder_duex — words.md`), structured as:
+Write the full output to a markdown file next to the storyboard when local
+(`Binder_duex — story.md` / `— words.md`); in remote sessions, save it in
+the repo under `planning/` and offer to also upload it to the same Drive
+folder. Structure for `flesh` mode:
 
 ```
-# <working title candidates>
-## Voice profile (one short paragraph)
-## Page-by-page words
-### p.1 — <one-line visual note>
-- option 1
-- option 2
+# <working title>
+## Voice profile
+## Scenes
+### Scene 1 (pp. N–M) — <one-line beat>
+<prose with dialogue>
+[symbol notes, if any]
 ...
-## Throughlines & titles
+## Open questions for round two
 ```
 
-Then give the user a short in-chat summary: the voice profile, the three
-strongest lines from the whole pass, and the title candidates. Ask nothing
-unless a PDF is missing or unreadable — if a default path doesn't exist,
-ask the user for the correct location rather than guessing.
+Finish with a short in-chat summary: the strongest scene, any new characters
+introduced, and the list of ambiguous symbols awaiting the user's call.
