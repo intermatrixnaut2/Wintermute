@@ -12,7 +12,8 @@ confirmed entry.
 | RMR | Armor | Author's abbreviation. |
 | SRS | Series | So SRS RMR = an armor series; RMR/SRS RMR may read as a *ratio* — depends on the surrounding ideograms, judge per board. |
 | 12:60 | Akkadian/Sumerian division of time-space | 12 hours to a day, 60 minutes to the hour — the inherited mechanical count. |
-| 13:28 | José Argüelles' Mayan-calendar decryption | 13 months to a solar year, 28 days to a month — the natural/lunar count. The 12:60 vs 13:28 opposition is the load-bearing pair of the boards. |
+| 13:28 | José Argüelles' Mayan-calendar decryption | 13 months to a solar year, 28 days to a month — the natural order. |
+| 12:60 → 13:28 | The story-arc itself | The civilization has acknowledged that the artificial "mind-division" of time-space is fundamentally different from the natural order of 13:28, and is undergoing a noticeable, civilization-wide transition. Not an individual choice; the whole society is mid-crossing. The load-bearing pair of the boards. |
 
 ## Unresolved
 

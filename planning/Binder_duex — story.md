@@ -66,8 +66,10 @@ creature can carry and not one plate more.]`
 
 They billeted us above the Ledger Quarter, where the city kept its two
 clocks. I noticed them the first evening: every public face bore two dials,
-one reading 12:60, one reading 13:28, and no two citizens consulted the same
-one.
+one reading 12:60, one reading 13:28, and you could read the age of a
+street by which dial its people consulted. The elders still glanced at the
+old count the way a healed man favors the leg that broke. The children did
+not appear to know the 12:60 was there.
 
 Our hostess in that quarter was a registrar of the theological exchange. She
 received us beneath a concourse Gaudí would have wept inside — columns grown,
@@ -108,14 +110,21 @@ time that way between the Tigris and Euphrates and the cut never healed;
 every clock you ever owned was Akkadian under the casing. The 13:28 is the
 moon count — thirteen months to the solar year, twenty-eight days to the
 month. Your own people decrypted it late, out of the Mayan reckonings, one
-dreamer reading the stones the right way round. The city runs both because
-its citizens arrive from both. Conversion is the chief local industry, and
-the chief local injury."
+dreamer reading the stones the right way round. This civilization made the
+same decryption — and then did the thing your people never did. They
+acknowledged it. Formally, in the ledgers, in both counts: *the 12:60 is a
+division of the mind, not of the world.* From the day of that entry, the
+whole city has been crossing. Not citizen by citizen, Kincaide — all of
+them, together, the way a forest changes season. Conversion is the chief
+local industry, and the chief local injury."
 
 "Injury?"
 
-"Time is load-bearing, Kincaide. Change the count and the building of you
-groans."
+"Time is load-bearing, Kincaide. A civilization that changes its count is
+a building changing its foundations with everyone still inside. The two
+dials, the double ledgers, the gate-days — all of it is scaffolding. One
+generation more, perhaps two, and they will take the scaffolding down and
+the 12:60 will be what Sumer is to you. A riverbed the water left."
 
 I walked out to the chrono-yards to see the conversions done. Under Orion,
 on floors of stepped geometry, the changing citizens stood in patient ranks
@@ -268,9 +277,11 @@ manifest; mission-codes left untranslated this round.]`
    read as a ratio where context supports it (now Scene 1's fitting-ratio).
 2. **JL** — likely an OCR misreading of a drawn glyph; deferred until the
    artwork is viewed on the author's machine. Nothing is built on it.
-3. **The two clocks** — provenance confirmed (Akkadian/Sumerian 12:60 vs
-   Argüelles' 13:28). Still open: is the conversion citywide history, or a
-   choice each citizen makes (as written here)?
+3. ~~The two clocks~~ — **resolved**: the 12:60→13:28 arc is a
+   civilization-wide transition. The city has formally acknowledged that
+   the artificial mind-division of time-space differs from the natural
+   order, and is visibly mid-crossing; the two dials and double ledgers
+   are scaffolding of that transition (Scenes 2–3 now written this way).
 4. **Bartonian Wall** — whose name is Barton? The 19.471 latitude is kept;
    confirm the tetrahedral reading.
 5. **GONDOLY / PAKAE / VILLAR VIS** (board 3) — districts, vessels, or
