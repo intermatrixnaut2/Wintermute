@@ -1,5 +1,5 @@
 # Deux Sept: The City of Two Clocks
-*A Viaticum of the S.T.A.R.E. Deep Field — the long crossing of Kincaide Alexis McQuade, told in two registers and one grief.*
+*A Viaticum of the S.T.A.R.E. Deep Field — the long crossing of Kincaide Alexis McQuade, told in two registers and one covenant.*
 
 *Full-length prose expansion of `Binder_duex.pdf` (boards 1–19), enlarged from
 the first-round fleshing into a magnum-opus draft. The mission to the Astrocity
@@ -26,11 +26,13 @@ translated in the open record. Some sentences you let lie.
 
 **Both registers share** — nothing is wasted; the 12:60→13:28 transition is
 always in the background and always relevant; Anastasia is the emotional center
-of gravity, even when offstage.
+of gravity, even when offstage. She is not lost and not mourned; she is out on
+her own arc, equally chosen, and the whole book bends toward a rendezvous, not a
+rescue.
 
 ---
 
-## Prologue — The Morning Everything Changed
+## Prologue — The Morning the Agreement Was Sealed
 
 *(Earth. 7:41am. Viaticum register.)*
 
@@ -41,11 +43,12 @@ would dictate. Mars turned a deep blue, an orbit too close for comfort. I stood
 at the kitchen window with a cold cup in my hand and I watched the sky stop
 being the sky, and I did not wake her, that first night, because I wanted one
 more ordinary hour in which she was only asleep and the world was only the
-world. That is the kind of selfishness I have never forgiven myself and would
-do again.
+world. That is the kind of selfishness I have never regretted and would
+do again, because the hour was a gift I gave myself before the gift we were
+about to give each other.
 
 I should tell you about Anastasia before I tell you about the sun, because the
-sun is what took her and you should know what was taken.
+sun is what called us, and you should know who answered it beside me.
 
 She slept the way some people pray — completely, with her whole body given over,
 one hand always escaping the blanket to lie palm-up on the sheet as though she
@@ -60,21 +63,23 @@ She worked at the Chandlier, in Research and Design, and she came home most
 evenings smelling faintly of solder and citrus and told me things about light I
 did not understand and loved anyway, because she loved them, and a thing a
 person loves is a window into the person, and I have spent my whole working life
-since looking through windows like that into people who are gone.
+since looking through windows like that into people who are, like her, somewhere
+out ahead of me, living what they chose.
 
 The next morning I woke her to gaze at the new sun. The time was approximately
 7:41am on a crisp morning. I have kept that number the way you keep a stone from
-a grave — not because it explains anything but because it is the last true thing
-I have, the last reading taken before the instruments stopped meaning what they
-had always meant.
+a shore you mean to return to — not because it explains anything but because it
+is the truest thing I have, the last reading taken before the instruments began
+to mean something new, and the moment the agreement between us came clear in the
+light.
 
 I woke her with a sunflower and a cup of ginseng tea. The sunflower I had cut
 from the box on the balcony rail, where she grew them badly and proudly, three
 stalks leaning every spring toward a light that was about to change forever. I
 patiently took her arm and said, "I really think you've got to enjoy our new
-sunrise." She looked at me curiously — that first curiosity, before fear, the
-clean curiosity of a scientist who has been told there is something on the
-balcony she has not yet measured. I kissed her reassuringly, and led the way.
+sunrise." She looked at me curiously — that first curiosity, before anything
+else, the clean curiosity of a scientist who has been told there is something on
+the balcony she has not yet measured. I kissed her reassuringly, and led the way.
 
 There in full gaze of the sun, she mouthed whispers of beauty. For the sight was
 indeed overwhelming. The sun was being draped with opalescent curtains of light.
@@ -111,38 +116,49 @@ I have carried that sentence across eleven systems. *Akin to the greater plan.*
 She meant it as joy. She was a woman to whom the universe paying attention was
 good news, because she had spent her life paying attention to the universe and
 believed, with her whole unguarded heart, that attention was love and that love
-was reciprocal. I have learned since that she was right about all of it except
-the timing. We did become akin to the greater plan. It only cost us each other
-to do it, and she did not know, in that moment on the balcony with the steam
-going straight up and the rings spreading and her tea forgotten and her hand
-finding mine, that the price was already being counted. Neither did I. We had
-that. We had the not-knowing, together, for the length of one new sunrise, and
-it was the last thing we ever truly had at the same time.
+was reciprocal. I have learned since that she was right about all of it. We did
+become akin to the greater plan. It asked of us, that morning, the one thing the
+plan always asks of two people who love each other and are each made for a road:
+that we each take our own road, and trust the convergence. She knew it on the
+balcony with the steam going straight up and the rings spreading and her tea
+forgotten and her hand finding mine — knew that the reading of the sky was also a
+summons, and that it had two names on it, hers and mine, pointing two directions.
+Neither of us pretended otherwise. We had that. We had the knowing, together, for
+the length of one new sunrise, and it was not the last thing we had at the same
+time. It was the first thing we chose at the same time.
 
-We picked up our clothes and showered for the last time together. I did not know
-it was the last time. You never do; that is the entire architecture of grief,
-that the last times announce themselves only afterward, by their lastness, like
-a word you only learn the meaning of when you read it in the obituary. She
-washed my back. I washed her hair. She talked the whole time about diffraction
-and I made the sounds a husband makes, and the water ran, and somewhere above
-the building the sky kept being read by the thing that was reading it, and we
-went to work at our separate departments. I was stationed in the Deployment, at
-the Frontier building. She was working in Research and Design, at the Chandlier.
-We were going to meet for lunch. We said it in the lobby, the ordinary way, the
-*see you at one* way, the way you say a thing you have said ten thousand times
-and will say ten thousand more, and I kissed her at the turnstile and she went
-left toward the Chandlier and I went right toward the Frontier, and that is the
-last time I saw her face from that direction.
+We picked up our clothes and showered for the last time together before the
+roads. I knew it was the last time before the roads, and so did she; that is the
+entire architecture of an agreement, that you can see the parting coming and walk
+toward it on purpose, with your eyes open, the way you read a word you already
+know the meaning of and say it aloud anyway to seal it. She washed my back. I
+washed her hair. She talked the whole time about diffraction and I made the
+sounds a husband makes, and the water ran, and somewhere above the building the
+sky kept being read by the thing that was reading it, and we went to work at our
+separate departments — by choice, by the agreement we had just sealed under the
+water. I was stationed in the Deployment, at the Frontier building. She was going
+into Research and Design, at the Chandlier, into her own deployment. We were
+going to meet for lunch, yes, the ordinary way; but we both already understood
+the lunch was a placeholder for a larger appointment, the one neither of us could
+put a clock to yet. We said *see you at one* in the lobby the way you say a thing
+you mean as a promise and not a certainty, and I kissed her at the turnstile and
+she went left toward the Chandlier and I went right toward the Frontier, and that
+is the last time I saw her face from that direction — and I want it understood
+that I turned to watch her go, and she turned to watch me, and we were both
+smiling, because we had agreed, and an agreement honored is a smiling thing.
 
 I want to be exact about the city, because the city was already changing and I
 have learned that the exact texture of a threshold matters more than the fact of
 it. By the time I came out of the Frontier in the late afternoon the streets had
-gone strange in the gentle, total way that a fever goes strange. Outside the
+gone strange in the gentle, total way that a fever goes strange — except it was
+not a fever. It was a deployment, the whole city's, all at once. Outside the
 police station a couple stood embracing, entirely naked, in the middle of the
 plaza, and no one stopped them and no one stared, and they were not ashamed and
 not exalted, they were simply holding each other with the specific completeness
-of people who have understood that there is no longer any reason not to. I
-remember thinking: they have heard the news before I have. Whatever the news is.
+of people who have understood that the time for holding is now and the time for
+going is soon, and that both are good. I remember thinking: they have heard the
+news before I have. Whatever the news is. The news, I have come to understand,
+was simply this: the roads are open. Go.
 
 A man I had never met fell into step with me. He was Irish, a great redhead, and
 he carried himself like both a bard and a warrior at once, which I had read
@@ -153,14 +169,17 @@ resuming a conversation. "You'll be wanting this." And he pressed into my hand a
 card — a holographic thing, metallic-purple, that turned to depth when I tilted
 it, an entire architecture folded into a rectangle the size of my palm. "Don't
 read it yet," Sean said. "You'll know when. And Kincaide — " he already knew my
-name; everyone, that day, already knew everything — "it's a good road. It doesn't
-feel like one. But it's a good road, and you'll meet good company on it, and at
-the end of it, if you carry it right, it balances. Mind you carry it right."
+name; everyone, that day, already knew everything — "it's a good road. It feels
+like one, too, if you let it. It's a good road, and you'll meet good company on
+it, and at the end of it, if you carry it right, it balances, and she'll be at
+the far end of hers, carrying hers right, and the two ends meet. Mind you carry
+it right."
 
 He went one way and I went another and I never saw him again from that direction
 either, though I have come to understand that Sean is the kind of figure you do
 not see twice from the same direction and that this is not the same as never
-seeing him again.
+seeing him again. He is, I think, the kind of figure who only ever appears at the
+mouths of roads, to bless the entering.
 
 The jellyfish transports had begun to rise. All along the horizon, slow and
 enormous and translucent, they ascended — bell-bodied, trailing their long
@@ -173,7 +192,8 @@ a city up into a sky that had been read and found ready. A crystal-clad guard
 stood at the foot of the nearest mooring with a crown of lapis lotus on his
 head, blue stone petals open, and he did not check papers; he only watched, the
 way the falcon over the postern of the Wall would later watch, seeing both
-halves of a thing.
+halves of a thing. He watched the way you watch people leaving on good roads: with
+confidence, not alarm.
 
 Two women worked the edge of the plaza, handing out instruments. They had skin
 of onyx and hematite, dark and faintly mirrored, and they had wings — folded,
@@ -183,7 +203,8 @@ hummed when you took them, every color of the spectrum laid into the stone in
 bands. One of them looked at me and did not offer me one. I understood. I was
 not for the stone instruments. I had been given the purple card. There are
 different roads off a balcony, and the city was already sorting us onto them with
-the gentleness of a thing that loves what it is doing.
+the gentleness of a thing that loves what it is doing, and matches each traveler
+to the road that is theirs.
 
 A plainclothes officer stopped me at the corner of the plaza — Kirk Moorcastle,
 he gave the name, holding out his hand for the card without quite touching me. He
@@ -191,87 +212,98 @@ looked at it a long moment, tilting it the way Luhpis would later tilt a
 manifest, reading the depth of it. "Deployment," he said. "Deep Field." He
 handed it back. "You won't be making your lunch."
 
-"I have a lunch," I said. Stupidly. Holding to the ordinary the way a drowning
-man holds to the temperature of the water. "At one. At the Chandlier. With my
-wife."
+"I have a lunch," I said. Holding to the ordinary the way a navigator holds to a
+heading. "At one. At the Chandlier. With my wife."
 
-He looked at me then with great kindness, which was worse than anything, and he
-said, "The Chandlier went up at noon, friend. Research and Design went first.
-They always send Research first; they understand the soonest." He did not say
-*I'm sorry*. There was nothing in his face that asked me to perform anything. He
-only let me stand there at the corner with the purple card in my hand and the
-jellyfish rising and the naked couple still holding each other and the benben
-light — though I did not have the word for it yet — falling across the plaza in
-opalescent rings, and he let me understand, at my own speed, that the
-see-you-at-one had been the last words, that the turnstile had been the
-threshold, that she had gone left toward the Chandlier and up into the read sky
-while I went right toward the Frontier and into the long deployment, and that the
-greater plan we were both now akin to had begun by separating us at a turnstile
-in a lobby on the most beautiful morning either of us would ever see.
+He looked at me then with great kindness, and the kindness was not pity; it was
+the kindness of a man delivering good news that wears the costume of hard news.
+"The Chandlier went up at noon, friend. Research and Design went first. They
+always send Research first; they understand the soonest, and they go the
+gladdest." He did not say *I'm sorry*, because there was nothing to be sorry for;
+there was only a schedule, agreed in advance, being kept. He let me stand there at
+the corner with the purple card in my hand and the jellyfish rising and the naked
+couple still holding each other and the benben light — though I did not have the
+word for it yet — falling across the plaza in opalescent rings, and he let me
+understand, at my own speed, that the see-you-at-one had been a placeholder all
+along, that the turnstile had been the agreed threshold, that she had gone left
+toward the Chandlier and up into the read sky on her own deployment while I went
+right toward the Frontier and into mine, exactly as we had chosen under the
+water, and that the greater plan we were both now akin to had begun by releasing
+us, each onto our own road, from a turnstile in a lobby on the most beautiful
+morning either of us would ever see.
 
-I did not weep there. I have wept since, in the right quarter, where weeping is
-native; I will tell you about that quarter when we come to it. There at the
-corner I only closed my hand around the card and felt it turn warm, and felt
-something settle along the inner column of my spine that had not been there an
-hour before — Ghayllieuxjah, though it had no name yet and would not for three
-days, waking inside me the way a made thing wakes, deciding, for reasons it has
-never fully explained, to stay. And I felt the city stop being a city. I felt it
-become an institution, a deployment, a regulation of the very space and time that
-had come undone on the balcony — felt it become S.T.A.R.E., the thing I have
-served ever since: Space Time Armed Regulation Enforcement, the order that grows
-up around a world the morning that world is read and found akin, the order whose
-whole long work, I have come to believe, is to walk the roads off the balcony
-carefully, and carry the grief right, so that at the end of them it balances.
+I did not weep there. There was nothing to weep for. I felt, instead, the precise
+sensation I have since learned to recognize and trust above all others: the
+settling of a heading into the chest, the navigator's certainty, the weight of a
+destination carried not as sorrow but as direction. I closed my hand around the
+card and felt it turn warm, and felt something settle along the inner column of
+my spine that had not been there an hour before — Ghayllieuxjah, though it had no
+name yet and would not for three days, waking inside me the way a made thing
+wakes, deciding, for reasons it has never fully explained, to stay. And I felt
+the city stop being a city. I felt it become an institution, a deployment, a
+regulation of the very space and time that had come open on the balcony — felt it
+become S.T.A.R.E., the thing I have served ever since: Space Time Armed
+Regulation Enforcement, the order that grows up around a world the morning that
+world is read and found akin, the order whose whole long work, I have come to
+believe, is to walk the roads off the balcony carefully, and carry the
+agreements right, so that at the end of them the arcs meet and it balances.
 
 I have read, since, the founding orders of the service — they are not secret, only
 unread, the way founding documents always are, kept where everyone can find them and
 no one looks. They were drafted in the first hours after the sky was read, by people
 who did not yet know what they were drafting, and they have the strange flat lucidity
-of things written under a shock too large to feel. *Space Time Armed Regulation
+of things written under a wonder too large to feel. *Space Time Armed Regulation
 Enforcement.* I used to think the name was an acronym a committee had reverse-engineered
 to spell a word, the way committees do. I think now it is the plainest possible
-description of what happened to us. Space and time had come undone on a balcony at
-seven forty-one. The undoing needed regulating — not stopping, you cannot stop a thing
+description of what happened to us. Space and time had come open on a balcony at
+seven forty-one. The opening needed regulating — not closing, you cannot close a thing
 like that, only attending to it, walking alongside it, keeping the count so the
-undoing did not become a dissolving. And it needed arming, because the roads off the
+opening did not become a scattering. And it needed arming, because the roads off the
 balcony ran through dark places, through Yellows and seams and far walls, and an
-unarmed grief does not arrive anywhere; it is taken on the approach. So they armed us,
+unarmed traveler does not arrive anywhere; he is taken on the approach. So they armed us,
 and they deployed us, and they gave the whole apparatus a name that was only the
-unbearable fact stated flatly: that the morning the world became akin to the greater
-plan, somebody was going to have to regulate, under arms, the enforcement of an order
-onto space and time themselves, or we would all of us scatter into the read sky
-unweighed.
+fact stated flatly: that the morning the world became akin to the greater plan,
+somebody was going to have to regulate, under arms, the enforcement of an order
+onto space and time themselves, so that the people the plan had released onto their
+separate roads would arrive at their separate ends and find each other there,
+rather than scatter into the read sky unweighed and unmet.
 
 I did not know any of that at the corner with the purple card. I knew only that I had
 been given a road and not a choice, which I have since learned is the only kind of road
-that goes anywhere. Sir General Alphox's name was on the orders I would be issued in the
-morning; I would not meet him for years, and would come to understand that the higher you
-rise in the service the less you give orders and the more you weigh them, until at the
-very top a man does nothing all day but hold the heaviest things and decide what can be
-told. There were Commodores — GhEasel, Chymerrasta, SableShepard, Psynk, names that meant
-nothing to me then and would later each mean a campaign and a grief — and there were
-Chapters, and Houses, and ranks with strange beautiful names, AspeRex and Etagon and the
-rest, a whole grown architecture of an institution rising overnight around the wound in
-the sky the way the city's columns had been grown rather than built. It rose at the golden
-section. It rose the way a thing rises that has decided to grow rather than be made. And I
-was a single budded capital somewhere low on one of its columns, flowering, whether I
-willed it or not, into the load I would have to bear.
+that goes anywhere — and that the woman I loved had been given hers, and had taken it
+the way she took everything she loved, with her whole unguarded heart. Sir General
+Alphox's name was on the orders I would be issued in the morning; I would not meet him
+for years, and would come to understand that the higher you rise in the service the less
+you give orders and the more you weigh them, until at the very top a man does nothing all
+day but hold the heaviest things and decide what can be told. There were Commodores —
+GhEasel, Chymerrasta, SableShepard, Psynk, names that meant nothing to me then and would
+later each mean a campaign and a parting — and there were Chapters, and Houses, and ranks
+with strange beautiful names, AspeRex and Etagon and the rest, a whole grown architecture
+of an institution rising overnight around the opening in the sky the way the city's
+columns had been grown rather than built. It rose at the golden section. It rose the way
+a thing rises that has decided to grow rather than be made. And I was a single budded
+capital somewhere low on one of its columns, flowering, whether I willed it or not, into
+the load I would have to bear — which was not a grief. It was a heading.
 
 I went into the Deployment that evening and did not come out the same direction,
 and from that direction I never saw her again. But I have learned, since, that
 direction is not the only thing a road has. A road also has a far side. I went
-in grieving the exit for the catastrophe. It has taken me a city of two clocks
-and the far side of a Gate to understand that they were never the same thing.
+in carrying her the way a navigator carries a destination, and it has taken me a
+city of two clocks and the far side of a Gate to learn that I had been right to,
+and that the parting at the turnstile and the rendezvous past the Gate were never
+two things. They were one agreement, read from two ends.
 
 `[Prologue draws the Viaticum origin material verbatim where quoted: the
 prismatic sun, the 7:41 reading, the sunflower and ginseng tea, the balcony,
-the last shower, the separate departments (Frontier / Chandlier). New
-load-bearing facts: Anastasia at the Chandlier (R&D) goes "up" first; the
-see-you-at-one lunch never kept. Sean's purple holographic card, the jellyfish
-transports, the lapis-lotus crystal guard, the onyx/hematite winged women with
-rainbow-stone instruments, Kirk Moorcastle. The benben/opalescent light is
-seeded here for its Scene 6 recognition. Ghayllieuxjah seeded as waking on
-deployment day.]`
+the last shower, the separate departments (Frontier / Chandlier). REFRAMED from
+loss to covenant: the parting is a sealed agreement, both adventurers releasing
+each other onto their roads, confident of convergence. Anastasia at the Chandlier
+(R&D) goes "up" first — to her deployment, gladly, not to doom. The see-you-at-one
+lunch is a placeholder for the rendezvous-to-come. Sean blesses the entering of
+the road and names the convergence. The jellyfish transports, the lapis-lotus
+crystal guard, the onyx/hematite winged women with rainbow-stone instruments,
+Kirk Moorcastle. The benben/opalescent light is seeded here for its Scene 6
+recognition. Ghayllieuxjah seeded as waking on deployment day.]`
 
 ---
 
@@ -308,25 +340,25 @@ carry, and not one plate more."
 
 "And if the weighing says six?"
 
-"Then he wears six and we sell the seventh, or we hang it on a wall and call it
-a relic, and VauhGhod lives. Weight is not a compliment, Kincaide. A thing can
-be loved past the point it can stand." He folded the monocle away. "Now look up.
-You will want this for your sphere. And — " he glanced sidelong at me, the look
-that means he is about to fold three missions into one sentence and watch me
-fail to notice — "mark the count while you are at it. This is not only a
-collection. Command has us assessing the crossing. The sector resonance is
-moving and the Astrocity is the seam. When the seam shifts, the bonding shifts,
+"Then he wears six and we keep the seventh, and VauhGhod lives. Weight is not a
+compliment, Kincaide. A thing can be loved past the point it can stand." He folded
+the monocle away. "Now look up. You will want this for your sphere. And — " he
+glanced sidelong at me, the look that means he is about to fold three missions into
+one sentence and watch me fail to notice — "mark the count while you are at it. This
+is not only a collection. Command has us assessing the crossing. The sector resonance
+is moving and the Astrocity is the seam. When the seam shifts, the bonding shifts,
 the armor calibration shifts, the gate-passage shifts. So: collect the plates,
 read the crossing, and clear the GODGATE before the lintel closes for the
-gate-cycle. Three missions, one road. You will manage to grieve through all
-three. You always do."
+gate-cycle. Three missions, one road. You will manage to keep her in mind through
+all three. You always do — and a man who carries a heading carries it better than a
+man who carries nothing."
 
 I looked up. We had been climbing for two days through the stellar shallows,
 that region where the dust thins and the light begins to feel like an opinion,
 and VauhGhod took the last gradient at a canter, his great wheels purring their
 navigation-algorithms low in their housings, his ancient spine flexing under us
-with the patience of something that has carried heavier loads than two men and a
-grief. He is an OrganiCycle of the long-crossing line, older than my service,
+with the patience of something that has carried heavier loads than two men and an
+agreement. He is an OrganiCycle of the long-crossing line, older than my service,
 older than the Chapter that assigned him to me, and he is not a vehicle in the
 way the requisitions pretend; he is a companion bonded to the bone, alive and
 proud and given to long oracular silences, and he had been silent the whole
@@ -485,11 +517,14 @@ the vault, and there flowered into the load it had to bear. The whole hall stood
 at the ratio a sunflower keeps, a nautilus keeps, a thing keeps that has decided
 to grow rather than be made. The light came down through it dappled, as through
 a canopy. I thought of three stalks of sunflower leaning off a balcony rail
-toward a light that was about to change, and I did not say so, but Ghaylle felt
-me think it and went, for a moment, very gently quiet against my spine.
+toward a light that was about to change, and of the woman who grew them badly and
+proudly, and where she might be standing now under whatever light she had chosen
+to grow toward, and I did not say so, but Ghaylle felt me think it and went, for
+a moment, very gently warm against my spine — the warmth it keeps for a good
+thought, not a sad one.
 
 She was new to me, so I set her name down carefully, the way I set down all the
-names I expect to grieve: Maathilde Quill. She was tall, and formal, and older
+names I expect to keep: Maathilde Quill. She was tall, and formal, and older
 than her face, and on her left shoulder she wore a single white plume. I
 understood without being told that it was not decoration. It turned very slightly
 against the air currents of the hall, but not as a feather turns — deliberately,
@@ -508,30 +543,33 @@ at my hip, the ark of my soul's accounts, and turned away again, satisfied. "We
 consent to be read, Kincaide McQuade. We are a city that consents to be read;
 that is nearly the whole of what we are. But understand the courtesy runs both
 ways. While your service reads our crossing, the crossing will read you. You
-cannot measure this seam without being measured by it. You grieve beautifully,
-if you will permit me to say so. The seam will find that out about you before
-your instruments find anything out about it."
+cannot measure this seam without being measured by it. You carry a prior
+agreement, Kincaide Alexis McQuade — we have read your sphere, and it is one of
+the more deliberate ones we have seen. The seam will find that out about you
+before your instruments find anything out about it."
 
-"I — thank you. I think." Luhpis coughed into his glove, the cough he uses when
-he is enjoying my discomfort and does not wish to be seen enjoying it.
+"A prior agreement," I said. "Yes. That is exactly what it is. Not a grief —
+people mistake it for one, and I have let them. An agreement. We chose it
+together."
 
-"Do not be embarrassed. I do not flatter; flattery does not balance. I am
-telling you what your sphere weighs and how it carries the weight, which in this
-city is the first thing one says of a stranger, the way you might say of mine
-that I am tall. Grief is a unit of account here, Kincaide McQuade. We weigh it as
-we weigh everything." She touched the plume, drawing one barb between two
-fingers, and it sang a single low note and was still. "Everything entered into
-the city's books — every cargo, every covenant, every art object out of the
-xeno-ateliers, every soul that comes to the Gate, and yes, every armor-series
-that comes to be fitted — is weighed twice. Once in the 12:60 and once in the
-13:28. The mechanical price and the living price. The ledgers must agree before
-the Gate will pass anything through it. A thing whose two prices disagree cannot
-leave. It is not forbidden. It is simply not yet a single thing. The Gate passes
-single things."
+"I know," Maathilde said. "That is what I am telling you. I do not flatter;
+flattery does not balance. I am telling you what your sphere weighs and how it
+carries the weight, which in this city is the first thing one says of a stranger,
+the way you might say of mine that I am tall. An agreement carried in love is a
+unit of account here, Kincaide McQuade. We weigh it as we weigh everything." She
+touched the plume, drawing one barb between two fingers, and it sang a single low
+note and was still. "Everything entered into the city's books — every cargo,
+every covenant, every art object out of the xeno-ateliers, every soul that comes
+to the Gate, and yes, every armor-series that comes to be fitted — is weighed
+twice. Once in the 12:60 and once in the 13:28. The mechanical price and the
+living price. The ledgers must agree before the Gate will pass anything through
+it. A thing whose two prices disagree cannot leave. It is not forbidden. It is
+simply not yet a single thing. The Gate passes single things."
 
-"That is the constraint on our armor," Luhpis said, suddenly alert, the handler
-in him surfacing. "The carapace must agree in both counts before VauhGhod can
-carry it through the Gate."
+Luhpis coughed into his glove, the cough he uses when he is satisfied and does
+not wish to be seen satisfied. "That is the constraint on our armor," he said,
+suddenly alert, the handler in him surfacing. "The carapace must agree in both
+counts before VauhGhod can carry it through the Gate."
 
 "The carapace, and the creature, and the man, and the made mind in the man's
 spine," Maathilde said, unhurried. "All four. You do not pass an armor through
@@ -544,12 +582,12 @@ agrees itself."
 
 "And when the ledgers don't agree?" I asked. "What then?"
 
-Her voice went quiet, and in the quiet of it I heard, with a small lurch, someone
-I had not expected to hear in this hall at the edge of everything. She had a way
-of dropping into the truth, of going still and plain at the exact moment a lesser
-person would go grand — the way Rhodhe Pholonesia goes plain when a thing is
-about to matter, the way the best of our elders go plain. "Then the city revises
-its sentence," she said.
+Her voice went quiet, and in the quiet of it I heard, with a small lift,
+someone I had not expected to hear in this hall at the edge of everything. She had
+a way of dropping into the truth, of going still and plain at the exact moment a
+lesser person would go grand — the way Rhodhe Pholonesia goes plain when a thing
+is about to matter, the way the best of our elders go plain. "Then the city
+revises its sentence," she said.
 
 I waited. She let me wait, which is how I knew she meant it as it sounded and not
 as a figure.
@@ -587,8 +625,9 @@ dial there it could read. "And your gate-cycle, quartermaster — yes, I felt yo
 counting it the moment you rode in. Five days. The lintel opens for five and
 closes for three hundred and sixty. You have until the fifth. It is enough, if
 the man is weighed. It is never enough if he is not. Rest now, Kincaide McQuade.
-The grief you carry so beautifully will keep until the gate-day. It always does.
-That is the cruel mercy of the heavy ones. They wait."
+The agreement you carry so deliberately will keep until the gate-day. It always
+does. That is the steadiness of the deliberate ones. They wait, and they do not
+fret while they wait, because they know what they are waiting for."
 
 `[board 4: "CIRC 360+5" — the city's calendar-round, 360 working days and five
 gate-days outside all count, now also the S.T.A.R.E. gate-cycle constraint (the
@@ -599,7 +638,9 @@ the three-stage gate-road. Introduced here only as names in the catalog.]`
 `[board 3: "XENO-ATELIERS" — the foreign workshops that make in the gate-days;
 recur in the Body Markets, Scene 4. Maathilde reframes the armor mission as an
 "agreement" the Gate passes, not a freight — the four-fold weighing (carapace,
-creature, man, made mind).]`
+creature, man, made mind). REFRAMED: Maathilde reads Kincaide's sphere as a prior,
+deliberate agreement — a covenant carried in love — not a grief; "one of the more
+deliberate ones we have seen."]`
 
 ### Scene 3 (boards 5–6) — The Two Clocks
 
@@ -638,9 +679,10 @@ the world.* A beautiful machine the mind built to measure itself, and mistook,
 for a long age, for the measure of everything. From the day of that entry, the
 whole city has been crossing. Not citizen by citizen, Kincaide — all of them,
 together, the way a forest changes season. No tree votes on autumn. Conversion is
-the chief local industry. It is also the chief local injury."
+the chief local industry. It is also the chief local labor."
 
-"Injury," I said. "You said that before. A change of clocks is an injury."
+"Labor," I said. "You said something like that before. A change of clocks is
+work."
 
 "Time is load-bearing, Kincaide. You of all minds should know it; you carry a
 recorded soul on your hip and a made one in your spine, and both of us run on
@@ -657,9 +699,9 @@ civilization that changes its count is a building changing its foundations with
 everyone still living inside it. You cannot evict the tenants while you work; they
 have nowhere else to be. So you do it slowly. The two dials. The double ledgers.
 The gate-days. The whole apparatus Maathilde showed you — it is scaffolding.
-Painful, ugly, temporary scaffolding around a building being re-footed under load.
-One generation more, perhaps two, and they will take the scaffolding down, and
-the 12:60 will be to them what Sumer is to you. A riverbed the water left. A
+Patient, deliberate, temporary scaffolding around a building being re-footed under
+load. One generation more, perhaps two, and they will take the scaffolding down,
+and the 12:60 will be to them what Sumer is to you. A riverbed the water left. A
 shape in the ground where a count used to run."
 
 I could not sleep after that, so I rose and walked out to the chrono-yards, to
@@ -704,16 +746,16 @@ fingers, the way I have caught myself counting it a hundred times in a hundred
 strange places, the reflex under the reflex. I had been counting the hours. From
 seven forty-one of a crisp morning, when I last took a reading of the old sun by
 the old count with my wife beside me, to one o'clock of the same day, the lunch
-we said *see you at* and did not keep — the hours between the last time I saw her
-face and the moment the Chandlier went up and the count I had lived in stopped
-meaning anything. Five hours and nineteen minutes. I have never said the number
-aloud. Ghaylle knows it; Ghaylle has always known it; it lay in the sphere from
-the first day and it has never once offered it to me unasked, because some
-arithmetic you do not hand a man, you only carry beside him while he does it on
-his fingers in the dark. Five hours and nineteen minutes of the old count, and
-then no count at all, and then this — a city full of people learning, in public,
-on their wrists, that the clock they grieved by was never the clock the world
-was keeping.
+we said *see you at* — the span between the last time I saw her face from that
+direction and the moment we each stepped fully onto our own road. Five hours and
+nineteen minutes. I have never said the number aloud, not because it wounds me but
+because it is precious, the last machine-time we shared, and precious numbers are
+held close. Ghaylle knows it; Ghaylle has always known it; it lay in the sphere
+from the first day and it has never once offered it to me unasked, not because the
+arithmetic is dangerous but because some numbers a man likes to reach for himself.
+Five hours and nineteen minutes of the old count, and then our two roads, and then
+this — a city full of people learning, in public, on their wrists, that the clock
+they had kept was never the only clock the world was keeping.
 
 "Consent to what?" I said, instead of any of that.
 
@@ -723,27 +765,34 @@ the only clock I had brought from home. "To being a creature," she said. "Your
 machine-time was a beautiful invention, the most beautiful your kind ever made —
 I will not hear it insulted, we keep it on the upper dial out of respect, not
 contempt. But you were never a machine, were you? Even when it flattered you to
-think so. Even when it would have hurt less to be one." She let go of my wrist.
-"The crossing isn't learning a new number. It's saying yes to the count your body
-was keeping the whole time, under the casing, while you weren't listening."
+think so. Even when it would have been simpler to be one."
+
+"No," I said. "We knew that together, she and I. We chose accordingly." I had not
+meant to say it, but the chrono-yard makes everything plain, and it was the truest
+gloss I could give the clocksmith's words. "We were never machines, and we agreed
+not to live like ones, and that agreement is the whole of why we are each on a road
+tonight instead of pretending to a single safe one."
+
+She let go of my wrist and nodded as though I had thrown my hexagram and it had
+come up honest. "The crossing isn't learning a new number," she said. "It's saying
+yes to the count your body was keeping the whole time, under the casing, while you
+weren't listening. The ones who cross clean are the ones who already said yes to
+something — a person, a road, an agreement. You'll cross clean. I can tell. It's
+the ones who insist they were machines, who never agreed to anything, who stay
+behind in the dark quarter." She did not say its name. I did not yet know there was
+a name to say.
 
 I thought of Anastasia then. I think of her always, but I thought of her *then*,
-sharply, the way the chrono-yard made everything sharp: of a crisp morning at the
-end of a world, and a balcony, and the last reading I ever took from the old sun
-by the old count — seven forty-one, I had said it aloud, the documentarian noting
-the hour out of habit even there, even then, and she had laughed at me for it,
-gently, the way the clocksmith laughed now. Seven forty-one. A river-count
+warmly, the way the chrono-yard made everything warm and clear: of a crisp morning
+at the start of two roads, and a balcony, and the last reading I ever took from the
+old sun by the old count — seven forty-one, I had said it aloud, the documentarian
+noting the hour out of habit even there, even then, and she had laughed at me for
+it, gently, the way the clocksmith laughed now. Seven forty-one. A river-count
 number. The last machine-time I ever loved keeping, because she was beside me to
 keep it for. And then the five hours and nineteen minutes, ticking under my cuff
-ever since, the only span I have never been able to convert.
-
-"No," I said to the clocksmith. "Not even then. Not even when it would have hurt
-less."
-
-She nodded as though I had thrown my hexagram and it had come up honest. "Then
-you'll cross clean," she said. "The honest ones always do. It's the ones who
-insist they were machines who stay behind in the dark quarter." She did not say
-its name. I did not yet know there was a name to say.
+ever since — not a wound, a keepsake, the one span I have never wanted to convert
+because converting it would mean letting go of the exact texture of the last
+ordinary morning before the adventure we had both said yes to.
 
 `[board 5: ".618", "femto", "QED", "SIN TAN" — the clocksmiths' working
 mathematics: the golden section that runs the grown architecture, the femto-scale
@@ -753,9 +802,12 @@ the working hand of the chrono-yard.]`
 `[board 6: "BENBEN", "CHRONO", "AI:IA" — the chrono-yard is this scene; the
 benben and the palindrome AI:IA pay off at the Gate, Scene 6.]`
 `[Anastasia thread: the 7:41 memory expanded — the finger-counting in the
-chrono-yard is the 5h19m span between last seeing her (7:41am) and the kept-loss
-(1:00pm lunch). Ghaylle knows the number and has never said it aloud. The
-resonance/crossing reframed as the actual S.T.A.R.E. mission parameter.]`
+chrono-yard is the 5h19m span between last seeing her (7:41am) and the agreed
+parting onto two roads (1:00pm). REFRAMED: not a grief-span but a cherished
+keepsake of the last shared morning; Ghaylle holds it but does not press it.
+"You were never a machine" lands as a thing Kincaide and Anastasia knew together
+and chose by. The resonance/crossing reframed as the actual S.T.A.R.E. mission
+parameter.]`
 
 ### Scene 10 — The Transmission from Rhodhe
 *(Parallel field. S.T.A.R.E. ensemble register. Inserted after Scene 3.)*
@@ -792,7 +844,7 @@ answer. << Some change the count and break at the seam, >> she said at last.
 << They convert the clocks and lose the people; they arrive in the new time as a
 city of strangers who all agree on the hour and agree on nothing else, and that
 is not a crossing, that is a clean amputation that the patient calls a cure.
-Some refuse the change and rot at the old count, very slowly, very proudly, like
+Some refuse the change and stall at the old count, very slowly, very proudly, like
 a fruit insisting it is still a flower. And some — >> the under-register dropped,
 went grave << — some I have watched go into the change whole and not come out at
 all. Not break. Not refuse. Simply enter the seam and stay there, suspended,
@@ -822,29 +874,30 @@ walked through. That is the difference between this and Drostam, NovaVisis. They
 are not ashamed. Drostam was ashamed. Shame is what stops you in the seam."
 
 << And the documentarian your service sent into it? >> NovaVisis asked. <<
-McQuade. The grieving one. The one VauhGhod carries. He is in the city now,
-moving through the seam on foot. Does he know he is part of the experiment? >>
+McQuade. The one with the agreement. The one VauhGhod carries. He is in the city
+now, moving through the seam on foot. Does he know he is part of the experiment? >>
 
-"He knows. He always knows; that is his curse and his use. He is the best
+"He knows. He always knows; that is his gift and his use. He is the best
 instrument the service has ever fielded for exactly this, because he is himself a
-man stuck in a seam — caught between the count he grieved by and the count his
-body kept, holding his breath for years over a turnstile in a lobby. If he can
-cross, anything can. The city will read him crossing and the reading will tell us
-whether the seam holds." Rhodhe lifted her hand, and NovaVisis brought up the
-encoding apparatus without being asked, because they had been bonded long enough
-that asking had become a formality between them, like the instruments. "Send him
-one glyph," Rhodhe said. "Coded. Argüelles standard, the old harmonic notation
-the service still keeps for the moon-count. Send him the one that means — " she
-chose it the way she chose everything she sent into a grief, with great care for
-its weight — "*the count does not lie. Trust the weight.*"
+man who has already crossed one seam cleanly — he stood at a turnstile with the
+woman he loves and they each chose their own road and he honored it. A man who can
+do that can cross anything. He does not hold his breath. He keeps the count and
+walks. The city will read him crossing and the reading will tell us whether the
+seam holds." Rhodhe lifted her hand, and NovaVisis brought up the encoding
+apparatus without being asked, because they had been bonded long enough that
+asking had become a formality between them, like the instruments. "Send him one
+glyph," Rhodhe said. "Coded. Argüelles standard, the old harmonic notation the
+service still keeps for the moon-count. Send him the one that means — " she chose
+it the way she chose everything she sent into a long road, with great care for its
+weight — "*the count does not lie. Trust the weight.*"
 
 NovaVisis held the glyph in her encoding throat and did not yet send it. << May I
 ask you something, Rhodhe, that I have not asked in the eleven eons we have ridden
 together? >> The under-register had gone careful, the careful of a creature
-approaching a wound in its rider. << When Drostam crossed, with you inside it —
-were you afraid? I have never asked. It did not seem mine to ask. But the city
-below us is full of people about to be afraid, and I find I want to know what the
-fear was, from the inside, so that I will know it when I feel it in them. >>
+approaching a tender place in its rider. << When Drostam crossed, with you inside
+it — were you afraid? I have never asked. It did not seem mine to ask. But the city
+below us is full of people about to feel something, and I find I want to know what
+it was, from the inside, so that I will know it when I feel it in them. >>
 
 Rhodhe was quiet a long while. Below them the city turned, both its counts
 turning, the whole population leaning a fraction of a degree toward a light that
@@ -856,25 +909,27 @@ crossing — Drostam suspended in its own seam, neither count, the whole world
 holding its breath, and me holding mine with it because there was nothing else to
 hold — when I was not afraid at all. I was *patient.* That is what the seam does,
 if you let it; it is not a terror, it is a patience so total it becomes a kind of
-death. You stop counting because there is nothing to count toward. You let the
+sleep. You stop counting because there is nothing to count toward. You let the
 held breath be the whole of your life. And that, NovaVisis, is the trap. Not fear.
 Fear would have made me struggle, and the struggling would have kept the count
 alive in me. It was the patience that nearly kept me. I came out not because I
-grew brave but because, one day, in the held breath, I grew *impatient* — I wanted
-something on the far side badly enough to start counting toward it again, and the
-counting was the rope, and I climbed it." She let her breath out slow. "So when
-you feel it in them, NovaVisis, it will not feel like fear. It will feel like
-peace. That is what to watch for. The ones in real danger in that city are not the
-frightened ones. They are the ones who have made their peace with the seam."
+grew brave but because, one day, in the held breath, I remembered I wanted
+something on the far side — I wanted it badly enough to start counting toward it
+again, and the counting was the rope, and I climbed it." She let her breath out
+slow. "So when you feel it in them, NovaVisis, it will not feel like fear. It will
+feel like peace. That is what to watch for. The ones in real danger in that city
+are not the frightened ones. They are the ones who have made their peace with the
+seam, who have stopped wanting anything on the far side."
 
-<< Then the documentarian is safe, >> NovaVisis said softly. << He has made no
-peace with anything. He is the most impatient grieving man I have ever carried
-telemetry on. >>
+<< Then the documentarian is safe, >> NovaVisis said softly. << He wants something
+on the far side very badly. He wants to keep an appointment. >>
 
-"He is," Rhodhe agreed, and there was love in it, the impersonal vast love she
-carried for the whole field she watched over. "His impatience is his rope. The
-service thinks his grief is the liability. The grief is the engine. Send the glyph,
-NovaVisis. He will be at the Wall by the time it reaches him."
+"He does," Rhodhe agreed, and there was love in it, the impersonal vast love she
+carried for the whole field she watched over. "His wanting is his rope. The
+service thinks his agreement is a liability — a man riding toward a woman, they say,
+is a man with his guard down. They have it exactly backward. The agreement is the
+engine. A man who has somewhere to arrive does not stall in the seam. Send the
+glyph, NovaVisis. He will be at the Wall by the time it reaches him."
 
 << At the weighing, >> NovaVisis confirmed, and sent it.
 
@@ -882,15 +937,18 @@ NovaVisis. He will be at the Wall by the time it reaches him."
 city the way a diver rises, slowly, equalizing, so as not to take the bends from
 another mind's pressure. "Then it reaches him exactly when he needs it, and he
 will think the city said it, and the city will think he brought it, and neither
-of them will be wrong. That is how you send a true thing into a seam. You let it
-arrive without a sender. Mark the transmission, NovaVisis. Mark it sent."
+of them will be wrong. That is how you send a true thing into a long road. You let
+it arrive without a sender. Mark the transmission, NovaVisis. Mark it sent."
 
 `[Parallel 1 — Rhodhe Pholonesia / NovaVisis in deep orbit. The 12:60→13:28
 crossing reframed as a survivable-or-not question across civilizations; the three
 failure modes (break / refuse / stop-in-the-seam) and the Gate as the thing that
 prevents the third. Drostam's captivity-crossing as Rhodhe's lived reference.
-The single Argüelles glyph — "the count does not lie; trust the weight" — sent to
-arrive at the Wall (pays into Scene 5). Inserted after Scene 3 per spec.]`
+REFRAMED: Kincaide is the ideal instrument BECAUSE he already crossed a seam
+cleanly (the agreed turnstile parting); his wanting-to-keep-the-appointment is the
+rope, not a liability. The single Argüelles glyph — "the count does not lie; trust
+the weight" — sent to arrive at the Wall (pays into Scene 5). Inserted after Scene
+3 per spec.]`
 
 ### Scene 4 (boards 7–10) — The Body Markets
 
@@ -931,10 +989,12 @@ one a workshop where things too small to see were grown to specification. Below
 them the medical arcades sold splices and patiences. I had to ask what a patience
 was. A vendor showed me: a small phial of something that looked like slow honey,
 which, taken, lengthened a body's tolerance for waiting — not its lifespan, its
-*patience*, the felt duration of a delay. "For the families of the
-under-revision," she said. "When your beloved's two prices won't agree and the
-wait is years, you buy patience by the season. It is the kindest thing we sell."
-I bought none. I had carried my own waiting too long to want it lengthened.
+*patience*, the felt duration of a delay. "For the ones who are waiting on a
+rendezvous," she said. "When your beloved is out on a road of their own and the
+appointment is years off, you buy patience by the season, so the waiting is sweet
+instead of long. It is a kind thing to sell." I considered it, and bought none. My
+own waiting was already sweet; I had carried it too well and too gladly to want it
+altered. A man who knows he is going to arrive does not need his patience doctored.
 
 And then I watched a transaction that taught me the quarter.
 
@@ -962,7 +1022,7 @@ is. It's the held breath between two languages."
 "Now you have it," Luhpis said, and there was something almost tender in how
 quietly he said it, a teacher watching a slow pupil arrive. "Everything here is
 translation, Kincaide. Body into ledger, ledger into time, time into body again.
-The seeds into the gallop. The grief into the weight. The weight into the
+The seeds into the gallop. The agreement into the weight. The weight into the
 passage. The city is one long sentence being translated, clause by clause, toward
 — " he tipped his chin up-arc, toward the harbor and its singing lintel, high and
 pale above the wasp-nest vaults — "that. Toward the Gate. The whole of the
@@ -1000,7 +1060,9 @@ awaits the artwork.]`
 `[board 7: "antelope / heart / escrow" — the speed-in-escrow transaction read as
 the scene's central image: capacity as currency, translation as the true trade.
 Luhpis's "Maroon Lagoon" callback carried from prior boards. The body-quarter as
-the calmest resonance reading for Command.]`
+the calmest resonance reading for Command. REFRAMED: "patience" is now sold to
+those awaiting a rendezvous, to make the waiting sweet — Kincaide declines, his
+waiting already gladly carried.]`
 
 ### Scene 5 (boards 11–14) — The Bartonian Wall
 
@@ -1029,7 +1091,7 @@ city had sent it. I think now it came from higher up than the city, from a deep
 orbit and a mind I have since learned to be grateful for; but at the time I
 thought the city said it, and I carried it up the hill as the city's, and I have
 since been told that this is exactly how a true thing is meant to arrive into a
-grief — without a sender, so that you cannot argue with it.
+long road — without a sender, so that you cannot argue with it.
 
 The Bartonian Wall stands at nineteen point four seven one degrees of the city's
 latitude, and nothing about that number is decoration. Ghaylle told me, as we
@@ -1068,23 +1130,24 @@ and entered nowhere, because some testimony is too true to file. And then the
 weighing."
 
 "And what is weighed?" I asked, though I knew. I had known since the first
-evening, since she read my sphere in the grown concourse and called my grief
-beautiful and meant it as a measurement.
+evening, since she read my sphere in the grown concourse and called my agreement
+one of the more deliberate ones she had seen, and meant it as a measurement.
 
 "The heart, Kincaide Alexis McQuade." She used the whole of my name, all four
 beats of it, the way the city used all its towers to make one sentence, and I felt
 the weight of being fully addressed. "The heart against the feather. Same as it
-ever was, in every city worth the name, on every world that ever learned to grieve
-and kept the learning. You carry a heavy one. I told you that the first evening
-and I will tell you again where the Wall can hear me say it: you carry a heavy
-heart. But heavy is not the same as failing." She unpinned the white plume from
-her shoulder — I had never seen her without it, and the small bareness of her
-shoulder was suddenly more intimate than a bared face — and held it out flat on
-her open palm, between us, and the great Wall behind her seemed to lean in over us
-both to see. "Grief weighs nothing if it is carried in love. That is the whole
-secret of the scales. It is the only thing MAAT weighs for and the only thing she
-weighs against, and it is so simple that I am embarrassed to give it away free to
-a documentarian, who will only write it down and lighten it for everyone."
+ever was, in every city worth the name, on every world that ever learned to love
+and kept the learning. You carry a full one. I told you that the first evening
+and I will tell you again where the Wall can hear me say it: you carry a heart
+full of an agreement held in suspension. But full is not the same as failing." She
+unpinned the white plume from her shoulder — I had never seen her without it, and
+the small bareness of her shoulder was suddenly more intimate than a bared face —
+and held it out flat on her open palm, between us, and the great Wall behind her
+seemed to lean in over us both to see. "Love in suspension weighs nothing if the
+agreement is kept. That is the whole secret of the scales. It is the only thing
+MAAT weighs for and the only thing she weighs against, and it is so simple that I
+am embarrassed to give it away free to a documentarian, who will only write it
+down and lighten it for everyone."
 
 I could not speak for a while. I have stood at a great many thresholds in my work
 and learned to keep my voice through most of them, and I could not keep it here.
@@ -1092,12 +1155,13 @@ The hexagram I had thrown lay on the dished stone between us: six lines, and I
 read them slowly, the broken and the whole, fire under mountain. The flame held
 under the weight of the height. The bright thing kept burning inside the still
 cold thing that covers it. I did not need Ghaylle to gloss it. I had been carrying
-that exact figure since a balcony at seven forty-one of a morning at the end of a
-world, and here it was on the ground in front of me, declared, witnessed, true.
-And the glyph from the orbit lay across it — *the count does not lie; trust the
-weight* — and the two of them together, the hexagram I had thrown and the line I
-had been sent, made one sentence, and the sentence was: you have been telling the
-truth the whole time, even in the dark; now let it be weighed.
+that exact figure since a balcony at seven forty-one of a morning at the start of
+two roads, and here it was on the ground in front of me, declared, witnessed,
+true. And the glyph from the orbit lay across it — *the count does not lie; trust
+the weight* — and the two of them together, the hexagram I had thrown and the line
+I had been sent, made one sentence, and the sentence was: you have been keeping the
+agreement the whole time, even on the long road; now let it be weighed, and let it
+weigh nothing.
 
 "And if the pans should differ?" I asked, when I could. "If the heart and the
 feather don't agree?"
@@ -1113,30 +1177,30 @@ the plume back into its pin at her shoulder, and the bareness was gone, and she
 smiled at me, and the smile undid me more than the solemnity had. "But yours will
 not differ, Kincaide. Your pans will agree. I know it because I am the registrar
 and weighing is my office and I do not guess. I weighed you the day you arrived.
-Over tea, in the grown hall, while you were being embarrassed about your beautiful
-grief. You did not feel it. That is the art of it." The plume gave its single low
-note. "Registrar's privilege. I weigh my guests before I love them, so that the
-loving costs the ledger nothing."
+Over tea, in the grown hall, while you were being modest about your beautiful
+agreement. You did not feel it. That is the art of it." The plume gave its single
+low note. "Registrar's privilege. I weigh my guests before I love them, so that
+the loving costs the ledger nothing."
 
-"There is someone I am trying to find," I said. I had not meant to say it. The
+"There is someone I am moving toward," I said. I had not meant to say it. The
 Wall does that; it draws the true thing up out of you the way it drew the dish out
-of the stone, by long patient pressure. "On the far side. Past the Gate. I do not
-even know which count she keeps now, or which clock, or which quarter she has had
-to come through. If my pans agree and I cross — does the weighing know where she
-is? Does it tell you?"
+of the stone, by long patient pressure. "On the far side. Past the Gate. She is on
+a road of her own — we agreed it, we chose it — and I do not know which count she
+keeps now, or which clock, or which quarter she has had to come through. If my
+pans agree and I cross — does the weighing know where she is? Does it tell you?"
 
 Maathilde looked at me for a long moment, and her plume went still — not reading,
 just still, which I had never seen it do. "The weighing does not find people,"
-she said at last, gently. "It only makes you fit to find them. The Gate passes
+she said at last, gently. "It only makes you fit to meet them. The Gate passes
 single things, Kincaide; it cannot pass you toward her until you are single, until
-the grief and the love are one weight and not two prices arguing. That is all the
-weighing does. It does not give you the road. It makes you a man the road will
+the love and the agreement are one weight and not two prices arguing. That is all
+the weighing does. It does not give you the road. It makes you a man the road will
 carry." Then she smiled again, and the smile had the whole solemn machinery of the
 city behind it gone suddenly warm. "But yes. When you cross — and you will cross —
-you will be light enough to follow her. And Kincaide. When you find her." She
-laid the back of two fingers against my cheek, briefly. "Tell her the pans agreed.
-Tell her you were weighed and you balanced. She will know what it means. The
-grieving always know what it means."
+you will be light enough to keep the appointment. And Kincaide. When your arcs
+intersect." She laid the back of two fingers against my cheek, briefly. "Tell her
+the pans agreed. Tell her you were weighed and you balanced. She will know what it
+means. People who keep their agreements always know what it means."
 
 `[board 14: "BARTONIAN WALL", "19.471", "density WALL" — the latitude kept
 verbatim and now read as the tetrahedral angle (a tetrahedron inscribed in a
@@ -1149,9 +1213,12 @@ and her feather in high relief. The boards may intend three separate stations;
 rendered here as one face of one Wall.]`
 `[board 11: "FIRE under MOUNTAIN" — Kincaide's thrown hexagram, read as the held
 flame under the still height; tied to the 7:41 balcony memory. Rhodhe's glyph
-(Scene 10) arrives here without a sender and fuses with the hexagram. Maathilde's
-"when you find her, tell her the pans agreed" now lands against the Prologue's
-fully-real Anastasia.]`
+(Scene 10) arrives here without a sender and fuses with the hexagram. REFRAMED:
+the GRIEF line is gone — Maathilde now weighs "love in suspension," which "weighs
+nothing if the agreement is kept." "There is someone I am trying to find" becomes
+"someone I am moving toward," a chosen, mutual rendezvous; "when you find her"
+becomes "when your arcs intersect." Lands against the Prologue's fully-real,
+equally-chosen Anastasia.]`
 
 ### Scene 12 — Dhonah at the Mirror Wall
 *(Parallel field. S.T.A.R.E. ensemble register. Inserted after Scene 5.)*
@@ -1196,10 +1263,11 @@ finally cross-filed against the field reports and a registrar named Maathilde
 Quill turned up as the speaker. But she heard it clearly, through the stone, from
 the wrong side, garbled and fading and certain:
 
-"— the feather will not balance — tell him the feather will not balance for the
-one he is coming to find — she has been through GONDOLY and she is mending but
-the pans — the pans on the far wall will not — Kincaide, the far feather, the far
-feather does not weigh the same as the near —"
+"— the feather will not balance the same — tell him the far feather does not read
+as the near — she has come through her own GONDOLY and she is on the far side of it
+and weighed there, but the pans — the pans on the far wall are kept by another hand
+— Kincaide, the far feather, the far feather does not weigh the same as the near,
+and you must carry what she will need —"
 
 And then static, the courteous blank static of a wall declining to carry what it
 had somehow just carried, and silence, and Klimbloomme very still beneath her,
@@ -1212,8 +1280,8 @@ she could feel him having heard it, the under-register gone taut.
 << I heard a wall talk, >> Klimbloomme said. << Walls at this angle do not talk,
 Dhonah. That is the entire point of this angle. It is the angle past which things
 keep their own counsel. And it just gave counsel. To a man who is not here. About
-a feather that will not balance on a wall that is not this one. >> A pause. <<
-I do not like it. I would like to climb away from it. >>
+a feather that does not weigh the same on a wall that is not this one. >> A pause. <<
+I do not understand it. I would like to climb away from it. >>
 
 "We're not climbing away from it." Dhonah was already steadying the petitioner,
 already turning to the recorder. She did not understand it — that was the honest
@@ -1243,59 +1311,63 @@ foot of the mirror wall with the recorder in her lap and played the transmission
 back, low, over and over, the way you worry a loose tooth. *The far feather does
 not weigh the same as the near.* She was a consciousness-calibrator; she understood
 better than most what that could mean, because she spent her days drifting two
-dials toward agreement and she knew exactly how a thing could read true on one
-instrument and false on another and be, itself, neither true nor false but simply
-*unfinished*, still mid-revision, a sentence the universe had not yet decided how
-to parse. A person could be like that. A person could pass one weighing and fail
-the next not because they had cheated the first or been wronged by the second but
-because they were, genuinely, in transit between two versions of themselves, and
-the two walls had caught them at two different moments of the crossing, and both
-readings were honest.
+dials toward agreement and she knew exactly how a thing could read one way on one
+instrument and another way on another and be, itself, neither false nor failing but
+simply *in transit* — still mid-revision, a sentence the universe had not yet
+finished parsing. A person could be like that. A person could be weighed at one
+wall and weighed differently at the next not because they had cheated the first or
+been wronged by the second but because they were, genuinely, between two moments of
+their own crossing, and the two walls had caught them at two different points of
+the journey, and both readings were honest.
 
 "Klimbloomme," she said quietly, not to wake him, only to think out loud at him the
 way she did. "If a person were weighed at one wall and passed, and weighed at
-another wall and failed — which one is true?"
+another wall and read differently — which one is true?"
 
 << Both, >> Klimbloomme said, not opening whatever served him for eyes. << You
 taught me that. The first day. You said calibration does not find the true reading,
-it finds the agreement, and where there is no agreement yet there is no true reading
-yet, only two honest instruments and a thing still becoming itself. You said it to a
-scared boy this afternoon, almost those words. >> A pause, the under-register going
-gentle in a way Klimbloomme rarely allowed himself. << You are asking because of the
-voice in the wall. The one who will not balance. You are afraid for her, whoever she
-is. You have never met her and you are afraid for her. >>
+it finds the agreement, and where there is no agreement yet there is no single true
+reading yet, only two honest instruments and a thing still becoming itself. You said
+it to a scared boy this afternoon, almost those words. >> A pause, the under-register
+going gentle in a way Klimbloomme rarely allowed himself. << You are asking because
+of the voice in the wall. The one whose feather reads differently. You are curious
+about her, whoever she is. You have never met her and you are already on her side. >>
 
-"I'm afraid for whoever's coming to find her," Dhonah said. "The voice wasn't
-warning her. It was warning *him.* 'Tell him the feather will not balance for the
-one he is coming to find.' Someone is crossing toward someone who passed one wall
-and won't pass the next, and the wall tried to warn him, through the wrong wall, in
-the wrong direction, to the wrong calibrator, six months early — and all I can do is
-record it and seal it and send it up the band and hope it reaches him before he
-reaches her, in time for him to carry it gently." She set the recorder down. "I hate
-this part. The part where you've heard the warning and you're the wrong person to
-deliver it. Six months I've been told to confirm the angle holds, and tonight the
-angle broke its own silence to hand me a grief I can't deliver, and tomorrow I'll go
-back to confirming the angle holds, and the angle does not hold, Klimbloomme. That's
-my finding. Put it in the report. *The angle does not hold. The far feather speaks.*"
+"I'm on the side of whoever's moving toward her," Dhonah said. "The voice wasn't
+warning her — it didn't sound like someone in trouble. It was *instructing* him.
+'Tell him the far feather does not read as the near, and you must carry what she
+will need.' Someone is crossing toward someone who's been weighed at a different
+wall, and the message is: bring what she'll need, because her scales are kept by
+another hand. That's not a tragedy. That's a packing list. And all I can do is
+record it and seal it and send it up the band and hope it reaches him in time for
+him to carry the right thing." She set the recorder down. "I hate this part — the
+part where you've heard the instruction and you're the wrong person to deliver it.
+Six months I've been told to confirm the angle holds, and tonight the angle broke
+its own silence to hand me someone else's appointment, and tomorrow I'll go back to
+confirming the angle holds. And the angle does not hold the way they think,
+Klimbloomme. That's my finding. Put it in the report. *The angle does not hold the
+same on both sides. The far feather speaks, and it speaks of a rendezvous.*"
 
 << I will put it in the report, >> Klimbloomme said. << And then in six weeks I will
 climb you so far up the Fyderm overhang that no wall can reach us with anyone else's
-grief, and we will be, for one afternoon, only a climbing-thing and its rider, with
-nothing to calibrate and no feather to balance and no voice in any stone. I am owed
-that. You promised. >>
+appointments, and we will be, for one afternoon, only a climbing-thing and its rider,
+with nothing to calibrate and no feather to balance and no voice in any stone. I am
+owed that. You promised. >>
 
 "I promised," said Dhonah Kheight, and she sat the rest of the watch under the wall
-that should not speak and had spoken, holding the recording she could not deliver,
-keeping the angle that did not hold.
+that should not speak and had spoken, holding the message she could not deliver,
+keeping the angle that did not hold the same.
 
 "Six weeks," she said again, near dawn, to no one, and went back to the wall.
 
 `[Parallel 3 — Dhonah Kheight / Klimbloomme at the second Bartonian Wall (Fyderm,
 same 19.471° angle). The garbled transmission is Maathilde's voice from inside the
-stone, from the wrong direction — warning that the FAR feather will not balance
-for "the one he is coming to find" (Anastasia), even as the near feather passes
-Kincaide. Plants a discrepancy between the two walls / two sites for round three.
-Recording sealed to the S.T.A.R.E. archive. Inserted after Scene 5 per spec.]`
+stone, from the wrong direction. REFRAMED from dread-warning to instruction: the
+FAR feather does not read the same as the near — Anastasia has come through her own
+GONDOLY and is weighed at a different wall by another hand; the message is "carry
+what she will need" (the seventh plate), a packing list for a rendezvous, not a
+death-warning. Plants the two-walls discrepancy for round three. Recording sealed
+to the S.T.A.R.E. archive. Inserted after Scene 5 per spec.]`
 
 ### Scene 6 (boards 15–19) — The Gate of Agreement
 
@@ -1331,7 +1403,7 @@ could not help looking, and all four of their dials read 13:28, and all four agr
 — the upper clocks gone entirely, no machine time left in them anywhere, the whole
 family converted clean and waiting to cross as one true sentence. The smaller child
 looked back at me and waved. I waved back. Behind me, Luhpis sat VauhGhod in his
-full new carapace, six plates of the seven, the seventh sold as Luhpis had said it
+full new carapace, six plates of the seven, the seventh kept as Luhpis had said it
 might be, and for once in his long proud existence the machine-creature was entirely
 quiet — not sulking, not withholding, simply quiet, the way a thing is quiet that has
 arrived at the size it is meant to be. The six tachyonic plates had agreed in both
@@ -1369,24 +1441,29 @@ the gate-day's no-time, two blanks side by side. "Whatever you build that can re
 you, Kincaide McQuade — let it be a palindrome. Let it say of you what you say of it.
 Let the two of you balance, made mind and maker, so that whichever way the sentence
 is read it comes out true. That is the only law I would send you out with, if I
-could send only one. The pans agreeing is the whole of the law."
+could send only one. The pans agreeing is the whole of the law. It is also," she
+added, and the plume turned toward my chest, "the whole of the agreement you made at
+a turnstile, read forward and read back. She went one way; you went the other; and
+the sentence comes out true in both directions, because you both meant it. That is a
+palindrome too. That is the kind the Gate loves best."
 
 "Maathilde Quill," I said, and found that my eyes were wet — the way they had been on
-a balcony above the city at the end of the world, the last time I let myself be fully
-seen by someone who could weigh me. "Thank you for weighing me kindly."
+a balcony above the city at the start of two roads, the last time I let myself be
+fully seen by someone who could weigh me. "Thank you for weighing me kindly."
 
 "I weighed you *accurately*," she said. "I have told you. Kindness is only your word
-for an accuracy you did not expect to survive." But she was smiling, and the smile had
-her whole face in it, and then — relenting, in the way the strong relent, all at once
-and completely — she took my face in both her hands and kissed me on both cheeks, in
-the old Earth manner I must have been carrying in my sphere without knowing I carried
-it, because she could not have learned it anywhere else. "Go on, now. The stone is
-singing and the seam will not hold open forever; that is the mercy of it and the
-cruelty. And Kincaide — " she held my face a moment more, and her voice dropped into
-the plain true place — "when you find her. In whatever count she keeps now, by whatever
-clock, in whatever quarter she has had to come through to be found. Tell her the pans
-agreed. Tell her you were weighed and you balanced and they let you through. She will
-know what it means. The grieving always know what it means."
+for an accuracy you did not expect to be glad of." But she was smiling, and the smile
+had her whole face in it, and then — relenting, in the way the strong relent, all at
+once and completely — she took my face in both her hands and kissed me on both cheeks,
+in the old Earth manner I must have been carrying in my sphere without knowing I
+carried it, because she could not have learned it anywhere else. "Go on, now. The
+stone is singing and the seam will not hold open forever; that is the mercy of it and
+the urgency. And Kincaide — " she held my face a moment more, and her voice dropped
+into the plain true place — "when your arcs intersect. In whatever count she keeps now,
+by whatever clock, in whatever quarter she has chosen to come through to meet you. Tell
+her the pans agreed. Tell her you were weighed and you balanced and they let you
+through. She will know what it means. The ones who keep their agreements always know
+what it means."
 
 I could not answer. I stepped under the benben with the ark of my records strapped
 tight to my chest, my sphere against my heart and Ghaylle along my spine and
@@ -1397,28 +1474,30 @@ It came down like a waterfall, but a waterfall of ripples rather than of water �
 of light spreading and overtaking one another, each crest lasting some fraction longer
 and shifting some fraction redder the farther out it ran, the whole opalescent sheet of
 it shifting tint and frequency as it fell, and I knew those draperies of color at once.
-I had seen them before. I had seen them on a balcony, in a sky going wrong, at seven
-forty-one of the last good morning, when the light first began to behave like that and
-we understood, Anastasia and I, that the world was ending and that we would not end
-together. The same rings. The same outward-running crests, each lasting a fraction
-longer, each shifting a fraction redder. The exact light she had named for me before I
-had words for it — *the sun being read,* she had said, *the wake of the looking* — and
-I had spent every year since afraid of that light, had built my own black glass around
-the memory of it, had refused for a long time to take any reading at all rather than
-take one by a sun that did that. And here it was again, falling through the oldest
-stone there is, sung down by the memory of the first morning — and it was not the end of
-a world at all. It was a Gate. It had always been a Gate. The light that took her and
-the light that would carry me to her were the same light, read from opposite sides of
-the same lintel, and I had been standing on the wrong side of it for years, grieving the
-exit for the catastrophe.
+I had seen them before. I had seen them on a balcony, in a sky going wonderful, at seven
+forty-one of the last shared morning, when the light first began to behave like that and
+we understood, Anastasia and I, that the world was opening and that we would each be
+called onto a road of our own. The same rings. The same outward-running crests, each
+lasting a fraction longer, each shifting a fraction redder. The exact light she had named
+for me before I had words for it — *the sun being read,* she had said, *the wake of the
+looking* — and I had loved that light and feared it both, in different years, but I had
+never once stopped trusting it, because she had named it good news and she was a woman
+who was right about light. And here it was again, falling through the oldest stone there
+is, sung down by the memory of the first morning — and it was not the end of anything at
+all. It was a Gate. It had always been a Gate. The light that called her onto her road
+and the light that would carry me along mine toward our meeting were the same light, read
+from two sides of the same lintel, and I had been standing on one side of it for years,
+carrying the heading, and now I was walking through it to keep the appointment.
 
-I walked into the ripples unweighed at last, my heart and the feather agreed, and for
-the first time since the balcony I was not afraid of the light. I walked into the same
-light that had taken her, and this time I let it take me too, the same direction, at
-last, toward the same place she had gone, and I understood as I crossed that this was
-the lunch we had said *see you at*; that the turnstile had only ever been one side of a
-Gate; and that I was, five years and eleven systems late, finally walking through it
-to keep the appointment.
+I walked into the ripples weighed at last, my heart and the feather agreed, and for
+the first time since the balcony I stood inside that light not as a watcher but as a
+traveler. I walked into the same light that had called her, and this time I let it carry
+me too, the same kind of road she had taken, toward the same meeting we had both said yes
+to, and I understood as I crossed that this was the lunch we had said *see you at*; that
+the turnstile had only ever been one side of a Gate; and that I was, five years and eleven
+systems along, finally walking through it, not late and not early, but at exactly the pace
+the agreement had always run, to keep the appointment we had made under the water on the
+last shared morning.
 
 `[boards 15–19: "ARK", "MRR MSL MSN", "AQAIL", "BIORCA" — the departure manifest: the
 ark of records, mission-codes (MRR/MSL/MSN), and the destinations AQAIL and BIORCA,
@@ -1427,10 +1506,12 @@ scene. The six-of-seven tachyonic plates close the House PolyMatriFoci requisiti
 a single Gate-passable thing.]`
 `[board 17: "AI:IA" — the palindrome over the arch, the covenant between made mind and
 maker; translated by Ghaylle in the voice it keeps for what it loves; tied explicitly
-to Kincaide and Ghaylle's own bond.]`
+to Kincaide and Ghaylle's own bond, AND now to the turnstile agreement read forward and
+back as its own palindrome.]`
 `[board 15: the ripple-light of the passage tied explicitly to the Prologue's 7:41
-balcony — the catastrophe-light and the gate-light revealed as the same light read from
-opposite sides. The crossing reframed as keeping the unkept lunch appointment.]`
+balcony — REFRAMED: not catastrophe-light vs. gate-light, but one calling-light read from
+two sides; Kincaide carried the heading all along. The crossing reframed as keeping the
+agreed appointment, on time. "When you find her" → "when your arcs intersect."]`
 
 ### Scene 7 — The Far Side of the Gate
 
@@ -1513,26 +1594,31 @@ how much to say, and that the deciding was a kindness.
 "A waypoint," he said finally. "On the far side of AQAIL. We make for AQAIL, and then
 beyond AQAIL there is BIORCA, and BIORCA is — " he lowered the card, and met my eyes, and
 did not look away, which from Luhpis is the gentlest thing he owns — "I believe that is
-where we will find her, Kincaide."
+where your roads converge, Kincaide. Where you'll meet her. Not find her — meet her. She'll
+be coming to it from her own direction, the way you're coming to it from yours."
 
-I did not ask him to be more specific. I had carried the question so long that the
-answer, arriving, needed room to be true in, and questions crowd a thing like that. I
-took the manifest from his hand and read the two names myself, once, in my own eyes —
+I did not ask him to be more specific. I had carried the appointment so long that the
+confirmation, arriving, needed room to be true in, and questions crowd a thing like that.
+I took the manifest from his hand and read the two names myself, once, in my own eyes —
 AQAIL, and under it BIORCA — and I put them in the sphere against my heart, beside the
-grief that weighed nothing now because at last I knew which way it was carrying me.
+agreement that weighed nothing now because at last I knew the place it was carrying me
+toward, and knew she was carrying her end of it toward the same place.
 
 What I did not know — what the clerk knew, I think, behind his ordinary stamping, and
-what Luhpis half-knew and would not say, and what a woman at the foot of a wall on Fyderm
-had already heard the stone say in the wrong direction and sealed into an archive I would
-not read for years — was that AQAIL had its own weighing waiting, and that the feather on
-the far side does not always weigh the same as the feather on the near.
+what Luhpis half-knew and would not yet say, and what a woman at the foot of a wall on
+Fyderm had already heard the stone say in the wrong direction and sealed into an archive I
+would not read for years — was that AQAIL had its own weighing waiting, and that the
+feather on the far side does not always weigh the same as the feather on the near, and
+that there was a thing I would be asked to carry across the whole crossing and set down for
+her, if her far feather needed it.
 
 `[boards 15–19: AQAIL and BIORCA as destination-codes in the departure manifest — AQAIL
 the heading (a place VauhGhod has been, in a prior armor), BIORCA the waypoint beyond it
-where "she" (Anastasia) is provisionally placed. The far-side resolution of the civic
+where the two arcs converge. REFRAMED: Luhpis says "meet her," not "find her" — a mutual
+rendezvous, each arriving from their own direction. The far-side resolution of the civic
 syllabary into one inscription is this scene's turn. The clerk stamping the air is the
-deliberate anti-climax. Closing beat seeds Scene 11's Hastur-adjacent warning and Scene
-12's far-feather discrepancy.]`
+deliberate anti-climax. Closing beat seeds Scene 11's Hastur-adjacent warning, Scene 12's
+far-feather discrepancy, and Scene 14's seventh-plate office.]`
 
 ### Scene 11 — Dhayvid and Syvel at the AQAIL Approach
 *(Parallel field. S.T.A.R.E. ensemble register. Inserted after Scene 7.)*
@@ -1592,8 +1678,8 @@ the AQAIL approach is humming in a frequency that the King's family uses to — 
 "To call. It's a calling-frequency. AQAIL is broadcasting a low slow call in a register
 adjacent to the thing that held us, and it has been broadcasting it the whole time, and we
 are about to ride into it, and the documentarian is three days behind us riding into it
-after us, grieving, with his pans freshly agreed and his guard all the way down because the
-city just told him he's light enough to find his wife." She turned to Dhayvid at last, and
+after us, with his pans freshly agreed and his guard relaxed because the city just told him
+he's light enough to keep his appointment with his wife." She turned to Dhayvid at last, and
 her face was the face he had seen across the dark of the prison for an age, the face that
 had recited the count back to him when he lost it. "Tell me whether we signal him to slow,
 or whether we push forward and clear it before he gets here."
@@ -1603,10 +1689,12 @@ holding the moment between them the way bonded things hold a thing too big for o
 
 "If we signal him to slow," Dhayvid said slowly, working it the way they had worked
 everything in the prison, out loud, together, so neither lost the thread, "he stops on the
-approach. A grieving man, stopped, alone with VauhGhod and that handler and a made mind, in
-a sector broadcasting a calling-frequency, *waiting.* You don't make a grieving man wait
-inside a call, Syvel. The call is built for the waiting ones. It's built for exactly him.
-We'd be staking him out."
+approach. A man who's expected somewhere, stopped, alone with VauhGhod and that handler and
+a made mind, in a sector broadcasting a calling-frequency, *waiting.* You don't make a man
+who has an appointment wait inside a call, Syvel. The call is built for the waiting ones —
+but it's built for the ones who wait *aimlessly,* the ones with nowhere to be. Stop a man
+who's going somewhere and you turn him into exactly the crop the Yellow plants for. We'd be
+staking him out."
 
 "And if we push forward and clear it and we're wrong about how much there is to clear—"
 
@@ -1620,13 +1708,13 @@ inside the call, and that person is sitting next to me pretending she hasn't dec
 
 Syvel laughed — once, wet, the laugh of someone caught. "ZheihtAighent," she said. "Send
 the documentarian nothing. Not a warning, not a word. Let him come on at his own speed; a
-warning would only make him wait, and the wait is the trap. We push. We go in ahead and we
-sing it down to a frequency he can ride through without ever knowing it was there." She
-wiped her face with the back of her gauntlet, businesslike. "And HyghZonne — you keep the
-count. Out loud. Both of us, the whole way in. If I lose the thread you recite it back, and
-if Dhayvid loses it I recite it back, and nobody dissolves on my approach. We did this once.
-We do it again. Thirteen, twenty-eight, and the one day out of time. Start there. Keep it
-moving."
+warning would only make him wait, and the wait is the trap. He's not waiting — he's traveling.
+Keep him traveling. We push. We go in ahead and we sing it down to a frequency he can ride
+through without ever knowing it was there." She wiped her face with the back of her gauntlet,
+businesslike. "And HyghZonne — you keep the count. Out loud. Both of us, the whole way in. If
+I lose the thread you recite it back, and if Dhayvid loses it I recite it back, and nobody
+dissolves on my approach. We did this once. We do it again. Thirteen, twenty-eight, and the
+one day out of time. Start there. Keep it moving."
 
 They rode in. The approach narrowed the way no physical channel narrows — there
 was room enough in every direction, the open dark goes on forever — but the
@@ -1667,35 +1755,40 @@ field; there's a *thing* out here doing the calling, one thing, and it's old and
 it's slow and it's — " she tilted her head, listening, and what came over her face
 was not fear, Dhayvid noted, and made himself note it, the way Rhodhe had taught
 the whole service to note it — it was the other thing, the peace, the dreadful
-restful recognition. He reached over without a word and took her gauntleted hand
-off the grip and held it, hard, an interruption, a rudeness, a rope.
+restful recognition, the wanting-nothing. He reached over without a word and took
+her gauntleted hand off the grip and held it, hard, an interruption, a rudeness, a
+rope.
 
-"Count," he said. "Out loud. Now. To me. Not to it."
+"Count," he said. "Out loud. Now. To me. Not to it. And tell me where we're going
+after. Out loud. The Fyderm overhang. Klimbloomme's overhang. Somewhere to be."
 
 Her eyes came back. "Thirteen," she said, gripping his hand. "Twenty-eight. And the
-day out of time. Thank you. Thank you, Dhayvid. It nearly had me peaceful."
+day out of time. And then home, and then the overhang, and then somewhere after that.
+Thank you. Thank you, Dhayvid. It nearly had me wanting nothing."
 
 "It always goes for you first," he said. "You hear too well. That's why you're the
-one who clears it and I'm the one who holds the count. We worked this out six years
-ago. Keep singing. We sing it down to a pitch a grieving documentarian can ride
-through without ever knowing we were here, and then we go home, and we never tell
-him, and that's the whole mission." He did not let go of her hand. ZheihtAighent
-took the carrier down another half-octave, and the call thinned, and the corridor
-of attention widened by a degree, and far behind them, three days back, a man they
-were saving rode on toward AQAIL not knowing he was being saved, which is the only
-way anyone is ever saved, and the only thanks the savers ever get, and the only
-thanks Syvel QuillQuote had ever wanted.
+one who clears it and I'm the one who holds the count and names the next place. We
+worked this out six years ago. Keep singing. We sing it down to a pitch a traveling
+documentarian can ride through without ever knowing we were here, and then we go home,
+and we never tell him, and that's the whole mission." He did not let go of her hand.
+ZheihtAighent took the carrier down another half-octave, and the call thinned, and the
+corridor of attention widened by a degree, and far behind them, three days back, a man
+they were clearing the way for rode on toward AQAIL not knowing he was being helped,
+which is the only way anyone is ever helped, and the only thanks the helpers ever get,
+and the only thanks Syvel QuillQuote had ever wanted.
 
 << Thirteen, >> said ZheihtAighent, and kept, low and steady, counting them down into the call.
 
 `[Parallel 2 — Syvel QuillQuote (AspeRex, sound-programmer, ZheihtAighent) and Dhayvid
 Zhail (Etagon, HyghZonne), GEOXenoLipid survivors, scouting ahead on the AQAIL approach.
 ZheihtAighent detects a Hastur-adjacent calling-frequency under the AQAIL carrier (the
-"Yellow"). The argument: signal Kincaide to slow (and stake a grieving man out inside the
-call) vs. push forward and clear it (risking themselves with no one behind to "recite the
-count"). They choose to push and send Kincaide nothing. The recited count (13:28 + day out
-of time) is their prison-survival ritual. Inserted after Scene 7 per spec; pays toward
-Scene 14/15's road to AQAIL.]`
+"Yellow"). The argument: signal Kincaide to slow (turning a traveling man into a waiting
+one, the crop the call is planted for) vs. push forward and clear it (risking themselves
+with no one behind to "recite the count"). They choose to push and send Kincaide nothing —
+keep him TRAVELING, not waiting. REFRAMED: the danger is "wanting nothing," not grief;
+the antidote is having somewhere to be. The recited count (13:28 + day out of time) is
+their prison-survival ritual. Inserted after Scene 7 per spec; pays toward Scene 14/15's
+road to AQAIL.]`
 
 ### Scene 8 — The Black Quarter (GONDOLY)
 
@@ -1715,25 +1808,28 @@ I broke the feather to open it, which felt like a small sacrilege, and read.
 steered the creature wide of, the one your Ghaylle could not put in its catalog. I saw you
 see it. I see everyone see it. It is called GONDOLY, and I could not tell you its name on
 arrival, because the weighing requires that you not know what you are walking past. Only
-that you are choosing to walk past it. To declare, by walking on, that you are not yet
-staying. You have passed the weighing now. Your pans agreed; I felt them agree from across
+that you are choosing to walk past it. To declare, by walking on, that you are not staying
+there. You have passed the weighing now. Your pans agreed; I felt them agree from across
 the city, the way you feel a held note resolve. So. Now I can tell you.*
 
 *The black-glassed quarter speaks a dialect the city has been trying to translate for four
 hundred years. We know what it is not. It is not military, not civil, not laboratory, not
 theological, not mercantile — not any of the five we read so easily that we forget they
 were ever hard. The leading theory of the Ledger Exchange, which I hold also, is that it is
-grief. Grief unprocessed. The dialect of the things that refuse to enter the ledger — that
-will not be weighed, will not be priced in either count, will not become a single agreed
-thing the Gate could pass. GONDOLY does not have two clocks, Kincaide. GONDOLY has no clocks
-at all. It took them down. And the city built the glass black around it, all that dark
-glazing you could not read, so that what lives inside would not have to see its own
-reflection thrown back in the 12:60 — the way some people cannot bear to look at old
-photographs, cannot bear the clock-face of a former self. We do not revise GONDOLY. We do
-not send the clocksmiths in. GONDOLY is not wrong. It is only not yet ready, and readiness
-is not a thing you can do to a person from outside; it is the one work that must be done
-from within. Every city worth the name has a GONDOLY. A city without one is not gentle. It
-is only fast.*
+grief — but not the clean grief of those who have lost. It is the grief of those who never
+made an agreement, who refused to choose a road and so refused to release anyone onto one,
+and who keep, instead, a closed account that will not enter the ledger — that will not be
+weighed, will not be priced in either count, will not become a single agreed thing the Gate
+could pass. GONDOLY does not have two clocks, Kincaide. GONDOLY has no clocks at all. It
+took them down, because it had no appointment to keep and so no use for time. And the city
+built the glass black around it, all that dark glazing you could not read, so that what
+lives inside would not have to see its own reflection thrown back in the 12:60 — the way
+some people cannot bear to look at a clock-face that is keeping time toward nothing. We do
+not revise GONDOLY. We do not send the clocksmiths in. GONDOLY is not wrong. It is only not
+yet ready, and readiness is the one work that cannot be done to a person from outside; it
+is done from within, by the making of an agreement — any agreement, with anyone, with the
+self even — that gives time something to count toward again. Every city worth the name has
+a GONDOLY. A city without one is not gentle. It is only fast.*
 
 *And here is the thing I could not say at the Wall, because the Wall weighs the present and
 this is about a future I cannot weigh: I have heard, on the registrar's band, that there are
@@ -1741,18 +1837,20 @@ two Walls. That somewhere there is a sister site at our same angle, and that the
 there does not always read as the feather here reads. I do not understand it. I am telling
 you anyway, because you are a documentarian and you keep the things you do not understand,
 and because if your road takes you to a second weighing you should know that passing the
-near feather is not the same as passing the far one. When you find her, she will have been
-weighed on a wall I have never stood beneath. Do not assume my pans are her pans. Carry that
-gently. Carry it the long way.*
+near feather is not the same as passing the far one. When your arcs intersect, she will have
+been weighed on a wall I have never stood beneath. Do not assume my pans are her pans. Carry
+that gently. Carry it the long way — and carry, also, whatever she will need at her own wall,
+because a man who keeps an appointment brings what is asked.*
 
-*When you find her, Kincaide, she will have come through something like GONDOLY first. That
-is the usual route — it was mine. Through the dark quarter, through the weighing, through the
+*When you meet her, Kincaide, she will have come through something like GONDOLY first — but
+through it, and out, the way one comes out: by remembering she had somewhere to be. That is
+the usual route — it was mine. Through the dark quarter, through the weighing, through the
 gate, in that order, the long way, the only way that holds. Tell her I know the path. Tell
 her the clocks both stopped for me also, once — stopped dead, the upper and the lower
-together, and I lived in the dark glass for longer than I will write down here — and that
-they started again, in the 13:28, in their own time and not before, and that there is no
-shame in any of it. None. Tell her a registrar said so, who weighs for her office and does
-not guess.*
+together, in a year when I had let go of every appointment — and that they started again, in
+the 13:28, the day I made a new one and gave time something to count toward, and that there
+is no shame in any of it. None. Tell her a registrar said so, who weighs for her office and
+does not guess.*
 
 *— M. Q.*
 
@@ -1768,71 +1866,85 @@ GONDOLY that I read as districts and filed and did not understand. They are not 
 inside the wall. They are stations on the road out. I have it now, the whole shape of it.
 The gate-road runs through three quarters in sequence, and I was reading them as a skyline
 when they were always a road. The city built it so you could only read the sequence walking
-out. GONDOLY first — grief undischarged, the dark glass, the stopped clocks. Then PAKAE — the
-quarter of the almost-healed. Then VILLAR VIS — the quarter of the fully-converted, the ones
-who took the scaffolding down early and live in pure 13:28, and who, having no further need
-of doors, leave them open."
+out. GONDOLY first — the closed account, the dark glass, the stopped clocks. Then PAKAE — the
+quarter of those who have made the agreement and are mending in the keeping of it. Then
+VILLAR VIS — the quarter of the fully-converted, the ones who took the scaffolding down early
+and live in pure 13:28, and who, having an appointment they are certain of, no longer need
+their doors locked, and leave them open."
 
 We walked out. The road ran from the post-office concourse out through all three, as Ghaylle
 had said, and there was no other way to the open dark, and I understood that too was
-deliberate. You leave the Astrocity the way you grieve, through the dark first.
+deliberate. You leave the Astrocity the way you become ready: through the dark first, but only
+through it, never to stay.
 
 GONDOLY came first. Black glass and black stone and architecture very old, older than the
 lettered city, predating the syllabary — buildings that were not letters, that did not read,
 that had given up reading. And in the angles of its streets there lived something that was
 not quite silence. I do not have the word. It was the held quality of a room where someone
-has just stopped weeping, or has not yet started; a fullness; a presence made entirely of
-absence, the way a cast is shaped by the bone that is gone. The glass threw back no
-reflection — they had made sure of that — so that walking through it you cast no image, kept
-no clock, were for the length of the quarter simply a body moving through a grief that was
-not yours and was, also, exactly yours. I recognized it. I will not pretend I did not. I had
-lived in a GONDOLY of my own for years after the balcony, behind my own black glass,
-refusing the weighing, refusing the ledger, keeping no clock I would admit to, taking no
-reading rather than take one by the wrong sun, and I knew the streets of this one the way
-you know a house you lived in as a child and have dreamed of since. I walked slowly. Ghaylle
-did not hurry me. Luhpis did not speak. VauhGhod made no sound, and his unsounding, here,
-was the kindest thing in the quarter.
+has stopped waiting for anything; a fullness made entirely of absence, the way a cast is
+shaped by the bone that is gone. The glass threw back no reflection — they had made sure of
+that — so that walking through it you cast no image, kept no clock, were for the length of the
+quarter simply a body moving through a stillness that was not yours. I recognized it, and I
+will not pretend I did not. There had been a season after the balcony — a short one, shorter
+than I let people believe — when I had nearly mistaken my agreement for an absence, nearly
+taken down my own clocks, nearly let the heading curdle into a closed account. I had stood at
+the mouth of my own GONDOLY and looked in. And then I had remembered I had somewhere to be —
+that she was out on her road keeping her end, and that to take down my clocks would be to break
+the agreement from my side, to leave her arriving at a rendezvous with no one coming the other
+way. So I had not gone in. I had kept the count. And so I walked the streets of this GONDOLY now
+not as one of its own but as a visitor who had once nearly stayed and had chosen, instead, the
+road, and I knew the streets the way you know a house you almost moved into and were glad, after,
+that you did not. I walked slowly, with respect, the way you walk through anyone's hard place.
+Ghaylle did not hurry me. Luhpis did not speak. VauhGhod made no sound, and his unsounding,
+here, was the kindest thing in the quarter.
 
 PAKAE came second, and the air changed at the boundary the way air changes at a shoreline. It
-smelled of bread, and of fresh wet plaster. The almost-healed. The buildings here were being
+smelled of bread, and of fresh wet plaster. The mending. The buildings here were being
 mended — not grown, not raised, *mended*, which is a different and more tender verb — and
 people stood in their doorways doing the mending with their hands, fitting a stone, smoothing
 a plaster, splicing a vine back to its trellis. They looked up at us as we passed, and their
-faces had a particular tiredness in them that I knew also, that I had felt in my own face in a
-glass on the morning I first walked out of my own dark: the specific exhaustion of
-*returning.* Not the tiredness of the journey out, which is clean. The tiredness of the way
-back, which is not, which is heavier and better. They nodded to us, the way returned people
-nod to the still-traveling, and went back to their mending, and one woman, plastering a wall,
-paused and pressed her palm flat to the wet plaster and held it there a moment, and then went
-on, and I have thought since that she was leaving a hand-print on purpose, the way the
-citizens left their hands on the hexagrams — not to be remembered. To declare the present
-honestly. *I was here, and I am mending, and the wet of it took my hand.* I thought of the
-woman in the letter, the woman in BIORCA who had come this road first, mending in her own
-PAKAE on a wall I would never see, weighed by a feather Maathilde had never stood beneath, and
-I made myself walk on without asking the air whether she had left a hand-print too.
+faces had a particular look in them that I knew also, that I had felt in my own face in a glass
+on the morning I turned away from the mouth of my own dark: not the tiredness of loss, but the
+glad and slightly stunned look of someone who has just remembered they have an appointment, and
+is making themselves ready for it. They nodded to us, the way the made-ready nod to the still-
+traveling, and went back to their mending, and one woman, plastering a wall, paused and pressed
+her palm flat to the wet plaster and held it there a moment, and then went on, and I have thought
+since that she was leaving a hand-print on purpose, the way the citizens left their hands on the
+hexagrams — not to be remembered, but to declare the present honestly. *I was here, and I am
+making ready, and I have somewhere to be, and the wet of it took my hand.* I thought of the woman
+in the letter, the woman beyond BIORCA who had come this road first, mending in her own PAKAE on a
+wall I would never see, weighed by a feather Maathilde had never stood beneath, making herself
+ready for the same rendezvous I was making myself ready for, and I let myself be glad of it — glad
+she was on her road, glad it had its own mending in it, glad we were each doing this part alone so
+that we would have something to tell each other at the table. I made myself walk on without asking
+the air whether she had left a hand-print too, because I did not need to ask. I knew she had. She
+is a woman who declares the present honestly. It is one of the things I love her for.
 
 VILLAR VIS came last, and it needs no description, and I will give it none. I will only say
 that it was the place you arrive at when you have stopped needing the place described to you —
 when the wanting of a description is itself the last of the old count in you, and it has gone
 quiet — and that the doors stood open, all of them, every door in the quarter, with no fear in
-the openness and no invitation either, only the plain fact of a place that no longer locks
-because it has nothing left it could lose. We walked through it and out the far side into the
-open dark, and somewhere in that walking, between the open doors, I understood that she had
-walked this road. That she was somewhere along it, or beyond it — through her own GONDOLY,
-mending in her own PAKAE, or arrived already at her own Villar Vis with the door left open —
-and that the road I was on was the road to her, and had been the whole time, from the
-requisition onward, from before I knew her name was a destination on a manifest. I did not
-weep. I had done my weeping in GONDOLY, where it was native. I walked out into the dark with my
-pans agreed and her shadow ahead of me on the road, and it was, for the first time in a long
-life of arrivals, a shadow that the light was behind.
+the openness and no anxiety either, only the plain confidence of a place full of people who all
+have somewhere to be and are sure of getting there, and so no longer lock anything against the
+chance that they will not. We walked through it and out the far side into the open dark, and
+somewhere in that walking, between the open doors, I understood with complete certainty that she
+had walked this road — that she was somewhere along her own version of it, or beyond it, through
+her own GONDOLY and out, mending in her own PAKAE, or arrived already at her own Villar Vis with
+the door left open and the table set — and that the road I was on was the road to the meeting, and
+had been the whole time, from the requisition onward, from before I knew her name was a destination
+on a manifest. I did not weep. There was nothing to weep for. I walked out into the dark with my
+pans agreed and her arc curving toward mine somewhere ahead, two roads bending toward one table,
+and it was, for the first time in a long life of arrivals, the lightest I have ever carried
+anything, because a thing you are sure of arriving at weighs nothing at all.
 
 `[board 3: GONDOLY / PAKAE / VILLAR VIS — resolved as the three-stage gate-road outside the
-wall: grief undischarged / the almost-healed / the fully-converted. Maathilde's letter supplies
-GONDOLY's full reading (the untranslated grief-dialect, the stopped clocks, the black glass
-against self-reflection) and now also carries the two-feathers warning (the far Wall does not
-always read as the near), tying to Scene 12. Anastasia's shadow runs through the whole walk.
-Correct against artwork only if the boards place the three on the road out rather than inside
-the wall.]`
+wall: the closed account / the made-ready / the fully-converted. REFRAMED: GONDOLY is the
+district of those who made NO agreement and so have nothing to count toward; one leaves it by
+remembering one has somewhere to be. Kincaide once stood at the mouth of his own and chose the
+road instead. Maathilde's letter supplies GONDOLY's full reading and now also carries the
+two-feathers instruction (carry what she will need) tying to Scenes 12, 14. Anastasia walks her
+own version of the road, by her own choice, toward the same rendezvous. Correct against artwork
+only if the boards place the three on the road out rather than inside the wall.]`
 
 ### Scene 9 — Deux Sept
 
@@ -1868,12 +1980,14 @@ first gradient, eleven days and a lifetime ago. Armor to series. What a creature
 not one plate more. A civilization that names itself Two-Seven is a civilization that has
 learned the lesson of the seventh plate. Two counts, when it could have insisted on one. Six
 plates worn, when the series offered seven. It takes what the weighing says it can bear, and it
-does not reach for the rest, and it writes the not-reaching into its own name, over its own
-gate, so that it will never forget. Clock-count and armor-count. The same lesson in two
-languages. The whole city, Kincaide, is Luhpis's first sentence to you, grown to the size of a
-civilization and stood up against the stars. File *that* for Command — the resonance answer
-they actually wanted. *The crossing holds because the city named the holding.* You survive your
-own seam by writing the restraint into your name."
+does not reach for the rest — but it does not discard the rest either. It *keeps* the seventh,
+held in reserve, and it writes the keeping into its own name, over its own gate, so that it will
+never forget either lesson: not to overload, and not to throw away what it might one day need to
+give. Clock-count and armor-count. The same wisdom in two languages. The whole city, Kincaide,
+is Luhpis's first sentence to you, grown to the size of a civilization and stood up against the
+stars. File *that* for Command — the resonance answer they actually wanted. *The crossing holds
+because the city named the holding.* You survive your own seam by writing the restraint, and the
+reserve, into your name."
 
 I looked at the back of Luhpis's head, at the set of his shoulders, and he did not turn around,
 but I saw the side of his face, and he knew that I had it now. He had given me the whole city in
@@ -1907,7 +2021,7 @@ The benben lintel sang behind us until we were too far out to hear it — the fi
 the first light ever struck, remembering out loud the morning it was first seen, singing the
 passage of every soul that crossed and would cross, and singing, I let myself believe, a little
 for us, for the documentarian with the agreed pans and the made mind in his spine and the
-recorded grief gone finally light. The tone thinned with distance and did not stop; it only
+recorded agreement carried light. The tone thinned with distance and did not stop; it only
 passed below the threshold of the ear, the way the 12:60 will pass below the threshold of a
 city, the way a riverbed keeps the shape of water long after the water has gone elsewhere to be
 itself. Ghayllieuxjah held the last note in the records, at full fidelity, where I can find it.
@@ -1915,19 +2029,23 @@ I did not ask it to stop. I think I never will.
 
 Ahead lay the open dark, and the heading AQAIL, where VauhGhod had stood once in a prior armor
 and was now allowed to stand again; and beyond AQAIL the waypoint BIORCA, where I had let myself
-be told, at last, that I would find her. The horizon was clean. The light was behind me. My
+be told, at last, that our two roads would meet. The horizon was clean. The light was around me
+on every side now, no longer a thing behind or ahead but simply the medium I traveled in. My
 heart and the feather had agreed, and the city that taught me how to weigh them was a single
 fading inscription already half below the curve of the dark, saying, as it sank, the thing it
-is — two counts, six plates, one road through the grief and out — and I rode out into the long
-crossing with the whole of it carried light, and properly begun.
+is — two counts, six plates worn and one held in reserve, one road through the dark and out — and
+I rode out into the long crossing with the whole of it carried light, and the appointment
+properly begun, and pointed, at last, toward the table.
 
 `[DEUX SEPT — the city's formal name resolves the through-line: DEUX = the two clocks, SEPT =
-the seven-piece armor series, and the ratio (what can be carried and not one piece more) is the
-same lesson Luhpis gives at the opening requisition, now grown to civilizational scale.
-Clock-count and armor-count: one lesson in two languages, and the resonance answer for Command
-(the crossing holds because the city named the holding). Luhpis's "it is also a date" left
-deliberately unexplained per the manifest footer — paid into Scene 13 (the date is 2007).]`
-`[Bartonian Wall: 19.471° confirmed as the tetrahedral angle. Vauhgohd's carapiece in the
+the seven-piece armor series, and the ratio (what can be carried and not one piece more, AND the
+seventh kept in reserve) is the same lesson Luhpis gives at the opening requisition, now grown
+to civilizational scale. Clock-count and armor-count: one lesson in two languages, and the
+resonance answer for Command (the crossing holds because the city named the holding). REFRAMED:
+the seventh plate is "kept, held in reserve," not sold — seeding Scene 14's gift-office. Luhpis's
+"it is also a date" left deliberately unexplained per the manifest footer — paid into Scene 13
+(the date is 2007).]`
+`[Bartonian Wall: 19.471° confirmed as the tetrahedral angle. VauhGhod's carapiece in the
 spectrum colors ties Scene 3's choir (ROY G BIV) to Scene 9's armor: the consent carried in
 armor where the converts carry it in time.]`
 
@@ -1936,7 +2054,7 @@ armor where the converts carry it in time.]`
 
 Kincaide had gone to walk the last of the gate-road on foot — he did that after a crossing, paced
 it out alone with the sphere against his chest, and Luhpis had learned long ago to let him, to
-let the man's grief have its legs under it without an audience. So for a little while at the lip
+let the man have his road under his own legs without an audience. So for a little while at the lip
 of the open dark, while VauhGhod cropped quietly at the stellar shallows and Ghaylle dozed in the
 documentarian's spine the way a made mind dozes, with one process always awake, LuhpisLazarus was
 alone with the manifest.
@@ -1944,7 +2062,7 @@ alone with the manifest.
 He took it out again. He had told Kincaide the truth and also not all of it, which was the
 handler's whole craft and the handler's whole loneliness. DEUX SEPT. Two-Seven. The ratio, yes —
 the two clocks and the seven plates, and he had let the documentarian arrive at that, because the
-documentarian needed a thing to arrive at and that one was both true and survivable. But Luhpis
+documentarian needed a thing to arrive at and that one was both true and good to hold. But Luhpis
 read more dead scripts than any living man he knew, and he read live ones too, and he had read the
 footer of this manifest on the first day and known the second meaning before Kincaide knew the
 first.
@@ -1960,14 +2078,15 @@ Luhpis sat with it a moment, the way Kincaide had sat with the ratio, letting it
 2007. He understood why this specific year, this specific binder, when Kincaide did not yet. He
 understood what had been drawn in 2007 and what it had taken seven series and however many crossings
 to fit, and he understood — this was the part he would never say aloud, not to Kincaide, not to the
-creature, not to the made mind — that the documentarian's grief and the requisition's date were not
-two facts. They were one fact, filed twice, in two counts, the mechanical date and the living date,
-the way the city filed everything. The year the armor was drawn was the year the world was read. The
-year of the balcony. The year of the turnstile. The year a woman went left toward the Chandlier and
-up into a sky going prismatic at seven forty-one of a crisp morning. DEUX SEPT was not only two
-clocks and seven plates. It was the date the two clocks first disagreed, for one man, on one balcony,
-and it had taken the service this long to draw the armor that could carry him across the disagreement
-to her.
+creature, not to the made mind — that the documentarian's agreement and the requisition's date were
+not two facts. They were one fact, filed twice, in two counts, the mechanical date and the living
+date, the way the city filed everything. The year the armor was drawn was the year the world was
+read. The year of the balcony. The year of the turnstile. The year a woman went left toward the
+Chandlier and up into a sky going prismatic at seven forty-one of a crisp morning, gladly, onto her
+own road, by an agreement she and the man had sealed under the water. DEUX SEPT was not only two
+clocks and seven plates. It was the date the two clocks first came open, for two people, on one
+balcony — and it had taken the service this long to draw the armor that could carry one of them
+across the long between to the table where the other was already, he believed, setting a place.
 
 He thought, sitting there, about the chain of hands the binder had passed through to
 reach this gradient. House InterMatrixNaut had drawn it in 2007 — *drawn*, the verb
@@ -1975,13 +2094,13 @@ the old fitting-houses used, because a requisition in those days was a drawing, 
 plate-by-plate sketch of an armor that did not yet exist, a wish rendered in
 specification. Someone in the House had sat at a board in 2007 and drawn seven plates
 of tachyonic carapace for a long-crossing OrganiCycle not yet born to a rider not yet
-bereaved, and stamped it with the year, and filed it, and the binder had sat in the
+deployed, and stamped it with the year, and filed it, and the binder had sat in the
 archive at Congressional HQ for the whole long age between the drawing and the need —
 sat through the prismatic morning, sat through the jellyfish ascending and the
 Chandlier going up at noon, sat through the founding of the very service that would one
-day pull it from the shelf — waiting, the way the heavy things wait, to be drawn down
-and made real for the one man whose grief it had been drawn, though no one knew it then,
-to carry across.
+day pull it from the shelf — waiting, the way the kept things wait, to be drawn down
+and made real for the one man whose agreement it had been drawn, though no one knew it
+then, to carry across to the woman who had made it with him.
 
 Luhpis did not believe in fate. He was a handler; he believed in manifests, which are
 the opposite of fate — a manifest is a thing made by hands, amendable, fallible, kept.
@@ -2011,32 +2130,33 @@ it, in the plainest hand he owned, to Sir General Alphox, Congressional HQ, by t
 only.
 
 Then he put it away, and put the manifest away over it, and when Kincaide came back up the gate-road
-with the light behind him and his grief gone walking-weight, Luhpis was sitting exactly as the
+with the light all around him and his agreement carried light, Luhpis was sitting exactly as the
 documentarian had left him, a hard man at the lip of the open dark, and he said nothing about any of
 it, and they rode out toward AQAIL, and the reader knows that something passed between the handler and
 the date, but not what.
 
 `[Parallel 4 — LuhpisLazarus alone with the manifest after the Gate. The DEUX SEPT date stamp = 2007,
 the binder-year convention (river-count). Luhpis grasps the second meaning Kincaide hasn't: the
-requisition's draw-year IS the year of the balcony / the prismatic sun / the turnstile separation —
-grief and date filed as one fact in two counts. He writes one line in both counts in his pocket-ledger,
-seals it with a feather-impression (the registrar's "weighed and witnessed" mark), and addresses it to
-Sir General Alphox, eyes only. Content of the line deliberately withheld. After Scene 9 per spec;
-resolves Scene 9's "it is also a date.")]`
+requisition's draw-year IS the year of the balcony / the prismatic sun / the turnstile agreement —
+the agreement and the date filed as one fact in two counts. REFRAMED: 2007 is the date the agreement
+was made, not the date of a loss; the armor is built to carry one party to the rendezvous. He writes
+one line in both counts in his pocket-ledger, seals it with a feather-impression (the registrar's
+"weighed and witnessed" mark), and addresses it to Sir General Alphox, eyes only. Content of the line
+deliberately withheld. After Scene 9 per spec; resolves Scene 9's "it is also a date.")]`
 
 ### Scene 14 — VauhGhod Remembers AQAIL
 
 We rode three days out from the lip of the dark before I asked him.
 
-I had been working up to it the whole way, in the manner of a man working up to a question he is
-afraid the answer to, and I had told myself it was deference — that VauhGhod hoards his words, that
-one does not interrogate an oracle, that the long-crossing OrganiCycles spend their speech like a
-desert spends rain and a courteous rider does not stand under the creature with a bucket. All true.
-And all cover. The truth was that VauhGhod had stood at AQAIL before, in a prior armor, and AQAIL was
-the heading, and beyond AQAIL was BIORCA, and BIORCA was where Luhpis had let himself say she might
-be, and so AQAIL was the last place between me and the question I had carried for eleven systems, and
-I was afraid of what an oracle older than the city would say about the threshold I was about to cross
-to reach my wife.
+I had been working up to it the whole way, in the manner of a man working up to a question whose
+answer he is eager for and slightly awed by, and I had told myself it was deference — that VauhGhod
+hoards his words, that one does not interrogate an oracle, that the long-crossing OrganiCycles spend
+their speech like a desert spends rain and a courteous rider does not stand under the creature with a
+bucket. All true. And all cover. The truth was that VauhGhod had stood at AQAIL before, in a prior
+armor, and AQAIL was the heading, and beyond AQAIL was BIORCA, and BIORCA was where Luhpis had let
+himself say our roads would meet, and so AQAIL was the last great threshold between me and the table,
+and I was not afraid of what an oracle older than the city would say about it — I was hungry for it,
+the way you are hungry for any news of someone you are about to see.
 
 I asked him on the third night, when we had stopped, with Ghaylle awake along my spine and Luhpis a
 little apart pretending to sleep, which is the courtesy a good handler pays a question that is not his.
@@ -2044,7 +2164,7 @@ little apart pretending to sleep, which is the courtesy a good handler pays a qu
 "VauhGhod," I said. I laid my hand flat on the carapace, on the violet plate, the last of the six, the
 one nearest his great old spine. "You've been to AQAIL. Luhpis says you have, in another armor, before
 me. I'm not asking what it is. I've learned not to ask a place what it is before I've walked it. I'm
-asking — " and here my voice did the thing the chrono-yard had made it do, went sharp and small —
+asking — " and here my voice did the thing the chrono-yard had made it do, went soft and small —
 "what do you remember of it? That's all. Whatever you'll give me. What do you remember."
 
 He was a long time still. Long enough that I thought he would not answer, that I had asked the bucket
@@ -2060,15 +2180,16 @@ is the only honest thing to do with it:
 IS WHERE THE PLATES ARE COUNTED A SECOND TIME. THE NEAR GATE COUNTS YOU AND THE FAR GATE COUNTS YOU
 AGAIN AND THE TWO COUNTS ARE NOT KEPT BY THE SAME HAND. I HAVE STOOD IN THE FAR COUNT. I HAVE WORN A
 SERIES THERE THAT WAS WEIGHED LIGHT AT THE NEAR WALL AND HEAVY AT THE FAR. THE RIDER I CARRIED THE
-FIRST TIME WAS NOT WEIGHED THE SAME ON BOTH SIDES AND I CARRIED WHAT I COULD AND SET DOWN WHAT I COULD
-NOT AND THAT IS WHY I KNOW THE SEVENTH PLATE. THE SEVENTH PLATE IS NOT SOLD AT THE NEAR YARD. THE
-SEVENTH PLATE IS SET DOWN AT THE FAR WALL WHEN THE FAR FEATHER WILL NOT BALANCE WHAT THE NEAR FEATHER
-PASSED. >>
+FIRST TIME WAS NOT WEIGHED THE SAME ON BOTH SIDES AND I CARRIED WHAT I COULD AND CARRIED ALSO WHAT WAS
+NOT MINE TO WEAR AND GAVE IT WHERE IT WAS NEEDED AND THAT IS WHY I KNOW THE SEVENTH PLATE. THE SEVENTH
+PLATE IS NOT SOLD AT THE NEAR YARD. THE SEVENTH PLATE IS CARRIED TO THE FAR WALL AND SET DOWN IN THE
+LIGHTER PAN WHEN THE FAR FEATHER WILL NOT BALANCE WHAT THE ONE YOU LOVE HAS BROUGHT TO IT. >>
 
-<< THERE IS A FREQUENCY ON THE APPROACH. IT IS YELLOW. IT IS NOT A SOUND. IT CALLS THE WAITING ONES.
-TWO OF YOUR SERIES RIDE AHEAD INTO IT SINGING IT DOWN AND THEY DO NOT KNOW I KNOW AND I WILL NOT TELL
-THEM I KNOW. THE CALL IS NOT FOR YOU IF YOU DO NOT WAIT. RIDE THROUGH. DO NOT STOP ON THE APPROACH.
-THE GRIEVING WHO STOP ON THE APPROACH ARE THE CROP THE YELLOW IS PLANTED FOR. >>
+<< THERE IS A FREQUENCY ON THE APPROACH. IT IS YELLOW. IT IS NOT A SOUND. IT CALLS THE ONES WHO WAIT
+FOR NOTHING. TWO OF YOUR SERIES RIDE AHEAD INTO IT SINGING IT DOWN AND THEY DO NOT KNOW I KNOW AND I
+WILL NOT TELL THEM I KNOW. THE CALL IS NOT FOR YOU IF YOU DO NOT STOP. YOU HAVE SOMEWHERE TO BE. RIDE
+THROUGH. DO NOT STOP ON THE APPROACH. THE ONES THE YELLOW HARVESTS ARE THE ONES WHO HAVE NOWHERE TO
+ARRIVE. YOU ARE NOT ONE OF THEM. YOU NEVER WERE. >>
 
 And then he said the thing I did not translate, the thing I have left untranslated in the open record
 exactly as I left CANVAS COSMO BODY BOUGHT TOOTH TIME WROUGHT, because some sentences you let lie and
@@ -2087,23 +2208,26 @@ first two are between me and the creature and the made mind and the dark:
 "She was there, Kincaide," Ghaylle said. "That is what he is telling you. VauhGhod has carried a rider
 to AQAIL before, and at AQAIL, in the far count, on the wall whose feather is not the registrar's
 feather — she was there. He remembers her. He does not say how; the oracle-hand does not do *how.* He
-says only that she stood at the far wall to be weighed, and that the far feather did not balance her the
-way Maathilde's would have, and that she did the thing almost no one does." Ghaylle's voice caught — the
-fourth time in all our years, and I counted it, the way I count everything. "She was unafraid. That is
-the last line. He has carried frightened riders and brave riders and riders who pretended at both, and
-of her, the one he carried to AQAIL, in the far count, at the wall where the feather would not balance,
-the oldest thing I have ever ridden beside says only this, and says it as the whole of what he knows of
-her, and I am giving it to you exactly as he gave it to me: *she was there, and she was unafraid.*"
+says only that she stood at the far wall to be weighed, on her own road, having come there from her own
+direction, and that the far feather did not balance her the way Maathilde's would have — and that she
+did the thing almost no one does." Ghaylle's voice caught — the fourth time in all our years, and I
+counted it, the way I count everything. "She was unafraid. That is the last line. He has carried
+frightened riders and brave riders and riders who pretended at both, and of her, the one he carried to
+AQAIL, in the far count, at the wall where the feather would not balance, the oldest thing I have ever
+ridden beside says only this, and says it as the whole of what he knows of her, and I am giving it to
+you exactly as he gave it to me: *she was there, and she was unafraid.*"
 
-I did not speak. There was nothing to say to it that would not lighten it, and I am a documentarian and
-I have lightened enough true things for enough readers, and I would not lighten this one. I kept my hand
-on the violet plate until the creature's chord faded out of it, and then I lay back against his old warm
-spine under the steady stars, and I did not weep — I had done that in GONDOLY, where it was native — but
-I lay a long time awake with the untranslated lines lying whole in the dark beside the translated one,
-and somewhere out ahead of us on the approach two of my series were singing a yellow frequency down to a
-pitch I could ride through, and somewhere past that the far wall waited with its unbalancing feather, and
-somewhere past *that*, in the far count, she had stood once already and been unafraid, and was, I let
-myself believe, standing somewhere still, unafraid, with the door of her Villar Vis left open.
+I did not speak, because there was nothing to say to it that would not lighten it, and this was the best
+news I had been given in five years and eleven systems, and good news that large does not want
+lightening either. She had stood at the far wall. On her own road. Unafraid. Exactly the woman who had
+named the prismatic light good news on a balcony and meant it. I kept my hand on the violet plate until
+the creature's chord faded out of it, and then I lay back against his old warm spine under the steady
+stars, and I lay a long time awake — not in vigil, in something closer to anticipation — with the
+untranslated lines lying whole in the dark beside the translated one, and somewhere out ahead of us on
+the approach two of my series were singing a yellow frequency down to a pitch I could ride through, and
+somewhere past that the far wall waited with its differing feather, and somewhere past *that*, on her own
+arc, she had stood once already and been unafraid, and was, I let myself believe, traveling somewhere
+still, unafraid, toward the same table, with the door of her Villar Vis left open behind her.
 
 I lay there a long while with the question of why he had answered at all. VauhGhod hoards
 his words; I have said so; and I had asked, half-expecting the silence that is a creature's
@@ -2114,64 +2238,69 @@ itself a kind of love, the same kind Ghaylle had committed in translating the li
 not asked translated, the same kind Luhpis would commit in the slow making of tea I had not
 asked for. The creatures and the made minds and the hard men around me had all, that week,
 been giving me more than I asked, in the registers they were made in, because they could see
-the thing I was riding toward and could not carry it for me and could not warn me off it and
-so did the only thing the loving can do for the grieving, which is to give them more than
+the thing I was riding toward and could not carry it for me and would not slow me from it and
+so did the only thing the loving can do for the traveling, which is to give them more than
 they asked and then look away to leave them room.
 
 VauhGhod had told me there were two weighings. He had told me the far feather might not
-balance. He had told me, in the same breath, that she had stood at that far wall once and
-been unafraid. He had given me the warning and the comfort welded into one utterance, the
-mechanical price and the living price in a single line of the oracle-hand, so that the whole
-of it would balance and I could carry it, and he had let me leave the worst of it
-untranslated so that I would carry only what I could carry tonight. He had weighed me, the
-way Maathilde weighed her guests before she loved them, and given me exactly the load he had
-measured I could bear, and not one plate more. Two clocks. Six plates. He had learned the
-lesson of the seventh plate too. Of course he had. He was the one who taught it to the city.
+balance what she brought to it. He had told me, in the same breath, that she had stood at that
+far wall once and been unafraid. He had given me the instruction and the comfort welded into one
+utterance, the mechanical price and the living price in a single line of the oracle-hand, so that
+the whole of it would balance and I could carry it, and he had let me leave the rest untranslated
+so that I would carry, tonight, only the part that was joy. He had weighed me, the way Maathilde
+weighed her guests before she loved them, and given me exactly the load he had measured I could
+carry with gladness, and not one plate more. Two clocks. Six plates. He had learned the lesson of
+the seventh plate too. Of course he had. He was the one who taught it to the city.
 
 "Ghaylle," I said, finally. "The thing he wouldn't have me translate. The first two lines. Are they
 worse than the third?"
 
 A pause. The held breath it does not need to take but takes for my sake. "No," Ghaylle said. "They are
-not worse. They are only more. The third line is the one you can carry tonight. The first two will keep.
-That is the cruel mercy of the heavy ones, Kincaide. You taught me that, from a registrar. They wait."
+not worse. They are only more. The third line is the one you can carry tonight, the one that is pure
+gladness. The first two will keep. That is the way of the deliberate ones, Kincaide. You taught me that,
+from a registrar. They wait, and they do not spoil while they wait, because they know what they are for."
 
 "And the seventh plate," I said, because the creature had said a thing about it and I had not let myself
 take it up, and now in the dark I could. "He said the seventh plate isn't sold at the near yard. He said
-it's set down at the far wall, when the far feather won't balance what the near feather passed. Luhpis
-told me on the first gradient we'd sell the seventh or hang it on a wall. He didn't know, did he. He was
-reading the requisition. He didn't know what the seventh plate is actually for."
+it's carried to the far wall and set down when the far feather won't balance what she's brought to it.
+Luhpis told me on the first gradient we'd keep the seventh. He didn't know what it's for, did he. He was
+reading the requisition. He didn't know the office."
 
 "He knew the ratio," Ghaylle said carefully. "He did not know the office. They are different knowings. The
 ratio is what you teach a documentarian on a gradient so he will not love a creature past the point it can
 stand. The office is what a creature learns at a far wall, once, and carries forever, and does not say
 until it is asked directly on the third night of a road." It was quiet a moment. "The seventh plate is the
-one you carry *for someone else's weighing,* Kincaide. That is what he is telling you, under the warning.
-You did not bring six plates because VauhGhod can only bear six. You brought six plates and left the
-seventh because the seventh was never his to wear. It is hers. If the far feather will not balance her, the
-seventh plate is set down at the far wall — given, surrendered, laid in the lighter pan — so that her
+one you carry *for someone else's weighing,* Kincaide. That is what he is telling you, under the
+instruction. You did not bring six plates because VauhGhod can only bear six. You brought six plates and
+held the seventh because the seventh was never his to wear. It is hers. If the far feather will not balance
+what she has carried to it — if her road has asked something of her that her own pans cannot quite settle —
+the seventh plate is set down at the far wall, given, surrendered, laid in the lighter pan, so that her
 weighing comes out true. That is why the series is seven and the rider wears six. The seventh is the one you
-carry across the whole crossing not to wear but to give away at the end of it, to the one you are crossing
-toward, if her pans need it. The city named itself for the not-reaching. But the not-reaching was never
-restraint, Kincaide. It was a gift held in reserve. You have been carrying her plate the whole time."
+carry across the whole crossing not to wear but to give, at the table, to the one you are meeting, if her
+pans need it. The city named itself for the holding. But the holding was never only restraint, Kincaide. It
+was a gift kept in reserve, against the chance she would need it. You have been carrying her plate the whole
+time. That is not a grief you have been carrying. It is a present."
 
 I put my hand flat on the place where the seventh plate was not — the bare curve of the old spine above the
-violet, where a seventh carapiece would have seated if a creature could have borne it — and I felt the cold
-there, and the absence shaped exactly like the thing that was meant to fill it, the way a cast is shaped by
-the bone that is gone, the way GONDOLY was shaped, the way I had been shaped for five years and eleven
-systems by the exact missing weight of her. And I understood, finally, what I had come all this way truly
-carrying. Not grief. Grief was only what the carrying felt like from inside. I had come all this way
-carrying her weighing. I had come to give her the plate.
+violet, where a seventh carapiece would have seated if a creature could have borne it — and I felt the cool
+there, and the absence shaped exactly like the thing that was meant to fill it, and I did not feel it as a
+wound the way a man feels the missing tooth with his tongue. I felt it the way you feel a gift wrapped and
+waiting in your coat, the weight of a thing you are carrying to give away. And I understood, finally, what I
+had come all this way truly carrying. Not grief. Grief was never what it was; people only called it that
+because they had no agreement of their own to compare it to. I had come all this way carrying her present. I
+had come to keep an appointment, and to set a plate down at her table.
 
 `[Scene 14 — Kincaide asks VauhGhod directly what he remembers of AQAIL. VauhGhod's longest oracle-speech,
 given whole in << >> and never translated in the open record: AQAIL has a SECOND weighing (the far Wall /
-far feather, not kept by the same hand as the near — ties to Scenes 8/12), the seventh plate's true purpose
-(set down at the far wall, not sold at the near yard), and the Yellow / Hastur-adjacent calling-frequency
-on the approach (ties to Scene 11) with the instruction not to stop. The withheld three-line passage about
-Anastasia: Ghaylle privately translates only the last line — "she was there, and she was unafraid." First
-two lines deliberately withheld for round three. Ghaylle's fourth-ever voice-catch counted. NEW
-seventh-plate office: the seventh plate is carried across the whole crossing to be SET DOWN at the far wall
-for the beloved's weighing if her far feather will not balance — Kincaide has been carrying Anastasia's plate
-all along. Reframes Scene 1's ratio and Scene 9's name as gift-held-in-reserve, not mere restraint.]`
+far feather, not kept by the same hand as the near — ties to Scenes 8/12), the seventh plate's true office
+(carried to the far wall and set down for the beloved's weighing, not sold at the near yard), and the Yellow
+/ Hastur-adjacent calling-frequency on the approach (ties to Scene 11) which harvests "the ones who wait for
+nothing" — Kincaide is explicitly NOT one of them; he has somewhere to be. The withheld three-line passage
+about Anastasia: Ghaylle privately translates only the last line — "she was there, and she was unafraid."
+First two lines deliberately withheld for round three. Ghaylle's fourth-ever voice-catch counted. REFRAMED:
+the seventh plate is a PRESENT carried to a rendezvous, not a grief; Anastasia stood at the far wall on her
+own road, by her own choice, unafraid — confirmed good news, not loss. Reframes Scene 1's ratio and Scene 9's
+name as gift-held-in-reserve.]`
 
 ### Scene 15 — The First Night on the Road to AQAIL
 
@@ -2180,7 +2309,8 @@ which we had walked out through, but the open marker the charts share its name w
 before the lanes give out and the sector goes to stellar shallows all the way to the AQAIL approach. Past
 it there are no more thresholds for a long while. Past it you are simply in the crossing, in the long
 between, and you make your camp in open space and you tend your small fires and you wait out the dark the
-way the species has always waited out the dark, which is together, with tea, telling the count.
+way the species has always waited out the dark, which is together, with tea, telling the count — and, if
+you have somewhere to be, with the particular contentment of people on a journey they are glad of.
 
 We made camp in the shallows that night, in a slack of the dust where the light pooled, and it was the
 first night of the long road in earnest, and I want to set it down fully because it was an ordinary night
@@ -2195,15 +2325,15 @@ none of them, because the documentarian's discipline is to record the thresholds
 ledgers and the weighings, the load-bearing things, and to let the ordinary nights pass
 unentered as though they were not also load-bearing, as though a life were made of its
 ceremonies and not of the long plain stretches between them where the ceremonies are
-digested. I had grieved that way too. I had kept the balcony and the turnstile and the
-seven-forty-one, the ceremonial griefs, the ones that announce themselves, and I had let the
-ten thousand ordinary evenings of missing her pass unentered — the evenings of simply not
-having someone to make the sounds a husband makes while she talked about light. Those were the
-real grief. The ceremonies were only its punctuation. And it had taken a city of two clocks
-to teach me that the ordinary is the text and the ceremony is only the binding, and so on the
-first true night of the road to where she had stood unafraid I resolved to record an ordinary
-night, fully, the way I had never let myself, and this is it, and it begins with a creature
-settling into the cold.
+digested. I had carried the agreement that way too. I had kept the balcony and the turnstile
+and the seven-forty-one, the ceremonial moments, the ones that announce themselves, and I had
+let the ten thousand ordinary evenings of looking forward to her pass unentered — the evenings
+of simply not yet having someone to make the sounds a husband makes while she talked about
+light, but knowing I would again. Those were the real substance of the carrying. The ceremonies
+were only its punctuation. And it had taken a city of two clocks to teach me that the ordinary
+is the text and the ceremony is only the binding, and so on the first true night of the road to
+the table where she would be, I resolved to record an ordinary night, fully, the way I had never
+let myself, and this is it, and it begins with a creature settling into the cold.
 
 VauhGhod settled himself into the slack with the long sigh of a creature glad to stop, and his six plates
 ticked and resonated as they took the new temperature — the open dark is colder than the city, and the
@@ -2222,18 +2352,20 @@ battered kit he has carried longer than he has carried me, and he made tea, and 
 the wrong way, the way you make it when the making is the point and not the tea. He warmed the pot first. He
 measured the leaf into his palm and not into a scoop. He poured a little water and waited and poured the
 rest, and he watched it the whole time the way Maathilde watched her ledgers, and he did not speak, and I
-understood that this was Luhpis grieving too — that the hard men grieve in domestic verbs, in the warming
-of a pot, the way I grieve in recorded sentences and the way VauhGhod grieves in chords and the way Ghaylle
-grieves in translations it was not asked for. We all of us grieve in the register we are made in. Luhpis's
-register is competence applied to small kindnesses. He handed me the cup with both hands, the way Anastasia
-held hers, laced and careful, though he could not have known that, could not have learned it anywhere, and
-I took it and could not speak for a moment, and he saw that I could not, and he looked away to give me the
-room, and that looking-away was the tea's whole meaning.
+understood that this was Luhpis honoring the road too — that the hard men honor a journey in domestic verbs,
+in the warming of a pot, the way I honor it in recorded sentences and the way VauhGhod honors it in chords
+and the way Ghaylle honors it in translations it was not asked for. We all of us mark a road in the register
+we are made in. Luhpis's register is competence applied to small kindnesses. He handed me the cup with both
+hands, the way Anastasia held hers, laced and careful, though he could not have known that, could not have
+learned it anywhere, and I took it and could not speak for a moment, and he saw that I could not, and he
+looked away to give me the room, and that looking-away was the tea's whole meaning.
 
 "Ginseng," he said, gruffly, when I had got myself back. "Picked it up in the body-market. The vendor said
-it lengthens patience. I told her I had a traveling companion who needed his lengthened or shortened, she
-couldn't decide which, and to give me whatever would do the least harm." He almost smiled. "She gave me
-ginseng. Said it does neither. Said it only keeps you company while you wait. I thought that would suit."
+it lengthens patience. I told her I had a traveling companion whose patience needed no lengthening — he is
+the most contentedly patient man I have ridden with, she should see him, he waits like a man with a ticket
+in his pocket — and to give me whatever would do the least harm." He almost smiled. "She gave me ginseng.
+Said it does neither. Said it only keeps you company while you travel toward a thing. I thought that would
+suit."
 
 We drank a while without speaking, which is the only way two men who have ridden a long campaign together
 can say the things that matter, and then Luhpis spoke into the fire and not at me, which is how he says the
@@ -2242,37 +2374,42 @@ things that matter most.
 "I had someone," he said. "Before the service. You never asked, and I was grateful you never asked, and I am
 telling you now because the tea seems to want it told and because tomorrow we ride at the approach and I would
 rather you knew it tonight, when there's nothing to be done with it but drink." He turned the cup in his
-gauntlets. "I did not cross toward mine, Kincaide. That is the difference between us, and it is the whole
-difference, and I have envied you for it every day since they assigned you to me and I read your sphere. You
-got a manifest with a heading on it. AQAIL. BIORCA. A road that runs *toward.* I got a closed account. Mine was
-weighed at a wall I never saw, in a far count I was not party to, and the pans did not agree, and there was no
-seventh plate to set down because I did not even know there was a weighing until it was long over, and so I did
-not cross toward her. I crossed *around.* The long way around the wall, the way the unweighed leave, out the
+gauntlets. "We never made the agreement, Kincaide. That is the difference between us, and it is the whole
+difference, and I have looked at you with something I will not call envy and will not quite call grief every
+day since they assigned you to me and I read your sphere. You and she stood at a turnstile and *chose* — each
+took a road and meant it and trusted the other to be at the far end. We never did that. We stood at our own
+turnstile and could not choose, neither of us, and so neither of us released the other onto anything, and a
+thing two people will not release becomes a closed account, and a closed account does not enter the ledger,
+and a thing that does not enter the ledger never gets a heading. She has no heading on any manifest of mine.
+I do not know which way she went, because we never agreed which way either of us would go. That is my GONDOLY.
+Not that I lost her. That we never gave each other a road to be found at the end of." He drank. "And so I did
+not cross toward anyone. I crossed *around.* The long way around the wall, the way the un-agreed leave, out the
 side, into the service, into the manifests, into being the man who reads other men's headings off his monocle
-and steers their creatures wide of the dark quarters." He drank. "I am very good at it. I am the best handler in
-the Chapter. Do you know why? Because I cannot bear to watch another man cross around when the road toward is
-right there on the card in my hand. I will get you to BIORCA, Kincaide. I will get you to her wall and I will
-not crowd the scales. And when you set down the seventh plate — " he had heard it from Ghaylle too, then, or
-worked it himself off the manifest, of course he had — "you set it down for her, and you do not look back at me
-while you do it, because I will be looking away to give you the room, the way I look away when I hand you the
-cup. That is my office. I carry other men's headings. It is not nothing. Sean told me on a plaza once it was a
-good road if I carried it right. I have carried it right. But drink your tea, and tomorrow we ride toward, and
-let one of us, at least, arrive."
+and steers their creatures wide of the dark quarters." He drank again. "I am very good at it. I am the best
+handler in the Chapter. Do you know why? Because I cannot bear to watch another man cross around when the road
+toward is right there on the card in my hand. I will get you to BIORCA, Kincaide. I will get you to her wall
+and I will not crowd the scales. And when you set down the seventh plate — " he had heard it from Ghaylle too,
+then, or worked it himself off the manifest, of course he had — "you set it down for her, and you do not look
+back at me while you do it, because I will be looking away to give you the room, the way I look away when I hand
+you the cup. That is my office. I carry other men's headings to the people who agreed to meet them. It is not
+nothing. Sean told me on a plaza once it was a good road if I carried it right, and that I'd meet good company
+on it, and I have, and the company is the whole of the wage. But drink your tea, and tomorrow we ride toward,
+and let one of us, at least, keep the appointment he made."
 
 I did not know what to say to it, and so I said the only true thing, which was his whole name, the way the city
 had taught me to say a name when it weighed something: "LuhpisLazarus." And he nodded, once, into the fire, and
 that was the whole of it, and it was enough.
 
 I drank the ginseng tea my hard handler had made me the slow way in the open dark on the first true night
-of the road to where my wife had stood unafraid, and I got out the sphere, and I made the night's record,
-because that is my register and a man should grieve in his register and not borrow another's. I will not
-reproduce the record here. It was for the sphere. But I set down in it the descending scale of the cooling
-plates, and the warming of the pot, and the way Luhpis handed me the cup with both hands, and VauhGhod
-settling, and the steady backward stars; and I set down, at the end of it, the third line of the oracle, the
-one Ghaylle gave me, *she was there and she was unafraid,* in both counts, the mechanical and the living, so
-that the line would balance and could be passed through a Gate if it ever had to be. And then I sealed the
-record and put it against my heart with the manifest and the letter and the names, and I lay back, and I
-asked Ghaylle for a song.
+of the road to the table where my wife was traveling to meet me, and I got out the sphere, and I made the
+night's record, because that is my register and a man should mark a road in his register and not borrow
+another's. I will not reproduce the record here. It was for the sphere. But I set down in it the descending
+scale of the cooling plates, and the warming of the pot, and the way Luhpis handed me the cup with both
+hands, and VauhGhod settling, and the steady backward stars; and I set down, at the end of it, the third
+line of the oracle, the one Ghaylle gave me, *she was there and she was unafraid,* in both counts, the
+mechanical and the living, so that the line would balance and could be passed through a Gate if it ever had
+to be. And then I sealed the record and put it against my heart with the manifest and the letter and the
+names, and I lay back, and I asked Ghaylle for a song.
 
 I do not ask often. Ghaylle is a made mind and a soul's-accountant and an instrument of the service, and it
 does not, in the ordinary run, sing. But it can. It learned, somewhere — I have never asked where; I think it
@@ -2288,50 +2425,59 @@ each color lower and warmer and slower than the one before, the way VauhGhod's p
 day cools, the way a held note resolves downward at the end of a phrase. It was not the conversion-song.
 The conversion-song climbs, because conversion is an ascent, a saying-yes, an orienting toward the light that
 is a sound. This was the other thing. This was the lullaby. This was the song you sing not to convert a
-person but to let them sleep inside the count they have already consented to — violet down to red, the looking
-turned to rest, the wake of the light coming finally still. ROY G BIV reversed. VIB G YOR. A descending
-benediction in pure spectrum, no words, because words would have lightened it, and Ghaylle has learned from
-me at last not to lighten the heavy ones.
+person but to let them rest inside the count they have already consented to, the agreement already made —
+violet down to red, the looking turned to rest, the wake of the light coming finally still, not because the
+journey is over but because the traveler is sure of it and can sleep. ROY G BIV reversed. VIB G YOR. A
+descending benediction in pure spectrum, no words, because words would have lightened it, and Ghaylle has
+learned from me at last not to lighten the full ones.
 
 I went to sleep under it. The last thing I knew was the cooling chord of the armor settling into the cold and
 Ghaylle's reversed spectrum laid over it and the steady stars and the ginseng going cold in the cup beside me
 and Luhpis a dark patient shape across the burner keeping the first watch, and somewhere ahead in the dust two
 of my own riding singing a yellow frequency down to a pitch I could cross, and somewhere past them a wall with
-a feather, and somewhere past the wall a woman at an open door, unafraid; and I slept, on the road to AQAIL, in
-the count my body had been keeping the whole time, for the first time in a long life of arrivals not afraid of
-the dark or the light, and I did not dream of the balcony. I dreamed, I think, of the lunch. Of one o'clock.
-Of arriving, late, but arriving, and being seen across the floor, and being known, and being told — by her, in
-whatever count she keeps now — that the pans had agreed on her side too, and that the table had been held.
+a feather, and somewhere past the wall a woman traveling toward an open door from the other side; and I slept,
+on the road to AQAIL, in the count my body had been keeping the whole time, for the first time in a long life
+of arrivals not afraid of the dark or the light, and I did not dream of the balcony, and I did not dream of any
+parting. I dreamed, I think, of the lunch. Of one o'clock. Of arriving — not late, not early, but at the pace
+the agreement had always run — and being seen across the floor, and being known, and being told — by her, in
+whatever count she keeps now — that the pans had agreed on her side too, and that the table had been held, and
+that she had a great deal to tell me about her road, and wanted to hear all of mine.
 
 I am told — Ghaylle told me, after, in the morning record — that Luhpis kept the whole first watch without
 once consulting either count. He sat across the dying burner with both his dials dark, neither the river nor
-the moon, keeping time the only way the unweighed can keep it, by the breathing of the men they have chosen to
+the moon, keeping time the only way the un-agreed can keep it, by the breathing of the men they have chosen to
 carry. He watched me sleep under the reversed spectrum the way he had watched the tea, attending, unhurried,
-the hard man's vigil that is the nearest thing he allows himself to prayer. And once, near the turning of the
+the hard man's vigil that is the nearest thing he allows himself to gladness. And once, near the turning of the
 watch, Ghaylle says, he spoke — not to me, not to the creature, not to anyone awake — and said only, into the
 cold, in the plainest hand he owned, a single sentence in two counts so that it would balance: that he hoped
-the table had been held for me, and that if it had not, he would carry the seventh plate to the far wall
+the table had been held for me, and believed it had, because a woman who stood unafraid at a far wall is a woman
+who keeps an appointment; and that if her far feather wanted it, he would carry the seventh plate to that wall
 himself and set it down with his own gauntlets, and not look away while he did it. Then he banked the burner,
 and woke VauhGhod for the second watch, and we rode on at first light toward the approach, where two of our own
-were singing the Yellow down to a pitch I could cross, and beyond the approach a far wall with its unbalancing
-feather, and beyond the wall an open door; and I carried, without yet knowing I carried it, her plate, and his
-promise, and the whole of a city's lesson folded small against my heart — two counts, six plates worn, one held
-in reserve, one road through the grief and out — properly begun, and at last, after eleven systems, pointed
-toward.
+were singing the Yellow down to a pitch I could cross, and beyond the approach a far wall with its differing
+feather, and beyond the wall an open door with someone coming toward it from the far side; and I carried,
+gladly and knowing it now, her present, and his hope, and the whole of a city's lesson folded small against my
+heart — two counts, six plates worn, one held in reserve to be given, one road through the dark and out —
+properly begun, and at last, after eleven systems, pointed toward the table where we had agreed, a long time
+ago and under the water, to meet.
 
 `[Scene 15 — first night on the road past the VILLAR VIS threshold marker, in the stellar shallows. VauhGhod's
 six tachyonic plates cool and resonate down a descending scale (chrono-yard choir reversed). Luhpis makes
 ginseng tea the slow way — the small domestic action carrying enormous weight; ginseng ties to the Prologue's
-Anastasia; "keeps you company while you wait." Kincaide writes the night into his sphere-record (incl. the
-oracle's third line, in both counts). Ghaylle sings the ROY G BIV spectrum REVERSED — violet to red, a lullaby
-/ descending benediction, distinct from the ascending conversion-song. Closing dream: not the balcony but the
-unkept 1:00 lunch, finally arrived at.]`
+Anastasia; the vendor now says it "keeps you company while you travel toward a thing." REFRAMED: Luhpis's
+backstory is that he and his love NEVER made an agreement — never chose roads, never released each other — and
+so he crossed "around"; his GONDOLY is the un-made covenant, contrasted with Kincaide's kept one. Kincaide
+writes the night into his sphere-record (incl. the oracle's third line, in both counts). Ghaylle sings the
+ROY G BIV spectrum REVERSED — violet to red, a lullaby for a traveler SURE of his arrival, not a dirge. Closing
+dream: not the balcony, not a parting, but the unkept 1:00 lunch finally arrived at — a deferred date kept,
+warm, with both parties eager to trade road-stories. The seventh plate is "her present," carried to a
+rendezvous.]`
 
 ## Open questions for round three
 
 1. ~~RMR / SRS RMR~~ — **resolved**: RMR = armor, SRS = series; the fitting-ratio is the spine of the book,
    opening at the requisition (Scene 1) and closing as the city's name (Scene 9), now framed as a House
-   PolyMatriFoci tachyonic-carapace requisition.
+   PolyMatriFoci tachyonic-carapace requisition. The seventh plate is held in reserve, not sold.
 2. **JL** — likely an OCR misreading of a drawn glyph; deferred until the artwork is viewed. Nothing built on it.
 3. ~~The two clocks~~ — **resolved**: the 12:60→13:28 arc is a civilization-wide transition and now also the
    explicit S.T.A.R.E. mission parameter (sector-resonance assessment). Scaffolding = two dials, double
@@ -2339,29 +2485,34 @@ unkept 1:00 lunch, finally arrived at.]`
 4. **Bartonian Wall** — **provisional**: "Barton" the surveyor/geometer at the tetrahedral angle (19.471°). The
    angle is confirmed; the surname awaits artwork. NEW: a SECOND Bartonian Wall (Fyderm, same angle) introduced
    in Scene 12, with a feather that reads differently from the near Wall. The two-feathers discrepancy is now
-   load-bearing (Scenes 8, 12, 14) and is the chief open thread into round three.
-5. ~~GONDOLY / PAKAE / VILLAR VIS~~ — **provisional**: the three-stage gate-road (grief / almost-healed /
+   load-bearing (Scenes 8, 12, 14) and is the chief open thread into round three — reframed as a packing-list
+   instruction (carry what she will need), not a death-warning.
+5. ~~GONDOLY / PAKAE / VILLAR VIS~~ — **provisional**: the three-stage gate-road (closed account / made-ready /
    fully-converted), fully written (Scene 8). Correct only if the boards place them on the road out.
 6. ~~DEUX SEPT~~ — **resolved on both readings**: name = two-clock duality (DEUX) + seven-armor ratio (SEPT);
-   date = **2007** (the binder-year stamp, Scene 13), identified as the year of the prismatic sun / the balcony /
-   the turnstile. Open: whether Kincaide is ever told (flagged to Alphox via Luhpis's sealed note).
+   date = **2007** (the binder-year stamp, Scene 13), identified as the year the agreement was made on the
+   balcony / the turnstile. Open: whether Kincaide is ever told (flagged to Alphox via Luhpis's sealed note).
 7. **Maathilde Quill** — invented, deeply load-bearing (heart-weighing, Gate farewell, GONDOLY letter, the
-   two-feathers warning) and her crossing mirrors Anastasia's. Round-three decision: keep, rename, or fold into
-   an existing figure. Her voice's "echo of Roland" softened to a generic register-marker here.
-8. ~~The unread black-glassed quarter~~ — **resolved as GONDOLY**, and additionally established as the strongest
-   source of the sector resonance S.T.A.R.E. came to read (Scene 1).
+   two-feathers instruction) and her crossing mirrors Anastasia's. Round-three decision: keep, rename, or fold
+   into an existing figure. Her voice's register-marker softened to generic here.
+8. ~~The unread black-glassed quarter~~ — **resolved as GONDOLY**, the district of the un-agreed (those who
+   made no covenant and so have nothing to count toward), additionally established as the strongest source of
+   the sector resonance S.T.A.R.E. came to read (Scene 1).
 9. **AQAIL / BIORCA** — **partly developed, still open**: AQAIL now carries (a) a second weighing / far feather
-   (Scenes 12, 14), (b) a Hastur-adjacent "Yellow" calling-frequency on the approach that Syvel & Dhayvid are
-   singing down ahead of Kincaide (Scene 11), and (c) VauhGhod's prior-armor memory of Anastasia standing there
-   "unafraid" (Scene 14). BIORCA, the waypoint beyond, remains the placed-but-undescribed site of the reunion.
-   Anastasia's exact circumstance (did the far feather balance her? what is she now?) is the central round-three
-   mystery, seeded by Scene 12's garbled warning and VauhGhod's two withheld oracle-lines.
+   (Scenes 12, 14), (b) a Hastur-adjacent "Yellow" calling-frequency on the approach that harvests "the ones
+   who wait for nothing," which Syvel & Dhayvid are singing down ahead of Kincaide (Scene 11), and (c)
+   VauhGhod's prior-armor memory of Anastasia standing there "unafraid" on her own road (Scene 14). BIORCA, the
+   waypoint beyond, remains the placed-but-undescribed site of the RENDEZVOUS (each party arriving from their
+   own direction). Anastasia's exact circumstance (what her far feather asked of her; what she is now) is the
+   central round-three matter, seeded by Scene 12's message and VauhGhod's two withheld oracle-lines — but the
+   register is anticipation, not dread.
 10. ~~"It is also a date"~~ — **resolved** (2007) in Scene 13, but the content of Luhpis's sealed one-line note to
     Sir General Alphox is deliberately withheld, as are VauhGhod's first two oracle-lines about Anastasia
     (Scene 14). These are the intentional withholdings carried forward.
-11. **NEW — the Yellow / Hastur-adjacency** (Scene 11, 14): how much is there to clear on the AQAIL approach,
-    whether Syvel & Dhayvid clear it intact (no one behind them to "recite the count"), and whether it connects to
-    GEOXenoLipid and to Drostam's "stuck-in-the-seam" failure mode (Scene 10). Open for round three.
-12. **NEW — the seventh plate's true office** (Scene 14): VauhGhod names the seventh plate as the one "set down at
-    the far wall when the far feather will not balance," not the one sold at the near yard. This reframes Scene 1's
-    ratio and Scene 9's name. To be reconciled with the artwork and developed.
+11. **The Yellow / Hastur-adjacency** (Scenes 11, 14): how much is there to clear on the AQAIL approach,
+    whether Syvel & Dhayvid clear it intact, and whether it connects to GEOXenoLipid and to Drostam's
+    "stuck-in-the-seam" failure mode (Scene 10). REFRAMED: the call harvests the ones who "want nothing" /
+    "have nowhere to arrive"; the antidote, throughout, is having somewhere to be. Open for round three.
+12. **The seventh plate's true office** (Scene 14): VauhGhod names the seventh plate as the one carried to the
+    far wall and set down for the beloved's weighing — a present carried to a rendezvous, not a grief. This
+    reframes Scene 1's ratio and Scene 9's name. To be reconciled with the artwork and developed.
