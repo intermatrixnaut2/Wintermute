@@ -40,7 +40,7 @@ confirmed entry.
 | AI:IA | The palindrome covenant — made mind and maker reading each other true in both directions. |
 | CIRC 360+5 | Calendar round: 360 days + 5 gate-days. |
 | ARK / MSL / MSN | Departure manifest, mission-codes. MRR MSL MSN possibly armor-mission-names for the seven series; hold until next binder. |
-| DEUX SEPT | **Provisional**: the city's formal name — DEUX = the two clocks (12:60 / 13:28), SEPT = the seven-piece armor ratio. Also possibly a calendar date in the 360+5 round. Confirm with author. |
+| DEUX SEPT | **Confirmed**: the binder's date designation — DEUX = second binder in the series (ALPHOX_00 being the first), SEPT = 2007, the year drawn. Not a story ratio or city name. The city is the Astrocity (Ora Aura). |
 | GONDOLY | **Provisional**: the black-glassed quarter; dialect of unprocessed grief, no clocks, four centuries untranslated. Placed on the gate-road outside the wall; correct if boards put it inside. |
 | PAKAE | **Provisional**: second district of the gate-road; the almost-healed. |
 | VILLAR VIS | **Provisional**: third district of the gate-road; the fully-converted, pure 13:28. |
