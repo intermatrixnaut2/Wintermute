@@ -1064,6 +1064,202 @@ the calmest resonance reading for Command. REFRAMED: "patience" is now sold to
 those awaiting a rendezvous, to make the waiting sweet — Kincaide declines, his
 waiting already gladly carried.]`
 
+### Scene 4-C (board: right gear-cluster) — The Locked Clock
+
+On the eighth day I went looking for the thing I had been avoiding.
+
+It was Ghayllieuxjah who finally named it, late in the morning watch when I had been
+pretending to study the city's western strata from the window of our billet. "You have
+walked past the gear quarter four times," it said, against my spine, in the register
+it uses when it has been patient longer than I deserved. "You have not gone in. I
+have been patient, Kincaide, which as you know does not come naturally to a mind
+that processes at my speed. Will you go today, or shall I log this as an official
+reluctance and send it to Luhpis for annotation?"
+
+"Don't you dare annotate my reluctances."
+
+"Then go."
+
+I went.
+
+The gear quarter did not announce itself. The city's civic alphabet, which had been
+so legible from the harbor approach — the cursive laboratories, the upright chapels,
+the shorthand exchanges leaning into orbital wind — thinned at the western edge
+into something older and less declarative. The towers here were shorter, denser in
+the stone, and their letterforms belonged to no script I could match against
+Ghaylle's catalog. Not the unreadable black-glass dialect of GONDOLY, which refused
+you with its silence. These letters were simply prior. The way a word in a very old
+language will sit in a modern sentence and refuse to conjugate.
+
+At the center of the quarter stood a building that was not a building in the
+civic sense but a mechanism housed in walls. From the outside it read as a
+cylinder of dressed granite, perhaps twelve meters across, with no windows and
+one door of a copper-bronze alloy gone entirely green. A sound came through the
+walls. Not loud. The kind of sound that has been continuous for so long that the
+neighborhood has stopped hearing it and the visitor cannot stop.
+
+I stood at the door for longer than I will record.
+
+The person who answered it, when I finally knocked, was a woman of indeterminate
+age in the specific way that people who have lived inside a single purpose for a
+very long time become ageless — not young, not old, simply continuous. She was
+small and her hands were large, a craftsperson's disproportion, and they were
+stained at every crease with a compound I did not recognize, dark as graphite, that
+I would later learn was the oil the mechanism required and that no synthetic
+substitute had ever matched. She wore both dials. That was the first thing I
+noticed. Every citizen of the Astrocity I had met wore at least one covered or
+had migrated fully to the 13:28. She wore both faces exposed, both hands sweeping,
+and she consulted neither because she did not need to. She knew both counts
+simultaneously the way a bilingual person does not translate, they simply speak.
+
+Her name, she said, was Trevane Wohl. She said it the way people say their names
+in places where names are functional rather than social — not an introduction but
+an identifier, a part number.
+
+"You are the documentarian," she said. Not a question. "The one from Farsynne, with
+the spine-intelligence. We have been expecting someone to come and ask. They always
+do, on the eighth day. The Body Markets make them thoughtful."
+
+"What is this place?" I asked, which was not the question I had come to ask but
+was the one that came out.
+
+"The resonance anchor." She stood aside and I understood I was being admitted.
+"Come in before you let the air-quality change. The mechanism has tolerances."
+
+Inside, the sound resolved into something I could parse: a clock, but not any
+clock I had encountered in seventy-some deployments across eleven sectors. The
+mechanism occupied the full interior of the cylinder — walls and ceiling and floor
+were part of it, great gear-trains of a bronze-gold alloy moving in layered planes,
+some as large as the room itself and rotating so slowly they appeared still, some
+palm-sized and blurring at their teeth, and between them all a system of weighted
+chains and counterweighted pendulums and something at the center that was not a
+pendulum and not a gear but a column of fluid in a glass tube, clear as water but
+heavier, that rose and fell in a rhythm I could not immediately identify.
+
+"12:60," Ghaylle said, against my spine, with the tone it uses for things that
+are correct and strange. "The fluid column measures the Akkadian second. Every
+rise is one second by the old count. It has been rising and falling, Kincaide,
+without interruption, for four hundred and twelve years."
+
+I watched it rise. I watched it fall.
+
+"You have not converted," I said to Trevane Wohl. It came out less like an
+observation and more like an accusation, which was not what I meant, and I
+heard myself and added: "Forgive me. That was not —"
+
+"It was honest," she said, without taking offense. She was checking a gauge
+on the near wall, a mercury-filled instrument that meant nothing to me but
+clearly meant something to her — she made a small adjustment to a nearby
+wheel and the fluid column's rhythm changed by an interval I could not
+perceive but that she apparently could. "And the honest answer is: no. I
+have not converted. I am not going to convert. This is not a failure of
+conviction or a want of information. I was at the formal acknowledgment
+ceremony, four generations ago — that is to say, my great-grandmother's
+great-grandmother was present when the city entered it in the ledger, both
+counts, that the 12:60 is a division of the mind and not of the world.
+We have known it in this family for a very long time."
+
+"Then why —"
+
+"Because the crossing requires this." She gestured at the mechanism, the
+whole breathing, grinding, patient interior of it. "The scaffold does not
+build itself, documentarian. Someone has to hold the old count accurately
+while the city converts away from it. The double ledgers that Maathilde
+Quill runs — do you understand what keeps them synchronized? Not faith.
+Not the 13:28. The 12:60 side of the ledger has to be maintained in perfect
+time or the agreement between the counts means nothing. An agreement
+between two parties is only as good as both parties' faithfulness to their
+own position." She touched the glass column with one graphite-dark finger,
+not disturbing it, just the gesture of someone who knows a thing in their
+bones. "I am the 12:60. While I run accurately, the city can convert
+honestly. If I stop, or drift, the 13:28 converts against nothing, and
+the crossing becomes a cancellation rather than a translation."
+
+I stood with that for a long time. The mechanism breathed around us.
+
+"You chose this," I said finally. "You didn't inherit it under coercion."
+
+"It is hereditary," she said, "which is not the same as coerced. My
+daughter knows the mechanism. Her daughter will know it. One day, when
+the crossing is complete — two generations from now, perhaps three — there
+will be no need for the anchor. The city will hold the 13:28 from its own
+memory and the 12:60 will be what your Sumer is to you. A riverbed. And
+on that day whoever holds this post will close the mechanism down." She
+said it without ceremony, the way you announce a retirement rather than a
+death. "Until then, someone must be the clock that keeps the other clock
+honest."
+
+"And you don't — " I was trying to form the question carefully and failing.
+"You don't feel trapped by it."
+
+She looked at me with the particular attention of someone who has been
+asked a lesser version of this question many times and is deciding whether
+you deserve the real answer. She decided, apparently, that I did.
+
+"I made an agreement," she said. "I am keeping it. I find that
+uncomplicated." She paused. "You look like someone who also made an
+agreement."
+
+"I did."
+
+"And you are keeping it."
+
+"I am."
+
+She nodded once, the way people nod when they have confirmed a
+classification rather than received information. "Then you understand.
+The gear that does not turn is not the broken gear, documentarian. The
+gear that does not turn is the one that is holding the load while the
+other gears move. When the load shifts, it will turn. Until then it
+holds." She turned back to her mercury gauge. "I would offer you tea
+but the air-exchange takes twelve minutes and I am in a calibration
+window. Come back after the gate-day if you want to see the mechanism
+in transition. It does something interesting when the benben sings."
+
+"What does it do?"
+
+"It agrees," she said. "For the length of the singing, both counts
+read the same number. It has happened at every gate-day passage in
+four hundred and twelve years. I have no explanation for it and I
+have stopped looking for one. Some things are true before they are
+understood."
+
+I thanked her and let myself out. The copper-green door closed
+behind me without a sound that carried.
+
+Outside, the gear-quarter letters stood in their old script, prior
+and unreadable. I stood in them for a while, not trying to read them.
+
+"Ghaylle," I said.
+
+"Yes."
+
+"How many seconds in five hours and nineteen minutes, by the
+12:60 count?"
+
+A pause — not for calculation, which is instantaneous, but for
+the kind of pause that is itself a form of care. "Nineteen thousand
+one hundred and forty," it said, in the private register.
+
+"She counts those too," I said. "Wherever she is."
+
+"Yes," Ghaylle said. "I expect she does."
+
+I walked back toward the ledger-streets and the appointment I
+did not yet know was coming.
+
+`[board: right gear-cluster — the isolated 12:60 gear module, self-enclosed,
+surrounded by inductor-wavy-lines (stored energy, resistance to change in
+current). The gear that does not turn is load-bearing. Arc C derives from
+this single symbol: one figure who runs the old count accurately by choice,
+in service of the city's crossing — the anchor against which the conversion
+is measured. Without the accurate 12:60, the 13:28 translates against nothing.
+The agreement Trevane Wohl keeps is structurally identical to Kincaide's:
+voluntary, continuous, held without complaint. The 19,140-second count
+(5h19m since the balcony) returns here not as grief but as parallel
+faithfulness: two people, separately, counting the same interval from
+different ends.]`
+
 ### Scene 5 (boards 11–14) — The Bartonian Wall
 
 On the eleventh day Maathilde came for me herself. I knew it was a day apart
