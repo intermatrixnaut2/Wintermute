@@ -765,15 +765,17 @@ Items requiring confirmation against original artwork, additional documents, or 
 | HoverTank manufacturers (pre-OrganiTank era) | Unspecified | ALPHOX binder jpgs |
 | SpaceGronn full crew manifest template | Unspecified | Additional lore docs |
 | VauhGhod's pre-Kincaide armor history | Mentioned (oracle speech) | AX story expansion |
-| Anastasia's PSIONIA score and vehicle bond | Unknown | AX-B arc (OS-2) |
+| Anastasia's PSIONIA score and vehicle bond | **RESOLVED** — PSIONIA 8–9, T3-native; Chapter Alphox research vehicle, vowel-vector True-Name = act of reading | anastasia-arc.md (OS-2) |
 | The seven mission codes (ARK/MSL/MSN) full list | Partial (AX-S registered) | Next binder scan |
 | Ghayllieuxjah's manufacturer and model code | Unspecified | DS-G arc expansion |
 | LuhpisLazarus's bonded vehicle (if any) | Handler-class; may not ride | DS-D arc |
 | Maathilde Quill's PSIONIA exact score | Estimated 7 | DS-E / AX-P confirmation |
 | The 17 planes full codex | Partial (planar access tree) | stare-planar-codex.md |
 | Vowel-Vector Physics full notation system | Referenced, not documented here | VioletHalle source |
+| **OS-3: Place beyond BIORCA** | **NEW — registered as open arc** | anastasia-arc.md section vii; Scene 16 third discovery |
 
 ---
 
+*Database version 1.1 — updated after OS-2 (Anastasia arc) written: PSIONIA resolved, vehicle confirmed, OS-3 registered.*
 *Database version 1.0 — synthesized from: Binder_duex story.md (claude/wizardly-knuth-lqkay8), adding-3D-time-ALL-IN-ONE doc (Drive), organicycle-bond-document.md (Drive), stare-vehicle-planar-access-tree.md (Drive), STARE-BioRit-Economy-System.md (Drive), STARE-SonicShard-System.md (Drive), stare-mutation-index.md (Drive), STARE-Moonshine-Doctrine.md (Drive).*
 *Next revision: after ALPHOX binder jpg scan and Anastasia arc (OS-2) are written.*
