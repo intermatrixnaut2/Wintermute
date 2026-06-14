@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Arc Registry — Deux Sept × ALPHOX COCRORE</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@300;400;600&display=swap');
+
+  :root {
+    --ds: #1a3a5c;       /* Deux Sept blue */
+    --ax: #3c1a1a;       /* ALPHOX red */
+    --bridge: #1a3c1a;   /* bridge arcs green */
+    --open: #3c3c1a;     /* open sockets amber */
+    --bg: #faf8f4;
+    --paper: #ffffff;
+    --ink: #1a1a1a;
+    --rule: #d4cfc7;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    padding: 2cm;
+    font-size: 11pt;
+    line-height: 1.55;
+  }
+
+  @media print {
+    body { background: white; padding: 1.2cm; font-size: 9.5pt; }
+    .page-break { page-break-before: always; }
+    h1 { font-size: 16pt; }
+    h2 { font-size: 12pt; }
+  }
+
+  h1 {
+    font-size: 22pt;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.2em;
+    color: #111;
+  }
+  .subtitle {
+    font-size: 10pt;
+    color: #666;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 2em;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+
+  h2 {
+    font-size: 13pt;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 0.5em 0.8em;
+    margin: 2em 0 0.8em 0;
+    border-left: 4px solid;
+  }
+  h2.ds { border-color: var(--ds); background: #eef3f8; color: var(--ds); }
+  h2.ax { border-color: var(--ax); background: #f8eeee; color: var(--ax); }
+  h2.bridge { border-color: var(--bridge); background: #eef8ee; color: var(--bridge); }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5em;
+    font-size: 9.5pt;
+  }
+  thead tr {
+    border-bottom: 2px solid var(--rule);
+  }
+  thead th {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 8pt;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.4em 0.6em;
+    text-align: left;
+    color: #555;
+  }
+  tbody tr { border-bottom: 1px solid var(--rule); }
+  tbody tr:hover { background: #f5f3ef; }
+  tbody td { padding: 0.45em 0.6em; vertical-align: top; }
+
+  .arc-id {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    font-size: 9pt;
+    white-space: nowrap;
+  }
+  .arc-id.ds { color: var(--ds); }
+  .arc-id.ax { color: var(--ax); }
+  .arc-id.bridge { color: var(--bridge); }
+  .arc-id.open { color: #b07000; }
+
+  .status {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 8pt;
+    padding: 0.15em 0.5em;
+    border-radius: 3px;
+    white-space: nowrap;
+  }
+  .status.written { background: #d4edda; color: #155724; }
+  .status.registered { background: #e2e8f0; color: #2d3748; }
+  .status.bridge { background: #d4edda; color: #1a3c1a; }
+  .status.open { background: #fff3cd; color: #856404; }
+
+  .symbol {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 8.5pt;
+    color: #444;
+  }
+
+  .legend {
+    display: flex;
+    gap: 1.5em;
+    flex-wrap: wrap;
+    margin: 1em 0 2em 0;
+    font-size: 9pt;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+  }
+  .legend-dot {
+    width: 10px; height: 10px;
+    border-radius: 2px;
+    display: inline-block;
+  }
+
+  .summary-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    margin: 1.5em 0 2.5em 0;
+  }
+  .stat-card {
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 1em;
+    text-align: center;
+    background: white;
+  }
+  .stat-num {
+    font-size: 28pt;
+    font-weight: 600;
+    font-family: 'IBM Plex Mono', monospace;
+    line-height: 1;
+    margin-bottom: 0.2em;
+  }
+  .stat-label { font-size: 8.5pt; color: #666; text-transform: uppercase; letter-spacing: 0.06em; }
+
+  hr { border: none; border-top: 1px solid var(--rule); margin: 2em 0; }
+
+  .note {
+    font-size: 8.5pt;
+    color: #666;
+    border-left: 3px solid var(--rule);
+    padding: 0.5em 0.8em;
+    margin-top: 1em;
+    font-style: italic;
+  }
+
+  .print-hint {
+    position: fixed;
+    bottom: 1.5em;
+    right: 1.5em;
+    background: #1a3a5c;
+    color: white;
+    padding: 0.6em 1.2em;
+    border-radius: 6px;
+    font-size: 9pt;
+    font-family: 'IBM Plex Mono', monospace;
+    cursor: pointer;
+    z-index: 999;
+  }
+  .print-hint:hover { background: #2a5a8c; }
+  @media print { .print-hint { display: none; } }
+</style>
+</head>
+<body>
+
+<button class="print-hint" onclick="window.print()">⌘P → Save as PDF</button>
+
+<h1>Arc Registry</h1>
+<div class="subtitle">Deux Sept × ALPHOX COCRORE — Complete Story-Arc Index</div>
+
+<div class="summary-grid">
+  <div class="stat-card">
+    <div class="stat-num" style="color: var(--ds)">13</div>
+    <div class="stat-label">Deux Sept Arcs</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-num" style="color: var(--ax)">21</div>
+    <div class="stat-label">ALPHOX Arcs</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-num" style="color: var(--bridge)">7</div>
+    <div class="stat-label">Bridge Arcs</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-num" style="color: #b07000">6</div>
+    <div class="stat-label">Open Sockets</div>
+  </div>
+</div>
+
+<div class="legend">
+  <div class="legend-item"><div class="legend-dot" style="background:#1a3a5c"></div> Deux Sept arc</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#3c1a1a"></div> ALPHOX arc</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#1a3c1a"></div> Bridge arc (spans both binders)</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#b07000"></div> Open socket (unwritten, structurally required)</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#155724"></div> Written (prose exists)</div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<h2 class="ds">Binder 2 — Deux Sept (boards 1–19, drawn 2007)</h2>
+<p style="margin-bottom:1em; font-size:9.5pt; color:#444;">
+  Kincaide McQuade's mission arc: collect tachyonic carapace armor at the Astrocity (Ora Aura), pass the GODGATE, depart toward AQAIL and BIORCA. The city is mid-crossing from 12:60 (Akkadian machine time) to 13:28 (Mayan moon count).
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Arc ID</th>
+      <th>Title</th>
+      <th>Core Symbol</th>
+      <th>POV / Characters</th>
+      <th>Location</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="arc-id ds">DS-MAIN</span></td>
+      <td><strong>The Long Crossing</strong></td>
+      <td class="symbol">GODGATE / benben / AI:IA</td>
+      <td>Kincaide McQuade, LuhpisLazarus, VauhGhod, Ghayllieuxjah, Maathilde Quill</td>
+      <td>Astrocity → GODGATE</td>
+      <td><span class="status written">Written</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id ds">DS-A</span></td>
+      <td><strong>Seven Stages of the Crossing</strong></td>
+      <td class="symbol">Seven-plate armor circuit / SRS RMR</td>
+      <td>VauhGhod + House PolyMatriFoci</td>
+      <td>Astrocity armory district</td>
+      <td><span class="status registered">Registered</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id ds">DS-B</span></td>
+      <td><strong>Parallel Paths</strong></td>
+      <td class="symbol">Dual-channel waveform / branching topology</td>
+      <td>Anastasia (parallel POV)</td>
+      <td>Offscreen → AQAIL approach</td>
+      <td><span class="status registered">Registered</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id ds">DS-C</span></td>
+      <td><strong>The Locked Clock</strong></td>
+      <td class="symbol">Isolated 12:60 gear module</td>
+      <td>Trevane Wohl</td>
+      <td>Clockwork sub-district, Astrocity</td>
+      <td><span class="status written">Written</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id ds">DS-D</span></td>
+      <td><strong>Heart Resistor</strong></td>
+      <td class="symbol">Heart-shaped resistor symbol</td>
+      <td>LuhpisLazarus</td>
+      <td>GODGATE threshold</td>
+      <td><span class="status registered">Registered</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id ds">DS-E</span></td>
+      <td><strong>The Weighing</strong></td>
+      <td class="symbol">MAAT / plume marks</td>
+      <td>Maathilde Quill</td>
+      <td>GODGATE judiciary</td>
+      <td><span class="status registered">Registered</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id ds">DS-F</span></td>
+      <td><strong>Spectrum Liturgy</strong></td>
+      <td class="symbol">ROY G BIV choir marks</td>
+      <td>Unnamed choir-navigator</td>
+      <td>ORA AURA cathedral precinct</td>
+      <td><span class="status registered">Registered</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id ds">DS-G</span></td>
+      <td><strong>The Palindrome Covenant</strong></td>
+      <td class="symbol">AI:IA mark</td>
+      <td>Ghayllieuxjah (biocomputer)</td>
+      <td>Kincaide's suit uplink</td>
+      <td><span class="status registered">Registered</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id ds">DS-H</span></td>
+      <td><strong>Guild Dialects</strong></td>
+      <td class="symbol">MIL/CIV/LAB/SCI/THEO/MERCH/BIO/MED/NANO/GEO/COSMO/TECH</td>
+      <td>Ensemble / civic body</td>
+      <td>Astrocity quarters</td>
+      <td><span class="status registered">Registered</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id ds">DS-I</span></td>
+      <td><strong>GONDOLY District</strong></td>
+      <td class="symbol">Black-glass / no-clock zone</td>
+      <td>Grief-keeper (unnamed)</td>
+      <td>Gate-road exterior</td>
+      <td><span class="status registered">Registered</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id ds">DS-J</span></td>
+      <td><strong>PAKAE District</strong></td>
+      <td class="symbol">Half-healed node</td>
+      <td>PAKAE residents</td>
+      <td>Gate-road exterior</td>
+      <td><span class="status registered">Registered</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id ds">DS-K</span></td>
+      <td><strong>VILLAR VIS</strong></td>
+      <td class="symbol">Pure 13:28 node</td>
+      <td>Fully-converted citizens</td>
+      <td>Gate-road exterior</td>
+      <td><span class="status registered">Registered</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id ds">DS-L</span></td>
+      <td><strong>The Benben Remembers</strong></td>
+      <td class="symbol">Benben-stone lintel / first-light resonance</td>
+      <td>VauhGhod + stone itself</td>
+      <td>GODGATE arch</td>
+      <td><span class="status registered">Registered</span></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div class="page-break"></div>
+<h2 class="ax">Binder 1 — ALPHOX COCRORE (50 boards)</h2>
+<p style="margin-bottom:1em; font-size:9.5pt; color:#444;">
+  The founding universe: S.T.A.R.E., the OrganiCycles, Anastasia's mission arc. The original 01story10 voice. 54 characters, 35 vehicles, 20 worlds, 7 antagonists.
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Arc ID</th>
+      <th>Title</th>
+      <th>Core Symbol</th>
+      <th>POV / Characters</th>
+      <th>Location</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="arc-id ax">AX-MAIN</span></td>
+      <td><strong>S.T.A.R.E. Deployment</strong></td>
+      <td class="symbol">S.T.A.R.E. insignia / institutional frame</td>
+      <td>VauhGhod, NovaVisis, ZheihtAighent</td>
+      <td>Multiple worlds</td>
+      <td><span class="status registered">Registered</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id ax">AX-A</span></td>
+      <td><strong>OrganiCycle Bonding</strong></td>
+      <td class="symbol">Symbiotic circuit / pilot–vehicle fusion</td>
+      <td>VauhGhod + OrganiCycle</td>
+      <td>GEOXenoLipid</td>
+      <td><span class="status registered">Registered</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id ax">AX-B</span></td>
+      <td><strong>Anastasia's Departure</strong></td>
+      <td class="symbol">Branching-path topology (mirror of DS-B)</td>
+      <td>Anastasia</td>
+      <td>Earth → AQAIL corridor</td>
+      <td><span class="status registered">Registered</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id ax">AX-C</span></td>
+      <td><strong>NovaVisis Calibration</strong></td>
+      <td class="symbol">Frequency-tuning symbol</td>
+      <td>NovaVisis</td>
+      <td>TheoTachyCity</td>
+      <td><span class="status registered">Registered</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id ax">AX-D</span></td>
+      <td><strong>ZheihtAighent's Wager</strong></td>
+      <td class="symbol">Probability-field symbol</td>
+      <td>ZheihtAighent</td>
+      <td>Drainneath</td>
+      <td><span class="status registered">Registered</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id ax">AX-E</span></td>
+      <td><strong>The DRYSTIR Passage</strong></td>
+      <td class="symbol">Desiccation / filtration symbol</td>
+      <td>Unnamed navigator</td>
+      <td>DRYSTIR</td>
+      <td><span class="status registered">Registered</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id ax">AX-F</span></td>
+      <td><strong>Hastur Protocol</strong></td>
+      <td class="symbol">Hazard / quarantine ideogram</td>
+      <td>I.D.Y. (Ghayllieuxjah's precursor)</td>
+      <td>Sartaxxon</td>
+      <td><span class="status registered">Registered</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id ax">AX-G</span></td>
+      <td><strong>GEOXenoLipid Genesis</strong></td>
+      <td class="symbol">Organic-growth / planet-seed symbol</td>
+      <td>Unnamed terraformer</td>
+      <td>GEOXenoLipid</td>
+      <td><span class="status registered">Registered</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id ax">AX-H</span></td>
+      <td><strong>The 128 Covenant</strong></td>
+      <td class="symbol">128-entity enumeration / ledger mark</td>
+      <td>All 54 characters + 35 vehicles</td>
+      <td>Universal frame</td>
+      <td><span class="status registered">Registered</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id open">AX-I</span></td>
+      <td><strong>BIORCA Convergence ★</strong></td>
+      <td class="symbol">Destination-code / dock symbol</td>
+      <td>Anastasia + Kincaide (future)</td>
+      <td>BIORCA</td>
+      <td><span class="status open">Open Socket</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id ax">AX-J</span></td>
+      <td><strong>Armor Series Completion</strong></td>
+      <td class="symbol">Seven-plate circuit / full SRS RMR</td>
+      <td>VauhGhod (armor complete)</td>
+      <td>Post-Astrocity</td>
+      <td><span class="status registered">Registered</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id bridge">AX-K</span></td>
+      <td><strong>The AQAIL Threshold</strong></td>
+      <td class="symbol">Gate-code / transit symbol</td>
+      <td>Kincaide (Deux Sept exit)</td>
+      <td>AQAIL</td>
+      <td><span class="status bridge">Bridge</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id bridge">AX-L</span></td>
+      <td><strong>Ghayllieuxjah Awakening</strong></td>
+      <td class="symbol">Biocomputer activation / palindrome</td>
+      <td>Ghayllieuxjah</td>
+      <td>Kincaide's ship</td>
+      <td><span class="status bridge">Bridge</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id ax">AX-M</span></td>
+      <td><strong>I.D.Y. Divergence</strong></td>
+      <td class="symbol">I.D.Y. mark / institutional fracture</td>
+      <td>I.D.Y.</td>
+      <td>S.T.A.R.E. HQ</td>
+      <td><span class="status registered">Registered</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id bridge">AX-N</span></td>
+      <td><strong>The DNA Ledger</strong></td>
+      <td class="symbol">GTCA / body-to-record translation</td>
+      <td>Unnamed archivist</td>
+      <td>Astrocity lab quarter</td>
+      <td><span class="status bridge">Bridge</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id bridge">AX-O</span></td>
+      <td><strong>Golden Architecture</strong></td>
+      <td class="symbol">.618 / grown-structure symbol</td>
+      <td>City itself (animate)</td>
+      <td>Astrocity outer shell</td>
+      <td><span class="status bridge">Bridge</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id bridge">AX-P</span></td>
+      <td><strong>Tetrahedral Wall</strong></td>
+      <td class="symbol">Bartonian Wall / 19.471° angle</td>
+      <td>Unnamed surveyor + Maathilde Quill</td>
+      <td>Bartonian Wall</td>
+      <td><span class="status bridge">Bridge</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id bridge">AX-Q</span></td>
+      <td><strong>Calendar Round Gate</strong></td>
+      <td class="symbol">CIRC 360+5 / gate-days</td>
+      <td>Trevane Wohl + calendar-keeper</td>
+      <td>GODGATE temporal lock</td>
+      <td><span class="status bridge">Bridge</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id ax">AX-R</span></td>
+      <td><strong>TheoTachyCity Doctrine</strong></td>
+      <td class="symbol">Tachyonic doctrine / institutional theology</td>
+      <td>House PolyMatriFoci</td>
+      <td>TheoTachyCity</td>
+      <td><span class="status registered">Registered</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id ax">AX-S</span></td>
+      <td><strong>The Seven Missions</strong></td>
+      <td class="symbol">ARK/MSL/MSN codes</td>
+      <td>Seven armor-bearers</td>
+      <td>Multiple deployment sites</td>
+      <td><span class="status registered">Registered</span></td>
+    </tr>
+    <tr>
+      <td><span class="arc-id ax">AX-T</span></td>
+      <td><strong>Drainneath Excavation</strong></td>
+      <td class="symbol">Excavation / sediment symbol</td>
+      <td>ZheihtAighent + team</td>
+      <td>Drainneath depths</td>
+      <td><span class="status registered">Registered</span></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+<div class="note">★ AX-I (BIORCA Convergence) is the most structurally referenced unwritten arc in the entire map — called by 5 dependency chains. It is the load-bearing endpoint of both binders. Priority: CRITICAL.</div>
+<div class="note" style="margin-top:0.5em">Arc IDs are permanent — use them to cross-reference the editorial-map.md inter-relation atlas. Written arcs have prose in planning/Binder_duex — story.md.</div>
+
+</body>
+</html>
