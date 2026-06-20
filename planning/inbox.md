@@ -5791,3 +5791,23 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-06-20 13:56
+- **Session:** `8c11fd99-72aa-4f83-96f7-a38ca42f35ee`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 6 actions:**
+  - `Bash` → `node /Users/intermatrixnaut/Desktop/create_ppt.js 2>&1` (2026-06-20 13:56)
+  - `Bash` → `ls -lt ~/Desktop/*.pptx ~/Desktop/*.ppt 2>/dev/null` (2026-06-20 13:56)
+  - `Bash` → `ls -lh ~/Desktop/PLAL_AuNPs_Presentation.pptx 2>/dev/null` (2026-06-20 13:56)
+  - `Bash` → `cd ~/Desktop && git clone https://github.com/gitbrent/PptxGenJS.git 2>&1` (2026-06-20 15:26)
+  - `Bash` → `ls ~/Desktop/PptxGenJS 2>/dev/null && echo "EXISTS"` (2026-06-20 15:26)
+  - `Bash` → `cd ~/Desktop/PptxGenJS && npm install 2>&1` (2026-06-20 15:26)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
