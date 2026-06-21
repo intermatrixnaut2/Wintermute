@@ -5833,3 +5833,27 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-06-20 17:10
+- **Session:** `a923fbd7-72f8-44ca-ac89-7d960ec55964`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 10 actions:**
+  - `Bash` → `grep -rn "onnxruntime\` (2026-06-20 17:15)
+  - `Bash` → `grep -rn "onnxruntime python package is not installed" /Library/Frameworks/Python.framework/Versions` (2026-06-20 17:15)
+  - `Bash` → `python3 -c " from chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 import ONNXMiniLM_L6_V2 ef =` (2026-06-20 17:15)
+  - `Bash` → `which -a python3 && echo "---" && python3 -c "import sys; print(sys.executable)" && echo "---" && ls` (2026-06-20 17:57)
+  - `Bash` → `# Check each python3 for onnxruntime for py in /opt/homebrew/bin/python3 /Library/Frameworks/Python.` (2026-06-20 17:57)
+  - `Bash` → `/opt/homebrew/bin/python3 --version && /opt/homebrew/bin/python3 -m pip list 2>/dev/null` (2026-06-20 17:57)
+  - `Bash` → `# Check if there's an active MCP config in Claude Code settings cat ~/.claude/settings.json 2>/dev/n` (2026-06-20 17:57)
+  - `Bash` → `cat ~/.claude/settings.json` (2026-06-20 17:58)
+  - `Bash` → `cat ~/.claude/settings.json` (2026-06-20 17:58)
+  - `Bash` → `cat ~/.claude/settings.json` (2026-06-20 17:58)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
