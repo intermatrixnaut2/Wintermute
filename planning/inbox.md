@@ -6053,3 +6053,27 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-06-23 08:40
+- **Session:** `d2629643-6ca7-4129-b766-bd5232875417`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 10 actions:**
+  - `Bash` → `find ~/.claude -name "*.jsonl" 2>/dev/null` (2026-06-23 09:01)
+  - `Bash` → `# Check Claude Code docs / source for what statusline JSON provides find ~/.npm-global ~/.local -nam` (2026-06-23 09:01)
+  - `Bash` → `# Check a real transcript to see the token/usage fields python3 - << 'EOF' import json  path = "/Use` (2026-06-23 09:01)
+  - `Bash` → `python3 - << 'EOF' import json  path = "/Users/intermatrixnaut/.claude/projects/-Users-intermatrixna` (2026-06-23 09:01)
+  - `Bash` → `# Find the Claude Code binary and check what statusline JSON schema it exposes which claude && ls -l` (2026-06-23 09:01)
+  - `Bash` → `python3 - << 'EOF' import json  # Check the message content structure in transcript path = "/Users/i` (2026-06-23 09:02)
+  - `Edit` → `/Users/intermatrixnaut/.claude/statusline-command.sh` (2026-06-23 09:03)
+  - `Edit` → `/Users/intermatrixnaut/.claude/statusline-command.sh` (2026-06-23 09:03)
+  - `Edit` → `/Users/intermatrixnaut/.claude/statusline-command.sh` (2026-06-23 09:03)
+  - `Bash` → `TRANSCRIPT=$(ls -t /Users/intermatrixnaut/.claude/projects/-Users-intermatrixnaut-Documents-Claude-A` (2026-06-23 09:04)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
