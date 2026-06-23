@@ -6215,3 +6215,27 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-06-23 15:51
+- **Session:** `af4d6e35-948d-4d43-b131-743f96450511`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 10 actions:**
+  - `Bash` → `ls -lh /Users/intermatrixnaut/Documents/Claude\ AI\ personal\ Assistant/AuNP_PPTX/AuNP_PPTX_06_Plant` (2026-06-23 16:09)
+  - `Bash` → `ls .claude/agents/builder.md .claude/agents/checker.md 2>&1` (2026-06-23 16:32)
+  - `Write` → `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/AuNP_PPTX/build_plant_pptx.cjs` (2026-06-23 16:39)
+  - `Bash` → `cd /Users/intermatrixnaut/Documents/Claude\ AI\ personal\ Assistant/AuNP_PPTX && node build_plant_pp` (2026-06-23 16:39)
+  - `Bash` → `cd /Users/intermatrixnaut/Documents/Claude\ AI\ personal\ Assistant/AuNP_PPTX && echo "─── CITRATE /` (2026-06-23 16:39)
+  - `Bash` → `rm -f /tmp/AuNP_PPTX_06_Plant_Health.pptx.png && qlmanage -t -s 2000 -o /tmp/ /Users/intermatrixnaut` (2026-06-23 16:40)
+  - `Bash` → `cd /Users/intermatrixnaut/Documents/Claude\ AI\ personal\ Assistant/AuNP_PPTX && python3 -c " import` (2026-06-23 16:40)
+  - `Bash` → `cd /Users/intermatrixnaut/Documents/Claude\ AI\ personal\ Assistant/AuNP_PPTX && python3 -m markitdo` (2026-06-23 16:40)
+  - `Bash` → `mkdir -p /Users/intermatrixnaut/.claude/skills/elevator-pitch` (2026-06-23 18:31)
+  - `Write` → `/Users/intermatrixnaut/.claude/skills/elevator-pitch/SKILL.md` (2026-06-23 18:31)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
