@@ -6095,3 +6095,27 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-06-23 12:36
+- **Session:** `0cd257ab-b12e-401e-88fa-e7f93fad4c5e`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 10 actions:**
+  - `Bash` → `grep -r "edt_triton\` (2026-06-23 12:38)
+  - `Bash` → `pip3 show scipy 2>/dev/null` (2026-06-23 12:38)
+  - `Write` → `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/sam3-main/sam3/model/edt.py` (2026-06-23 12:38)
+  - `Bash` → `pip3 install pycocotools 2>&1` (2026-06-23 12:39)
+  - `Bash` → `python3 -c "import sam3; print('sam3 version:', sam3.__version__)" 2>&1` (2026-06-23 12:39)
+  - `Bash` → `ls ~/.claude/skills/` (2026-06-23 12:39)
+  - `Write` → `/Users/intermatrixnaut/.claude/skills/sam3/SKILL.md` (2026-06-23 12:40)
+  - `Edit` → `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/CLAUDE.md` (2026-06-23 12:40)
+  - `Write` → `/Users/intermatrixnaut/.claude/projects/-Users-intermatrixnaut-Documents-Claude-AI-personal-Assistant/memory/project_sam3.md` (2026-06-23 12:40)
+  - `Edit` → `/Users/intermatrixnaut/.claude/projects/-Users-intermatrixnaut-Documents-Claude-AI-personal-Assistant/memory/MEMORY.md` (2026-06-23 12:40)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
