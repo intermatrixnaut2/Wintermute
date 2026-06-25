@@ -6278,3 +6278,19 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-06-24 21:42
+- **Session:** `135541f0-3087-46ad-b92a-3bc84b515e38`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 2 actions:**
+  - `Bash` → `YT_DLP="/Users/intermatrixnaut/Documents/Claude AI personal Assistant/yt-dlp-master/yt-dlp.sh" "$YT_` (2026-06-24 21:42)
+  - `Bash` → `YT_DLP="/Users/intermatrixnaut/Documents/Claude AI personal Assistant/yt-dlp-master/yt-dlp.sh" "$YT_` (2026-06-24 21:42)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
