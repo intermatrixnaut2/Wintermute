@@ -6513,3 +6513,27 @@ Decision:
 Notes: ___
 
 ---
+
+## Interrupted session: 2026-06-26 22:15
+- **Session:** `f53343e5-9740-4534-a959-3a3907adcc22`
+- **Last directory:** `/Users/intermatrixnaut/Documents/Claude AI personal Assistant`
+- **Last 10 actions:**
+  - `Bash` → `cat .firecrawl/archive-drum-machines.json` (2026-06-26 22:18)
+  - `Bash` → `cat /Users/intermatrixnaut/.claude/projects/-Users-intermatrixnaut-Documents-Claude-AI-personal-Assi` (2026-06-26 22:18)
+  - `Bash` → `cat /Users/intermatrixnaut/.claude/projects/-Users-intermatrixnaut-Documents-Claude-AI-personal-Assi` (2026-06-26 22:19)
+  - `Bash` → `curl -s "https://archive.org/metadata/drum-machines-collection"` (2026-06-26 22:19)
+  - `Bash` → `mkdir -p ~/Downloads/drum-machines-collection && echo "Folder created: $(ls -d ~/Downloads/drum-mach` (2026-06-26 22:24)
+  - `Bash` → `cat /Users/intermatrixnaut/.claude/projects/-Users-intermatrixnaut-Documents-Claude-AI-personal-Assi` (2026-06-26 22:24)
+  - `Bash` → `which wget` (2026-06-26 22:24)
+  - `Bash` → `cd ~/Downloads/drum-machines-collection && \ wget \   --input-file=/tmp/drum-machines-urls.txt \   -` (2026-06-26 22:24)
+  - `Bash` → `ls ~/Downloads/drum-machines-collection/` (2026-06-26 22:24)
+  - `Bash` → `ps aux` (2026-06-26 22:25)
+
+Decision:
+- [ ] ✅ CONTINUE
+- [ ] 📅 DEFER
+- [ ] 🗑️ KILL
+
+Notes: ___
+
+---
